@@ -2,7 +2,7 @@
 layout: page
 permalink: /talks/
 title: talks
-description: 
+description: Materials from academic and public talks
 ---
 
 #### Short courses and workshops

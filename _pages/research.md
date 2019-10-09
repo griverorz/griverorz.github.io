@@ -2,7 +2,7 @@
 layout: page
 permalink: /research/
 title: research
-description: 
+description: Publications, working papers, and research in progress
 ---
 
 ### Work in progress
