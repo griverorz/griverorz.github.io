@@ -1,10 +1,24 @@
 ---
 layout: page
-permalink: /teaching/
-title: teaching
+permalink: /talks/
+title: talks
 description: Materials for courses you taught. Replace this text with your description.
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+#### Short courses and workshops
 
-Organize your courses by years, topics, or universities, however you like!
+* Big Data for Public and Private Sectors. Universidad del Rosario,
+  Bogot&aacute; (2017)
+  * [Slides](https://github.c[<8;120;14m]om/griverorz/advanced-dscience)
+  * [Notes and code](https://github.com/griverorz/URosario-AdvDataScience)
+* [Reproducible Research Using RMarkdown](https://github.com/griverorz/westraining-rmarkdown). Westat (2016, 2017)
+* [Advanced R](https://github.com/griverorz/westraining-R/tree/master/advanced-R). Westat (2015, 2016)
+* [Introduction to Statistical Programming in R](https://github.com/griverorz/westraining-R/tree/master/advanced-R). Westat (2016)
+* Incomplete Data Analysis in Surveys. Universitat Auton&ograve;ma de Barcelona (2010)
+
+#### Public speaking
+
+* [&#191;Hay un futuro para las encuestas?](https://politikon.es/2016/05/03/cp-en-madrid-hay-un-futuro-para-las-encuestas/) Cervezas y Politikon (May 2016)
+* [Que podemos agardar da democracia?](https://politikon.es/2016/12/22/cervexas-e-politikon-que-podemos-agardar-da-democracia/) Cervezas y Politikon (December 2016)
+* Comportamiento politico en la era digital. El efecto de las redes sociales. Colegio Mayor Chaminade, Madrid (May 2016)
+* [Comportamiento pol&iacute;tico, campa&ntilde;as y predicci&oacute;n electoral.](https://forozorba.org/2015/12/11/gonzalo-rivero-comportamiento-politico-campanas-y-prediccion-electoral/) Foro Zorba (December 2015)
