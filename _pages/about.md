@@ -23,7 +23,7 @@ https://www.westat.com/capability/statistical-sciences) of
 the [Scientific Research Group of
 YouGov](https://today.yougov.com/solutions/sectors/political-academic-policy/). 
 
-### [Resume &rarr;]({{ site.url }}/assets/pdf/resume.pdf)
+### [Resume &rarr;]({{ site.url }}/assets/pdf/resume-grivero.pdf)
 
 My academic research is focused on the link between public opinion and
 political representation. I am also the author of an introduction to
@@ -32,5 +32,5 @@ the analysis of incomplete datasets for social scientists.
 I received my MA and Ph.D. in Politics from [New York University](http://politics.as.nyu.edu/page/home).
 Before that, I graduated in [Social Sciences](http://www.march.es/ceacs/) (MA) and [History](http://www.uvigo.es)
 (BA and MA). More information can be found in my <a href="{{ site.url
-}}/assets/pdf/resume.pdf">CV</a>.
+}}/assets/pdf/resume-grivero.pdf">CV</a>.
 
