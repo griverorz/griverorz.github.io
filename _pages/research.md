@@ -26,7 +26,7 @@ description: Publications, working papers, and research in progress
    Sociales.](http://libreria.cis.es/libros/analisis-de-datos-incompletos-en-ciencias-sociales/9788474765632/)
    Centro de Investigaciones Sociol&oacute;gicas, Madrid.
 
-### Peer-reviewed articles
+#### Peer-reviewed articles
 
 * (exp. 2019): Ideology of Affluence: Explanations for Inequality and
 	Political Attitudes among Rich Americans. Accepted at _Journal of
