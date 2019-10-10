@@ -7,10 +7,9 @@ description: Materials from academic and public talks
 
 #### Short courses and workshops
 
-* Big Data for Public and Private Sectors. Universidad del Rosario,
-  Bogot&aacute; (2017)
-  * [Slides](https://github.c[<8;120;14m]om/griverorz/advanced-dscience)
-  * [Notes and code](https://github.com/griverorz/URosario-AdvDataScience)
+* [Big Data for Social Research](http://griverorz.net/big-data/)
+  * Universidad Cat&oacute;lica de Montevideo (2019)
+  * Universidad del Rosario, Bogot&aacute; (2017)
 * [Reproducible Research Using RMarkdown](https://github.com/griverorz/westraining-rmarkdown). Westat (2016, 2017)
 * [Advanced R](https://github.com/griverorz/westraining-R/tree/master/advanced-R). Westat (2015, 2016)
 * [Introduction to Statistical Programming in R](https://github.com/griverorz/westraining-R/tree/master/advanced-R). Westat (2016)
