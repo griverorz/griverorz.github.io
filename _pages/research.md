@@ -32,17 +32,17 @@ description: Publications, working papers, and research in progress
 	Political Attitudes among Rich Americans. Accepted at _Journal of
 	Politics_. (with Liz Suhay and Marko Klasnja).
 
-* (2018): [Web Surveys by Smartphones and Tablets: Effects on Survey Responses.](https://academic.oup.com/poq/article-abstract/81/4/896/4718546) _Public
-	Opinion Quarterly,_ 81 (4): 896-929 (with Roger Tourangeau, Aaron
-	Maitland, Hanyu Sun, Douglas Williams, and Ting Yan)
+* (2019): [Preaching to the Choir. Ideology and Following Behavior in
+  Social Media.](https://rsa.tandfonline.com/doi/abs/10.1080/21582041.2017.1325924) _Contemporary Social Science,_ 14 (1): 54-70.
 
-* (2017): [Web Surveys by Smartphones and Tablets: Effects on Data
+* (2018): [Web Surveys by Smartphones and Tablets: Effects on Data
 	Quality.](http://journals.sagepub.com/doi/abs/10.1177/0894439317719438?journalCode=ssc)
-	_Social Science Computer Review,_ OnlineFirst (with Roger Tourangeau, Aaron Maitland, Hanyu Sun,
+	_Social Science Computer Review,_ 36 (5): 542-556. (with Roger Tourangeau, Aaron Maitland, Hanyu Sun,
 	Douglas Williams, and Ting Yan).
 
-* (2017): [Preaching to the Choir. Ideology and Following Behavior in
-  Social Media.](https://rsa.tandfonline.com/doi/abs/10.1080/21582041.2017.1325924) _Contemporary Social Science,_ OnlineFirst.
+* (2017): [Web Surveys by Smartphones and Tablets: Effects on Survey Responses.](https://academic.oup.com/poq/article-abstract/81/4/896/4718546) _Public
+	Opinion Quarterly,_ 81 (4): 896-929 (with Roger Tourangeau, Aaron
+	Maitland, Hanyu Sun, Douglas Williams, and Ting Yan)
 
 * (2015): [Elections as a Conflict
   Processing Mechanism.](https://www.sciencedirect.com/science/article/pii/S0176268015000592) _European Journal of Political Economy,_ 39:
