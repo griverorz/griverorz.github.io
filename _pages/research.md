@@ -5,7 +5,7 @@ title: research
 description: Publications, working papers, and research in progress
 ---
 
-### Work in progress
+#### Work in progress
 
 * Adaptive designs in context: Combining geographical information and paradata
   (with Roger Tourangeau, Brad Edwards, and Tammy Cook)
@@ -16,7 +16,7 @@ description: Publications, working papers, and research in progress
 * The Political Preferences of the Wealthy in the U.S. and the Netherlands
   (Marko Klasnja, Liz Suhay, and Paul Smeets).
 
-### Books
+#### Books
 
 * (exp. 2020): Retooling Politics: How Digital Media are Shaping Politics (with Andreas
   Jungherr and Daniel Gayo-Avello). Cambridge University Press, New
@@ -58,7 +58,7 @@ description: Publications, working papers, and research in progress
 * (2014): [Understanding the Political Representativeness of Twitter Users.](https://journals.sagepub.com/doi/abs/10.1177/0894439314558836?journalCode=ssce) _Social
   Science Computer Review,_ 33 (6): 712-729 (with Pablo Barber&aacute;).
 
-### Conference papers
+#### Conference papers
 
 * (2018): Responsive Design in Practice. _Computer Assisted Survey Information
   Collection_ in Denver, CO (with Roger Tourangeau, Brad Edwards, and Tammy
@@ -73,7 +73,7 @@ description: Publications, working papers, and research in progress
   Paradata. _International Total Survey Error Worksop_ in Sidney,
   Australia (with Brad Edwards and Hanyu Sun).
 
-### Other publications
+#### Other publications
 
 * (2012): &iquest;Un tweet, un voto? Desigualdad en el debate pol&iacute;tico en
   Twitter. In Cotarelo, R. and Crespo, I. (comps): La comunicaci&oacute;n
