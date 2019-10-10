@@ -14,7 +14,7 @@ description: Publications, working papers, and research in progress
 	Public Procurement (with Jorge Gallego and Juan Mart&iacute;nez).
 
 * The Political Preferences of the Wealthy in the U.S. and the Netherlands
-  (Marko Klasnja, Liz Suhay, and Paul Smeets).
+  (with Marko Klasnja, Liz Suhay, and Paul Smeets).
 
 * Using Natural Language Processing and Machine Learning to Process
   Open Text Field Comments in a Panel Study (with Catherine
