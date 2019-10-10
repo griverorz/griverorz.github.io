@@ -16,6 +16,10 @@ description: Publications, working papers, and research in progress
 * The Political Preferences of the Wealthy in the U.S. and the Netherlands
   (Marko Klasnja, Liz Suhay, and Paul Smeets).
 
+* Using Natural Language Processing and Machine Learning to Process
+  Open Text Field Comments in a Panel Study (with Catherine
+  Billington, Kristin Chen, Andrew Jannett, and John Riddles)
+
 #### Books
 
 * (exp. 2020): Retooling Politics: How Digital Media are Shaping Politics (with Andreas
