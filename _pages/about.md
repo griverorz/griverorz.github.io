@@ -21,7 +21,7 @@ Evaluation Sciences Unit](
 https://www.westat.com/capability/statistical-sciences) of
 [Westat](https://www.westat.com). Before that, I was a statistician at
 the [Scientific Research Group of
-YouGov](https://today.yougov.com/find-solutions/custom-research/about-custom-research/sectors/academic-and-scientific/). 
+YouGov](https://today.yougov.com/solutions/sectors/political-academic-policy/). 
 
 ### [Resume &rarr;]({{ site.url }}/assets/pdf/resume.pdf)
 
