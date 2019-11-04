@@ -22,7 +22,7 @@ description: Publications, working papers, and research in progress
 
 #### Books
 
-* (exp. 2020): Retooling Politics: How Digital Media are Shaping Politics (with Andreas
+* (2020): [Retooling Politics: How Digital Media are Shaping Politics](https://www.cambridge.org/us/academic/subjects/computer-science/computing-and-society/retooling-politics-how-digital-media-are-shaping-democracy) (with Andreas
   Jungherr and Daniel Gayo-Avello). Cambridge University Press, New
   York. 
 
