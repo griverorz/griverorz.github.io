@@ -26,7 +26,7 @@ description: Publications, working papers, and research in progress
   Jungherr and Daniel Gayo-Avello). Cambridge University Press, New
   York. 
 
-* [An&aacute;lisis de datos incompletos en Ciencias
+* (2011): [An&aacute;lisis de datos incompletos en Ciencias
    Sociales.](http://libreria.cis.es/libros/analisis-de-datos-incompletos-en-ciencias-sociales/9788474765632/)
    Centro de Investigaciones Sociol&oacute;gicas, Madrid.
 
