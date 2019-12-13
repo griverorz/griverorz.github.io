@@ -12,7 +12,7 @@
 
 
 
-<title>Encuestas de opinión. Diseño y procesado</title>
+<title>Encuestas de opinión.</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -369,7 +369,7 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Encuestas de opinión. Diseño y procesado</h1>
+<h1 class="title toc-ignore">Encuestas de opinión.</h1>
 
 </div>
 
@@ -377,16 +377,23 @@ div.tocify {
 <p class="lead">
 Diciembre 2019
 </p>
+<div id="encuestas-de-opinion.-diseno-y-procesado" class="section level1">
+<h1>Encuestas de opinión. Diseño y procesado</h1>
 <p>El objetivo de este taller es presentar métodos estadísticos para el diseño y procesado de encuestas de opinión pública modernas. Aunque haremos énfasis en soluciones orientadas a encuestas no-probabilísticas, a lo largo de cada sesión expodremos cada técnica desde la perspectiva de su equivalente en las encuestas probabilísticas tradicionales ya que es la mejor forma de entender los principales retos de los estudios de opinión. El taller enfatiza práctica sobre teoría y pasaremos la mayor parte del tiempo usando los paquetes <code>survey</code>, <code>mice</code> y <code>caret</code> en <code>R</code> para el tratamiento de datos. Usaremos también datos sintéticos para la presentación de los conceptos y estudios del CIS como caso práctico.</p>
-<ol style="list-style-type: decimal">
-<li><p>Métodos de muestreo</p>
+</div>
+<div id="estructura" class="section level1">
+<h1>Estructura</h1>
+<div id="metodos-de-muestreo" class="section level3">
+<h3>Métodos de muestreo</h3>
 <p>Entrevistar a toda la población en edad de votar es impráctico o incluso imposible ¿Cómo seleccionar una muestra para poder hacer inferencias acerca de lo que opinan todos aquéllos que no recibirán nuestro cuestionario? En esta sesión repasaremos algunos métodos básicos de muestreo probabilístico con el objetivo de entender mejor los retos de los métodos no-probabilísticos.</p>
 <ol style="list-style-type: decimal">
 <li>El marco muestral</li>
 <li>Muestreo con probabilidades conocidas</li>
 <li>Muestreo con probabilidades desconocidas</li>
-</ol></li>
-<li><p>No-respuesta, selección y ponderación</p>
+</ol>
+</div>
+<div id="no-respuesta-seleccion-y-ponderacion" class="section level3">
+<h3>No-respuesta, selección y ponderación</h3>
 <p>La muestra que planeamos no es casi nunca la muestra que recogemos y para poder hacer inferencias sobre la población tendremos que aplicar correcciones. En esta sesión veremos dos tipos de métodos comunes en las muestras probabilísticas (raking y poststratificación) y otros dos que han ganado popularidad para el análisis de muestras no-probabilísticas (puntaje y MRP).</p>
 <ol style="list-style-type: decimal">
 <li>Teoría del error total de la encuesta</li>
@@ -394,30 +401,28 @@ Diciembre 2019
 <li>Métodos de ponderación clásicos</li>
 <li>Métodos de ponderación para encuestas no-probabilísticas</li>
 <li>Regresión multinivel con poststratificación (si el tiempo lo permite)</li>
-</ol></li>
-<li><p>Procesado de no-respuesta</p>
+</ol>
+</div>
+<div id="procesado-de-no-respuesta" class="section level3">
+<h3>Procesado de no-respuesta</h3>
 <p>No todos los entrevistados responden a todas las preguntas. En algunos casos, estos valores perdidos son problemáticos porque afectan a la inferencia. En otros, porque los entrevistados no responden a preguntas que son de interés directo. En esta sesión veremos un marco teórico para entender el efecto de los valores perdidos, distinguiremos entre imputación y predicción y discutiremos varios métodos comunes para el rellenado de bases de datos incompletas.</p>
 <ol style="list-style-type: decimal">
 <li>Mecanismos de no-observación en encuestas</li>
 <li>Métodos de imputación simple</li>
 <li>Métodos de imputación múltiple</li>
 <li>Métodos predictivos</li>
-</ol></li>
 </ol>
+</div>
+</div>
 <div id="bibliografia" class="section level1">
 <h1>Bibliografía</h1>
-<pre><code>-   Rivero, G. (2011). *Análisis de datos incompletos en Ciencias
-    Sociales.* Centro de Investigaciones Sociológicas.
--   Rivero, G. (2019). Predictive Likely Voter and Vote Choice
-    Models for Party Support Estimation in Spanish Election Polls.
-    Unpublished Manuscript.
--   Lumley, T. (2010). *Complex Surveys: A Guide to Analysis Using
-    R: A Guide to Analysis Using R*. Willey &amp; Sons.
--   Elliott, M. R., &amp; Valliant, R. (2017). Inference for
-    nonprobability samples. Statistical Science, 32(2), 249-264.
--   Lax, J. R., &amp; Phillips, J. H. (2009). How should we estimate
-    public opinion in the states?. American Journal of Political
-    Science, 53(1), 107-121.</code></pre>
+<ul>
+<li>Rivero, G. (2011). <em>Análisis de datos incompletos en Ciencias Sociales.</em> Centro de Investigaciones Sociológicas.</li>
+<li>Rivero, G. (2019). Predictive Likely Voter and Vote Choice Models for Party Support Estimation in Spanish Election Polls. Unpublished Manuscript.</li>
+<li>Lumley, T. (2010). <em>Complex Surveys: A Guide to Analysis Using R: A Guide to Analysis Using R</em>. Willey &amp; Sons.</li>
+<li>Elliott, M. R., &amp; Valliant, R. (2017). Inference for nonprobability samples. Statistical Science, 32(2), 249-264.</li>
+<li>Lax, J. R., &amp; Phillips, J. H. (2009). How should we estimate public opinion in the states?. American Journal of Political Science, 53(1), 107-121.</li>
+</ul>
 </div>
 <div id="creditos" class="section level1">
 <h1>Créditos</h1>
