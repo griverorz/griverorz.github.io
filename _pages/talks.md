@@ -7,6 +7,8 @@ description: Materials from academic and public talks
 
 #### Short courses and workshops
 
+* [Survey Statistics for Public Opinion Research]((http://griverorz.net/survey-methods/))
+  * Last taught January, 2020
 * [Big Data for Social Research](http://griverorz.net/big-data/)
   * Universidad Cat&oacute;lica de Montevideo (2019)
   * Universidad del Rosario, Bogot&aacute; (2017)
