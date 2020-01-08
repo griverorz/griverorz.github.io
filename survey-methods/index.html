@@ -12,7 +12,7 @@
 
 
 
-<title>Encuestas de opinión</title>
+<title>Survey statistics for public opinion</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -341,15 +341,12 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Encuestas de opinion</a>
+      <a class="navbar-brand" href="index.html">Survey statistics</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">Introduccion</a>
-</li>
-<li>
-  <a href="materials.html">Materiales</a>
+  <a href="index.html">Introduction</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -369,50 +366,51 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Encuestas de opinión</h1>
+<h1 class="title toc-ignore">Survey statistics for public opinion</h1>
 
 </div>
 
 
 <p class="lead">
-Diciembre 2019
+January 2020
 </p>
-<p>El objetivo de este taller es presentar métodos estadísticos para el diseño y procesado de encuestas de opinión pública modernas. Aunque haremos énfasis en soluciones orientadas a encuestas no-probabilísticas, a lo largo de cada sesión expodremos cada técnica desde la perspectiva de su equivalente en las encuestas probabilísticas tradicionales ya que es la mejor forma de entender los principales retos de los estudios de opinión. El taller enfatiza práctica sobre teoría y pasaremos la mayor parte del tiempo usando los paquetes <code>survey</code>, <code>mice</code> y <code>caret</code> en <code>R</code> para el tratamiento de datos. Usaremos también datos sintéticos para la presentación de los conceptos y estudios del CIS como caso práctico.</p>
-<div id="estructura" class="section level1">
-<h1>Estructura</h1>
-<div id="metodos-de-muestreo" class="section level3">
-<h3>Métodos de muestreo</h3>
-<p>Entrevistar a toda la población en edad de votar es impráctico o incluso imposible ¿Cómo seleccionar una muestra para poder hacer inferencias acerca de lo que opinan todos aquéllos que no recibirán nuestro cuestionario? En esta sesión repasaremos algunos métodos básicos de muestreo probabilístico con el objetivo de entender mejor los retos de los métodos no-probabilísticos.</p>
+<p>The goal of this workshop is to introduce methods from survey statistics for the design and processing of modern public opinion polls. Although we emphasize the methods that are designed for the case of non-probability surveys, throughout each session we will discuss each tool and technique from the perspective of how they are used in the context of traditional (probabilistic) survey research because it is the best way to understand the main challenges that are specific to public opinion research.</p>
+<p>The workshop uses <code>R</code> very heavily and we will spend most of our time working with the packages <code>survey</code>, <code>mice</code> and <code>caret</code> for data processing. We will also rely on synthetic data for the presentation of the main concepts.</p>
+<div id="contents" class="section level1">
+<h1>Contents</h1>
+<div id="sampling-methods" class="section level3">
+<h3>Sampling methods</h3>
+<p>Interviewing all the adult population is impractical. How to select a sample to make inferences about the opinion of those who will not receive our questionnaire? In this session, we will review some basic sampling designs with the goal of understanding better the challenges of non-probability methods.</p>
 <ol style="list-style-type: decimal">
-<li>El marco muestral</li>
-<li>Muestreo con probabilidades conocidas</li>
-<li>Muestreo con probabilidades desconocidas</li>
+<li>The sampling frame</li>
+<li>Sampling with known probabilities</li>
+<li>Sampling with unknown probabilities</li>
 </ol>
 </div>
-<div id="no-respuesta-seleccion-y-ponderacion" class="section level3">
-<h3>No-respuesta, selección y ponderación</h3>
-<p>La muestra que planeamos no es casi nunca la muestra que recogemos y para poder hacer inferencias sobre la población tendremos que aplicar correcciones. En esta sesión veremos dos tipos de métodos comunes en las muestras probabilísticas (raking y poststratificación) y otros dos que han ganado popularidad para el análisis de muestras no-probabilísticas (puntaje y MRP).</p>
+<div id="non-response-selection-and-weighting" class="section level3">
+<h3>Non-response, selection, and weighting</h3>
+<p>The sample we plan is often not the sample we collect and we need to make corrections in order to be able to make inferences about the population of interest. In this session, we will see two common methods probability samples (raking and poststratification) and another two that have become popular for the analysis of non-probability samples (pseudo-inclusion methods and MRP).</p>
 <ol style="list-style-type: decimal">
-<li>Teoría del error total de la encuesta</li>
-<li>El sesgo de no-respuesta</li>
-<li>Métodos de ponderación clásicos</li>
-<li>Métodos de ponderación para encuestas no-probabilísticas</li>
-<li>Regresión multinivel con poststratificación (si el tiempo lo permite)</li>
+<li>The Total Survey Error framework</li>
+<li>Non-response bias</li>
+<li>Classic weighting methods</li>
+<li>Methods from the causal inference literature</li>
+<li>Multilevel regression with poststratification</li>
 </ol>
 </div>
-<div id="procesado-de-no-respuesta" class="section level3">
-<h3>Procesado de no-respuesta</h3>
-<p>No todos los entrevistados responden a todas las preguntas. En algunos casos, estos valores perdidos son problemáticos porque afectan a la inferencia. En otros, porque los entrevistados no responden a preguntas que son de interés directo. En esta sesión veremos un marco teórico para entender el efecto de los valores perdidos, distinguiremos entre imputación y predicción y discutiremos varios métodos comunes para el rellenado de bases de datos incompletas.</p>
+<div id="unit-and-item-non-response" class="section level3">
+<h3>Unit and item non-response</h3>
+<p>Not all respondents answer all questions. In some cases, these missing values are problematic because they affect our ability to make inferences. In some others, the problem is that respondents did not answer to questions of our direct interest. In this session, we will review a common theoretical framework to understand the effect of missing values, we will differentiate between imputation and prediction, and we will then discuss several methods to fill-in incomplete datasets.</p>
 <ol style="list-style-type: decimal">
-<li>Mecanismos de no-observación en encuestas</li>
-<li>Métodos de imputación simple</li>
-<li>Métodos de imputación múltiple</li>
-<li>Métodos predictivos</li>
+<li>Non-response mechanisms in surveys</li>
+<li>Single/simple imputation methods</li>
+<li>Multiple imputation</li>
+<li>Predictive methods</li>
 </ol>
 </div>
 </div>
-<div id="bibliografia" class="section level1">
-<h1>Bibliografía</h1>
+<div id="bibliography" class="section level1">
+<h1>Bibliography</h1>
 <ul>
 <li>Rivero, G. (2011). <em>Análisis de datos incompletos en Ciencias Sociales.</em> Centro de Investigaciones Sociológicas.</li>
 <li>Rivero, G. (2019). Predictive Likely Voter and Vote Choice Models for Party Support Estimation in Spanish Election Polls. Unpublished Manuscript.</li>
@@ -421,9 +419,9 @@ Diciembre 2019
 <li>Lax, J. R., &amp; Phillips, J. H. (2009). How should we estimate public opinion in the states?. American Journal of Political Science, 53(1), 107-121.</li>
 </ul>
 </div>
-<div id="creditos" class="section level1">
-<h1>Créditos</h1>
-<p>El diseño de la página es una adaptación <a href="http://www.jrnold.me/">Jeffrey Arnold</a> y <a href="http://www.pablobarbera.net">Pablo Barberá</a>.</p>
+<div id="credits" class="section level1">
+<h1>Credits</h1>
+<p>This website is adapted from an original design from <a href="http://www.jrnold.me/">Jeffrey Arnold</a> y <a href="http://www.pablobarbera.net">Pablo Barberá</a>.</p>
 </div>
 
 <footer class="footer" id="copyright">
