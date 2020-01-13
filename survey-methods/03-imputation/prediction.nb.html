@@ -13,7 +13,7 @@
 
 <meta name="date" content="2020-01-13" />
 
-<title>Weighting</title>
+<title>Prediction</title>
 
 <script>/*! jQuery v1.11.3 | (c) 2005, 2015 jQuery Foundation, Inc. | jquery.org/license */
 !function(a,b){"object"==typeof module&&"object"==typeof module.exports?module.exports=a.document?b(a,!0):function(a){if(!a.document)throw new Error("jQuery requires a window with a document");return b(a)}:b(a)}("undefined"!=typeof window?window:this,function(a,b){var c=[],d=c.slice,e=c.concat,f=c.push,g=c.indexOf,h={},i=h.toString,j=h.hasOwnProperty,k={},l="1.11.3",m=function(a,b){return new m.fn.init(a,b)},n=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,o=/^-ms-/,p=/-([\da-z])/gi,q=function(a,b){return b.toUpperCase()};m.fn=m.prototype={jquery:l,constructor:m,selector:"",length:0,toArray:function(){return d.call(this)},get:function(a){return null!=a?0>a?this[a+this.length]:this[a]:d.call(this)},pushStack:function(a){var b=m.merge(this.constructor(),a);return b.prevObject=this,b.context=this.context,b},each:function(a,b){return m.each(this,a,b)},map:function(a){return this.pushStack(m.map(this,function(b,c){return a.call(b,c,b)}))},slice:function(){return this.pushStack(d.apply(this,arguments))},first:function(){return this.eq(0)},last:function(){return this.eq(-1)},eq:function(a){var b=this.length,c=+a+(0>a?b:0);return this.pushStack(c>=0&&b>c?[this[c]]:[])},end:function(){return this.prevObject||this.constructor(null)},push:f,sort:c.sort,splice:c.splice},m.extend=m.fn.extend=function(){var a,b,c,d,e,f,g=arguments[0]||{},h=1,i=arguments.length,j=!1;for("boolean"==typeof g&&(j=g,g=arguments[h]||{},h++),"object"==typeof g||m.isFunction(g)||(g={}),h===i&&(g=this,h--);i>h;h++)if(null!=(e=arguments[h]))for(d in e)a=g[d],c=e[d],g!==c&&(j&&c&&(m.isPlainObject(c)||(b=m.isArray(c)))?(b?(b=!1,f=a&&m.isArray(a)?a:[]):f=a&&m.isPlainObject(a)?a:{},g[d]=m.extend(j,f,c)):void 0!==c&&(g[d]=c));return g},m.extend({expando:"jQuery"+(l+Math.random()).replace(/\D/g,""),isReady:!0,error:function(a){throw new Error(a)},noop:function(){},isFunction:function(a){return"function"===m.type(a)},isArray:Array.isArray||function(a){return"array"===m.type(a)},isWindow:function(a){return null!=a&&a==a.window},isNumeric:function(a){return!m.isArray(a)&&a-parseFloat(a)+1>=0},isEmptyObject:function(a){var b;for(b in a)return!1;return!0},isPlainObject:function(a){var b;if(!a||"object"!==m.type(a)||a.nodeType||m.isWindow(a))return!1;try{if(a.constructor&&!j.call(a,"constructor")&&!j.call(a.constructor.prototype,"isPrototypeOf"))return!1}catch(c){return!1}if(k.ownLast)for(b in a)return j.call(a,b);for(b in a);return void 0===b||j.call(a,b)},type:function(a){return null==a?a+"":"object"==typeof a||"function"==typeof a?h[i.call(a)]||"object":typeof a},globalEval:function(b){b&&m.trim(b)&&(a.execScript||function(b){a.eval.call(a,b)})(b)},camelCase:function(a){return a.replace(o,"ms-").replace(p,q)},nodeName:function(a,b){return a.nodeName&&a.nodeName.toLowerCase()===b.toLowerCase()},each:function(a,b,c){var d,e=0,f=a.length,g=r(a);if(c){if(g){for(;f>e;e++)if(d=b.apply(a[e],c),d===!1)break}else for(e in a)if(d=b.apply(a[e],c),d===!1)break}else if(g){for(;f>e;e++)if(d=b.call(a[e],e,a[e]),d===!1)break}else for(e in a)if(d=b.call(a[e],e,a[e]),d===!1)break;return a},trim:function(a){return null==a?"":(a+"").replace(n,"")},makeArray:function(a,b){var c=b||[];return null!=a&&(r(Object(a))?m.merge(c,"string"==typeof a?[a]:a):f.call(c,a)),c},inArray:function(a,b,c){var d;if(b){if(g)return g.call(b,a,c);for(d=b.length,c=c?0>c?Math.max(0,d+c):c:0;d>c;c++)if(c in b&&b[c]===a)return c}return-1},merge:function(a,b){var c=+b.length,d=0,e=a.length;while(c>d)a[e++]=b[d++];if(c!==c)while(void 0!==b[d])a[e++]=b[d++];return a.length=e,a},grep:function(a,b,c){for(var d,e=[],f=0,g=a.length,h=!c;g>f;f++)d=!b(a[f],f),d!==h&&e.push(a[f]);return e},map:function(a,b,c){var d,f=0,g=a.length,h=r(a),i=[];if(h)for(;g>f;f++)d=b(a[f],f,c),null!=d&&i.push(d);else for(f in a)d=b(a[f],f,c),null!=d&&i.push(d);return e.apply([],i)},guid:1,proxy:function(a,b){var c,e,f;return"string"==typeof b&&(f=a[b],b=a,a=f),m.isFunction(a)?(c=d.call(arguments,2),e=function(){return a.apply(b||this,c.concat(d.call(arguments)))},e.guid=a.guid=a.guid||m.guid++,e):void 0},now:function(){return+new Date},support:k}),m.each("Boolean Number String Function Array Date RegExp Object Error".split(" "),function(a,b){h["[object "+b+"]"]=b.toLowerCase()});function r(a){var b="length"in a&&a.length,c=m.type(a);return"function"===c||m.isWindow(a)?!1:1===a.nodeType&&b?!0:"array"===c||0===b||"number"==typeof b&&b>0&&b-1 in a}var s=function(a){var b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u="sizzle"+1*new Date,v=a.document,w=0,x=0,y=ha(),z=ha(),A=ha(),B=function(a,b){return a===b&&(l=!0),0},C=1<<31,D={}.hasOwnProperty,E=[],F=E.pop,G=E.push,H=E.push,I=E.slice,J=function(a,b){for(var c=0,d=a.length;d>c;c++)if(a[c]===b)return c;return-1},K="checked|selected|async|autofocus|autoplay|controls|defer|disabled|hidden|ismap|loop|multiple|open|readonly|required|scoped",L="[\\x20\\t\\r\\n\\f]",M="(?:\\\\.|[\\w-]|[^\\x00-\\xa0])+",N=M.replace("w","w#"),O="\\["+L+"*("+M+")(?:"+L+"*([*^$|!~]?=)"+L+"*(?:'((?:\\\\.|[^\\\\'])*)'|\"((?:\\\\.|[^\\\\\"])*)\"|("+N+"))|)"+L+"*\\]",P=":("+M+")(?:\\((('((?:\\\\.|[^\\\\'])*)'|\"((?:\\\\.|[^\\\\\"])*)\")|((?:\\\\.|[^\\\\()[\\]]|"+O+")*)|.*)\\)|)",Q=new RegExp(L+"+","g"),R=new RegExp("^"+L+"+|((?:^|[^\\\\])(?:\\\\.)*)"+L+"+$","g"),S=new RegExp("^"+L+"*,"+L+"*"),T=new RegExp("^"+L+"*([>+~]|"+L+")"+L+"*"),U=new RegExp("="+L+"*([^\\]'\"]*?)"+L+"*\\]","g"),V=new RegExp(P),W=new RegExp("^"+N+"$"),X={ID:new RegExp("^#("+M+")"),CLASS:new RegExp("^\\.("+M+")"),TAG:new RegExp("^("+M.replace("w","w*")+")"),ATTR:new RegExp("^"+O),PSEUDO:new RegExp("^"+P),CHILD:new RegExp("^:(only|first|last|nth|nth-last)-(child|of-type)(?:\\("+L+"*(even|odd|(([+-]|)(\\d*)n|)"+L+"*(?:([+-]|)"+L+"*(\\d+)|))"+L+"*\\)|)","i"),bool:new RegExp("^(?:"+K+")$","i"),needsContext:new RegExp("^"+L+"*[>+~]|:(even|odd|eq|gt|lt|nth|first|last)(?:\\("+L+"*((?:-\\d)?\\d*)"+L+"*\\)|)(?=[^-]|$)","i")},Y=/^(?:input|select|textarea|button)$/i,Z=/^h\d$/i,$=/^[^{]+\{\s*\[native \w/,_=/^(?:#([\w-]+)|(\w+)|\.([\w-]+))$/,aa=/[+~]/,ba=/'|\\/g,ca=new RegExp("\\\\([\\da-f]{1,6}"+L+"?|("+L+")|.)","ig"),da=function(a,b,c){var d="0x"+b-65536;return d!==d||c?b:0>d?String.fromCharCode(d+65536):String.fromCharCode(d>>10|55296,1023&d|56320)},ea=function(){m()};try{H.apply(E=I.call(v.childNodes),v.childNodes),E[v.childNodes.length].nodeType}catch(fa){H={apply:E.length?function(a,b){G.apply(a,I.call(b))}:function(a,b){var c=a.length,d=0;while(a[c++]=b[d++]);a.length=c-1}}}function ga(a,b,d,e){var f,h,j,k,l,o,r,s,w,x;if((b?b.ownerDocument||b:v)!==n&&m(b),b=b||n,d=d||[],k=b.nodeType,"string"!=typeof a||!a||1!==k&&9!==k&&11!==k)return d;if(!e&&p){if(11!==k&&(f=_.exec(a)))if(j=f[1]){if(9===k){if(h=b.getElementById(j),!h||!h.parentNode)return d;if(h.id===j)return d.push(h),d}else if(b.ownerDocument&&(h=b.ownerDocument.getElementById(j))&&t(b,h)&&h.id===j)return d.push(h),d}else{if(f[2])return H.apply(d,b.getElementsByTagName(a)),d;if((j=f[3])&&c.getElementsByClassName)return H.apply(d,b.getElementsByClassName(j)),d}if(c.qsa&&(!q||!q.test(a))){if(s=r=u,w=b,x=1!==k&&a,1===k&&"object"!==b.nodeName.toLowerCase()){o=g(a),(r=b.getAttribute("id"))?s=r.replace(ba,"\\$&"):b.setAttribute("id",s),s="[id='"+s+"'] ",l=o.length;while(l--)o[l]=s+ra(o[l]);w=aa.test(a)&&pa(b.parentNode)||b,x=o.join(",")}if(x)try{return H.apply(d,w.querySelectorAll(x)),d}catch(y){}finally{r||b.removeAttribute("id")}}}return i(a.replace(R,"$1"),b,d,e)}function ha(){var a=[];function b(c,e){return a.push(c+" ")>d.cacheLength&&delete b[a.shift()],b[c+" "]=e}return b}function ia(a){return a[u]=!0,a}function ja(a){var b=n.createElement("div");try{return!!a(b)}catch(c){return!1}finally{b.parentNode&&b.parentNode.removeChild(b),b=null}}function ka(a,b){var c=a.split("|"),e=a.length;while(e--)d.attrHandle[c[e]]=b}function la(a,b){var c=b&&a,d=c&&1===a.nodeType&&1===b.nodeType&&(~b.sourceIndex||C)-(~a.sourceIndex||C);if(d)return d;if(c)while(c=c.nextSibling)if(c===b)return-1;return a?1:-1}function ma(a){return function(b){var c=b.nodeName.toLowerCase();return"input"===c&&b.type===a}}function na(a){return function(b){var c=b.nodeName.toLowerCase();return("input"===c||"button"===c)&&b.type===a}}function oa(a){return ia(function(b){return b=+b,ia(function(c,d){var e,f=a([],c.length,b),g=f.length;while(g--)c[e=f[g]]&&(c[e]=!(d[e]=c[e]))})})}function pa(a){return a&&"undefined"!=typeof a.getElementsByTagName&&a}c=ga.support={},f=ga.isXML=function(a){var b=a&&(a.ownerDocument||a).documentElement;return b?"HTML"!==b.nodeName:!1},m=ga.setDocument=function(a){var b,e,g=a?a.ownerDocument||a:v;return g!==n&&9===g.nodeType&&g.documentElement?(n=g,o=g.documentElement,e=g.defaultView,e&&e!==e.top&&(e.addEventListener?e.addEventListener("unload",ea,!1):e.attachEvent&&e.attachEvent("onunload",ea)),p=!f(g),c.attributes=ja(function(a){return a.className="i",!a.getAttribute("className")}),c.getElementsByTagName=ja(function(a){return a.appendChild(g.createComment("")),!a.getElementsByTagName("*").length}),c.getElementsByClassName=$.test(g.getElementsByClassName),c.getById=ja(function(a){return o.appendChild(a).id=u,!g.getElementsByName||!g.getElementsByName(u).length}),c.getById?(d.find.ID=function(a,b){if("undefined"!=typeof b.getElementById&&p){var c=b.getElementById(a);return c&&c.parentNode?[c]:[]}},d.filter.ID=function(a){var b=a.replace(ca,da);return function(a){return a.getAttribute("id")===b}}):(delete d.find.ID,d.filter.ID=function(a){var b=a.replace(ca,da);return function(a){var c="undefined"!=typeof a.getAttributeNode&&a.getAttributeNode("id");return c&&c.value===b}}),d.find.TAG=c.getElementsByTagName?function(a,b){return"undefined"!=typeof b.getElementsByTagName?b.getElementsByTagName(a):c.qsa?b.querySelectorAll(a):void 0}:function(a,b){var c,d=[],e=0,f=b.getElementsByTagName(a);if("*"===a){while(c=f[e++])1===c.nodeType&&d.push(c);return d}return f},d.find.CLASS=c.getElementsByClassName&&function(a,b){return p?b.getElementsByClassName(a):void 0},r=[],q=[],(c.qsa=$.test(g.querySelectorAll))&&(ja(function(a){o.appendChild(a).innerHTML="<a id='"+u+"'></a><select id='"+u+"-\f]' msallowcapture=''><option selected=''></option></select>",a.querySelectorAll("[msallowcapture^='']").length&&q.push("[*^$]="+L+"*(?:''|\"\")"),a.querySelectorAll("[selected]").length||q.push("\\["+L+"*(?:value|"+K+")"),a.querySelectorAll("[id~="+u+"-]").length||q.push("~="),a.querySelectorAll(":checked").length||q.push(":checked"),a.querySelectorAll("a#"+u+"+*").length||q.push(".#.+[+~]")}),ja(function(a){var b=g.createElement("input");b.setAttribute("type","hidden"),a.appendChild(b).setAttribute("name","D"),a.querySelectorAll("[name=d]").length&&q.push("name"+L+"*[*^$|!~]?="),a.querySelectorAll(":enabled").length||q.push(":enabled",":disabled"),a.querySelectorAll("*,:x"),q.push(",.*:")})),(c.matchesSelector=$.test(s=o.matches||o.webkitMatchesSelector||o.mozMatchesSelector||o.oMatchesSelector||o.msMatchesSelector))&&ja(function(a){c.disconnectedMatch=s.call(a,"div"),s.call(a,"[s!='']:x"),r.push("!=",P)}),q=q.length&&new RegExp(q.join("|")),r=r.length&&new RegExp(r.join("|")),b=$.test(o.compareDocumentPosition),t=b||$.test(o.contains)?function(a,b){var c=9===a.nodeType?a.documentElement:a,d=b&&b.parentNode;return a===d||!(!d||1!==d.nodeType||!(c.contains?c.contains(d):a.compareDocumentPosition&&16&a.compareDocumentPosition(d)))}:function(a,b){if(b)while(b=b.parentNode)if(b===a)return!0;return!1},B=b?function(a,b){if(a===b)return l=!0,0;var d=!a.compareDocumentPosition-!b.compareDocumentPosition;return d?d:(d=(a.ownerDocument||a)===(b.ownerDocument||b)?a.compareDocumentPosition(b):1,1&d||!c.sortDetached&&b.compareDocumentPosition(a)===d?a===g||a.ownerDocument===v&&t(v,a)?-1:b===g||b.ownerDocument===v&&t(v,b)?1:k?J(k,a)-J(k,b):0:4&d?-1:1)}:function(a,b){if(a===b)return l=!0,0;var c,d=0,e=a.parentNode,f=b.parentNode,h=[a],i=[b];if(!e||!f)return a===g?-1:b===g?1:e?-1:f?1:k?J(k,a)-J(k,b):0;if(e===f)return la(a,b);c=a;while(c=c.parentNode)h.unshift(c);c=b;while(c=c.parentNode)i.unshift(c);while(h[d]===i[d])d++;return d?la(h[d],i[d]):h[d]===v?-1:i[d]===v?1:0},g):n},ga.matches=function(a,b){return ga(a,null,null,b)},ga.matchesSelector=function(a,b){if((a.ownerDocument||a)!==n&&m(a),b=b.replace(U,"='$1']"),!(!c.matchesSelector||!p||r&&r.test(b)||q&&q.test(b)))try{var d=s.call(a,b);if(d||c.disconnectedMatch||a.document&&11!==a.document.nodeType)return d}catch(e){}return ga(b,n,null,[a]).length>0},ga.contains=function(a,b){return(a.ownerDocument||a)!==n&&m(a),t(a,b)},ga.attr=function(a,b){(a.ownerDocument||a)!==n&&m(a);var e=d.attrHandle[b.toLowerCase()],f=e&&D.call(d.attrHandle,b.toLowerCase())?e(a,b,!p):void 0;return void 0!==f?f:c.attributes||!p?a.getAttribute(b):(f=a.getAttributeNode(b))&&f.specified?f.value:null},ga.error=function(a){throw new Error("Syntax error, unrecognized expression: "+a)},ga.uniqueSort=function(a){var b,d=[],e=0,f=0;if(l=!c.detectDuplicates,k=!c.sortStable&&a.slice(0),a.sort(B),l){while(b=a[f++])b===a[f]&&(e=d.push(f));while(e--)a.splice(d[e],1)}return k=null,a},e=ga.getText=function(a){var b,c="",d=0,f=a.nodeType;if(f){if(1===f||9===f||11===f){if("string"==typeof a.textContent)return a.textContent;for(a=a.firstChild;a;a=a.nextSibling)c+=e(a)}else if(3===f||4===f)return a.nodeValue}else while(b=a[d++])c+=e(b);return c},d=ga.selectors={cacheLength:50,createPseudo:ia,match:X,attrHandle:{},find:{},relative:{">":{dir:"parentNode",first:!0}," ":{dir:"parentNode"},"+":{dir:"previousSibling",first:!0},"~":{dir:"previousSibling"}},preFilter:{ATTR:function(a){return a[1]=a[1].replace(ca,da),a[3]=(a[3]||a[4]||a[5]||"").replace(ca,da),"~="===a[2]&&(a[3]=" "+a[3]+" "),a.slice(0,4)},CHILD:function(a){return a[1]=a[1].toLowerCase(),"nth"===a[1].slice(0,3)?(a[3]||ga.error(a[0]),a[4]=+(a[4]?a[5]+(a[6]||1):2*("even"===a[3]||"odd"===a[3])),a[5]=+(a[7]+a[8]||"odd"===a[3])):a[3]&&ga.error(a[0]),a},PSEUDO:function(a){var b,c=!a[6]&&a[2];return X.CHILD.test(a[0])?null:(a[3]?a[2]=a[4]||a[5]||"":c&&V.test(c)&&(b=g(c,!0))&&(b=c.indexOf(")",c.length-b)-c.length)&&(a[0]=a[0].slice(0,b),a[2]=c.slice(0,b)),a.slice(0,3))}},filter:{TAG:function(a){var b=a.replace(ca,da).toLowerCase();return"*"===a?function(){return!0}:function(a){return a.nodeName&&a.nodeName.toLowerCase()===b}},CLASS:function(a){var b=y[a+" "];return b||(b=new RegExp("(^|"+L+")"+a+"("+L+"|$)"))&&y(a,function(a){return b.test("string"==typeof a.className&&a.className||"undefined"!=typeof a.getAttribute&&a.getAttribute("class")||"")})},ATTR:function(a,b,c){return function(d){var e=ga.attr(d,a);return null==e?"!="===b:b?(e+="","="===b?e===c:"!="===b?e!==c:"^="===b?c&&0===e.indexOf(c):"*="===b?c&&e.indexOf(c)>-1:"$="===b?c&&e.slice(-c.length)===c:"~="===b?(" "+e.replace(Q," ")+" ").indexOf(c)>-1:"|="===b?e===c||e.slice(0,c.length+1)===c+"-":!1):!0}},CHILD:function(a,b,c,d,e){var f="nth"!==a.slice(0,3),g="last"!==a.slice(-4),h="of-type"===b;return 1===d&&0===e?function(a){return!!a.parentNode}:function(b,c,i){var j,k,l,m,n,o,p=f!==g?"nextSibling":"previousSibling",q=b.parentNode,r=h&&b.nodeName.toLowerCase(),s=!i&&!h;if(q){if(f){while(p){l=b;while(l=l[p])if(h?l.nodeName.toLowerCase()===r:1===l.nodeType)return!1;o=p="only"===a&&!o&&"nextSibling"}return!0}if(o=[g?q.firstChild:q.lastChild],g&&s){k=q[u]||(q[u]={}),j=k[a]||[],n=j[0]===w&&j[1],m=j[0]===w&&j[2],l=n&&q.childNodes[n];while(l=++n&&l&&l[p]||(m=n=0)||o.pop())if(1===l.nodeType&&++m&&l===b){k[a]=[w,n,m];break}}else if(s&&(j=(b[u]||(b[u]={}))[a])&&j[0]===w)m=j[1];else while(l=++n&&l&&l[p]||(m=n=0)||o.pop())if((h?l.nodeName.toLowerCase()===r:1===l.nodeType)&&++m&&(s&&((l[u]||(l[u]={}))[a]=[w,m]),l===b))break;return m-=e,m===d||m%d===0&&m/d>=0}}},PSEUDO:function(a,b){var c,e=d.pseudos[a]||d.setFilters[a.toLowerCase()]||ga.error("unsupported pseudo: "+a);return e[u]?e(b):e.length>1?(c=[a,a,"",b],d.setFilters.hasOwnProperty(a.toLowerCase())?ia(function(a,c){var d,f=e(a,b),g=f.length;while(g--)d=J(a,f[g]),a[d]=!(c[d]=f[g])}):function(a){return e(a,0,c)}):e}},pseudos:{not:ia(function(a){var b=[],c=[],d=h(a.replace(R,"$1"));return d[u]?ia(function(a,b,c,e){var f,g=d(a,null,e,[]),h=a.length;while(h--)(f=g[h])&&(a[h]=!(b[h]=f))}):function(a,e,f){return b[0]=a,d(b,null,f,c),b[0]=null,!c.pop()}}),has:ia(function(a){return function(b){return ga(a,b).length>0}}),contains:ia(function(a){return a=a.replace(ca,da),function(b){return(b.textContent||b.innerText||e(b)).indexOf(a)>-1}}),lang:ia(function(a){return W.test(a||"")||ga.error("unsupported lang: "+a),a=a.replace(ca,da).toLowerCase(),function(b){var c;do if(c=p?b.lang:b.getAttribute("xml:lang")||b.getAttribute("lang"))return c=c.toLowerCase(),c===a||0===c.indexOf(a+"-");while((b=b.parentNode)&&1===b.nodeType);return!1}}),target:function(b){var c=a.location&&a.location.hash;return c&&c.slice(1)===b.id},root:function(a){return a===o},focus:function(a){return a===n.activeElement&&(!n.hasFocus||n.hasFocus())&&!!(a.type||a.href||~a.tabIndex)},enabled:function(a){return a.disabled===!1},disabled:function(a){return a.disabled===!0},checked:function(a){var b=a.nodeName.toLowerCase();return"input"===b&&!!a.checked||"option"===b&&!!a.selected},selected:function(a){return a.parentNode&&a.parentNode.selectedIndex,a.selected===!0},empty:function(a){for(a=a.firstChild;a;a=a.nextSibling)if(a.nodeType<6)return!1;return!0},parent:function(a){return!d.pseudos.empty(a)},header:function(a){return Z.test(a.nodeName)},input:function(a){return Y.test(a.nodeName)},button:function(a){var b=a.nodeName.toLowerCase();return"input"===b&&"button"===a.type||"button"===b},text:function(a){var b;return"input"===a.nodeName.toLowerCase()&&"text"===a.type&&(null==(b=a.getAttribute("type"))||"text"===b.toLowerCase())},first:oa(function(){return[0]}),last:oa(function(a,b){return[b-1]}),eq:oa(function(a,b,c){return[0>c?c+b:c]}),even:oa(function(a,b){for(var c=0;b>c;c+=2)a.push(c);return a}),odd:oa(function(a,b){for(var c=1;b>c;c+=2)a.push(c);return a}),lt:oa(function(a,b,c){for(var d=0>c?c+b:c;--d>=0;)a.push(d);return a}),gt:oa(function(a,b,c){for(var d=0>c?c+b:c;++d<b;)a.push(d);return a})}},d.pseudos.nth=d.pseudos.eq;for(b in{radio:!0,checkbox:!0,file:!0,password:!0,image:!0})d.pseudos[b]=ma(b);for(b in{submit:!0,reset:!0})d.pseudos[b]=na(b);function qa(){}qa.prototype=d.filters=d.pseudos,d.setFilters=new qa,g=ga.tokenize=function(a,b){var c,e,f,g,h,i,j,k=z[a+" "];if(k)return b?0:k.slice(0);h=a,i=[],j=d.preFilter;while(h){(!c||(e=S.exec(h)))&&(e&&(h=h.slice(e[0].length)||h),i.push(f=[])),c=!1,(e=T.exec(h))&&(c=e.shift(),f.push({value:c,type:e[0].replace(R," ")}),h=h.slice(c.length));for(g in d.filter)!(e=X[g].exec(h))||j[g]&&!(e=j[g](e))||(c=e.shift(),f.push({value:c,type:g,matches:e}),h=h.slice(c.length));if(!c)break}return b?h.length:h?ga.error(a):z(a,i).slice(0)};function ra(a){for(var b=0,c=a.length,d="";c>b;b++)d+=a[b].value;return d}function sa(a,b,c){var d=b.dir,e=c&&"parentNode"===d,f=x++;return b.first?function(b,c,f){while(b=b[d])if(1===b.nodeType||e)return a(b,c,f)}:function(b,c,g){var h,i,j=[w,f];if(g){while(b=b[d])if((1===b.nodeType||e)&&a(b,c,g))return!0}else while(b=b[d])if(1===b.nodeType||e){if(i=b[u]||(b[u]={}),(h=i[d])&&h[0]===w&&h[1]===f)return j[2]=h[2];if(i[d]=j,j[2]=a(b,c,g))return!0}}}function ta(a){return a.length>1?function(b,c,d){var e=a.length;while(e--)if(!a[e](b,c,d))return!1;return!0}:a[0]}function ua(a,b,c){for(var d=0,e=b.length;e>d;d++)ga(a,b[d],c);return c}function va(a,b,c,d,e){for(var f,g=[],h=0,i=a.length,j=null!=b;i>h;h++)(f=a[h])&&(!c||c(f,d,e))&&(g.push(f),j&&b.push(h));return g}function wa(a,b,c,d,e,f){return d&&!d[u]&&(d=wa(d)),e&&!e[u]&&(e=wa(e,f)),ia(function(f,g,h,i){var j,k,l,m=[],n=[],o=g.length,p=f||ua(b||"*",h.nodeType?[h]:h,[]),q=!a||!f&&b?p:va(p,m,a,h,i),r=c?e||(f?a:o||d)?[]:g:q;if(c&&c(q,r,h,i),d){j=va(r,n),d(j,[],h,i),k=j.length;while(k--)(l=j[k])&&(r[n[k]]=!(q[n[k]]=l))}if(f){if(e||a){if(e){j=[],k=r.length;while(k--)(l=r[k])&&j.push(q[k]=l);e(null,r=[],j,i)}k=r.length;while(k--)(l=r[k])&&(j=e?J(f,l):m[k])>-1&&(f[j]=!(g[j]=l))}}else r=va(r===g?r.splice(o,r.length):r),e?e(null,g,r,i):H.apply(g,r)})}function xa(a){for(var b,c,e,f=a.length,g=d.relative[a[0].type],h=g||d.relative[" "],i=g?1:0,k=sa(function(a){return a===b},h,!0),l=sa(function(a){return J(b,a)>-1},h,!0),m=[function(a,c,d){var e=!g&&(d||c!==j)||((b=c).nodeType?k(a,c,d):l(a,c,d));return b=null,e}];f>i;i++)if(c=d.relative[a[i].type])m=[sa(ta(m),c)];else{if(c=d.filter[a[i].type].apply(null,a[i].matches),c[u]){for(e=++i;f>e;e++)if(d.relative[a[e].type])break;return wa(i>1&&ta(m),i>1&&ra(a.slice(0,i-1).concat({value:" "===a[i-2].type?"*":""})).replace(R,"$1"),c,e>i&&xa(a.slice(i,e)),f>e&&xa(a=a.slice(e)),f>e&&ra(a))}m.push(c)}return ta(m)}function ya(a,b){var c=b.length>0,e=a.length>0,f=function(f,g,h,i,k){var l,m,o,p=0,q="0",r=f&&[],s=[],t=j,u=f||e&&d.find.TAG("*",k),v=w+=null==t?1:Math.random()||.1,x=u.length;for(k&&(j=g!==n&&g);q!==x&&null!=(l=u[q]);q++){if(e&&l){m=0;while(o=a[m++])if(o(l,g,h)){i.push(l);break}k&&(w=v)}c&&((l=!o&&l)&&p--,f&&r.push(l))}if(p+=q,c&&q!==p){m=0;while(o=b[m++])o(r,s,g,h);if(f){if(p>0)while(q--)r[q]||s[q]||(s[q]=F.call(i));s=va(s)}H.apply(i,s),k&&!f&&s.length>0&&p+b.length>1&&ga.uniqueSort(i)}return k&&(w=v,j=t),r};return c?ia(f):f}return h=ga.compile=function(a,b){var c,d=[],e=[],f=A[a+" "];if(!f){b||(b=g(a)),c=b.length;while(c--)f=xa(b[c]),f[u]?d.push(f):e.push(f);f=A(a,ya(e,d)),f.selector=a}return f},i=ga.select=function(a,b,e,f){var i,j,k,l,m,n="function"==typeof a&&a,o=!f&&g(a=n.selector||a);if(e=e||[],1===o.length){if(j=o[0]=o[0].slice(0),j.length>2&&"ID"===(k=j[0]).type&&c.getById&&9===b.nodeType&&p&&d.relative[j[1].type]){if(b=(d.find.ID(k.matches[0].replace(ca,da),b)||[])[0],!b)return e;n&&(b=b.parentNode),a=a.slice(j.shift().value.length)}i=X.needsContext.test(a)?0:j.length;while(i--){if(k=j[i],d.relative[l=k.type])break;if((m=d.find[l])&&(f=m(k.matches[0].replace(ca,da),aa.test(j[0].type)&&pa(b.parentNode)||b))){if(j.splice(i,1),a=f.length&&ra(j),!a)return H.apply(e,f),e;break}}}return(n||h(a,o))(f,b,!p,e,aa.test(a)&&pa(b.parentNode)||b),e},c.sortStable=u.split("").sort(B).join("")===u,c.detectDuplicates=!!l,m(),c.sortDetached=ja(function(a){return 1&a.compareDocumentPosition(n.createElement("div"))}),ja(function(a){return a.innerHTML="<a href='#'></a>","#"===a.firstChild.getAttribute("href")})||ka("type|href|height|width",function(a,b,c){return c?void 0:a.getAttribute(b,"type"===b.toLowerCase()?1:2)}),c.attributes&&ja(function(a){return a.innerHTML="<input/>",a.firstChild.setAttribute("value",""),""===a.firstChild.getAttribute("value")})||ka("value",function(a,b,c){return c||"input"!==a.nodeName.toLowerCase()?void 0:a.defaultValue}),ja(function(a){return null==a.getAttribute("disabled")})||ka(K,function(a,b,c){var d;return c?void 0:a[b]===!0?b.toLowerCase():(d=a.getAttributeNode(b))&&d.specified?d.value:null}),ga}(a);m.find=s,m.expr=s.selectors,m.expr[":"]=m.expr.pseudos,m.unique=s.uniqueSort,m.text=s.getText,m.isXMLDoc=s.isXML,m.contains=s.contains;var t=m.expr.match.needsContext,u=/^<(\w+)\s*\/?>(?:<\/\1>|)$/,v=/^.[^:#\[\.,]*$/;function w(a,b,c){if(m.isFunction(b))return m.grep(a,function(a,d){return!!b.call(a,d,a)!==c});if(b.nodeType)return m.grep(a,function(a){return a===b!==c});if("string"==typeof b){if(v.test(b))return m.filter(b,a,c);b=m.filter(b,a)}return m.grep(a,function(a){return m.inArray(a,b)>=0!==c})}m.filter=function(a,b,c){var d=b[0];return c&&(a=":not("+a+")"),1===b.length&&1===d.nodeType?m.find.matchesSelector(d,a)?[d]:[]:m.find.matches(a,m.grep(b,function(a){return 1===a.nodeType}))},m.fn.extend({find:function(a){var b,c=[],d=this,e=d.length;if("string"!=typeof a)return this.pushStack(m(a).filter(function(){for(b=0;e>b;b++)if(m.contains(d[b],this))return!0}));for(b=0;e>b;b++)m.find(a,d[b],c);return c=this.pushStack(e>1?m.unique(c):c),c.selector=this.selector?this.selector+" "+a:a,c},filter:function(a){return this.pushStack(w(this,a||[],!1))},not:function(a){return this.pushStack(w(this,a||[],!0))},is:function(a){return!!w(this,"string"==typeof a&&t.test(a)?m(a):a||[],!1).length}});var x,y=a.document,z=/^(?:\s*(<[\w\W]+>)[^>]*|#([\w-]*))$/,A=m.fn.init=function(a,b){var c,d;if(!a)return this;if("string"==typeof a){if(c="<"===a.charAt(0)&&">"===a.charAt(a.length-1)&&a.length>=3?[null,a,null]:z.exec(a),!c||!c[1]&&b)return!b||b.jquery?(b||x).find(a):this.constructor(b).find(a);if(c[1]){if(b=b instanceof m?b[0]:b,m.merge(this,m.parseHTML(c[1],b&&b.nodeType?b.ownerDocument||b:y,!0)),u.test(c[1])&&m.isPlainObject(b))for(c in b)m.isFunction(this[c])?this[c](b[c]):this.attr(c,b[c]);return this}if(d=y.getElementById(c[2]),d&&d.parentNode){if(d.id!==c[2])return x.find(a);this.length=1,this[0]=d}return this.context=y,this.selector=a,this}return a.nodeType?(this.context=this[0]=a,this.length=1,this):m.isFunction(a)?"undefined"!=typeof x.ready?x.ready(a):a(m):(void 0!==a.selector&&(this.selector=a.selector,this.context=a.context),m.makeArray(a,this))};A.prototype=m.fn,x=m(y);var B=/^(?:parents|prev(?:Until|All))/,C={children:!0,contents:!0,next:!0,prev:!0};m.extend({dir:function(a,b,c){var d=[],e=a[b];while(e&&9!==e.nodeType&&(void 0===c||1!==e.nodeType||!m(e).is(c)))1===e.nodeType&&d.push(e),e=e[b];return d},sibling:function(a,b){for(var c=[];a;a=a.nextSibling)1===a.nodeType&&a!==b&&c.push(a);return c}}),m.fn.extend({has:function(a){var b,c=m(a,this),d=c.length;return this.filter(function(){for(b=0;d>b;b++)if(m.contains(this,c[b]))return!0})},closest:function(a,b){for(var c,d=0,e=this.length,f=[],g=t.test(a)||"string"!=typeof a?m(a,b||this.context):0;e>d;d++)for(c=this[d];c&&c!==b;c=c.parentNode)if(c.nodeType<11&&(g?g.index(c)>-1:1===c.nodeType&&m.find.matchesSelector(c,a))){f.push(c);break}return this.pushStack(f.length>1?m.unique(f):f)},index:function(a){return a?"string"==typeof a?m.inArray(this[0],m(a)):m.inArray(a.jquery?a[0]:a,this):this[0]&&this[0].parentNode?this.first().prevAll().length:-1},add:function(a,b){return this.pushStack(m.unique(m.merge(this.get(),m(a,b))))},addBack:function(a){return this.add(null==a?this.prevObject:this.prevObject.filter(a))}});function D(a,b){do a=a[b];while(a&&1!==a.nodeType);return a}m.each({parent:function(a){var b=a.parentNode;return b&&11!==b.nodeType?b:null},parents:function(a){return m.dir(a,"parentNode")},parentsUntil:function(a,b,c){return m.dir(a,"parentNode",c)},next:function(a){return D(a,"nextSibling")},prev:function(a){return D(a,"previousSibling")},nextAll:function(a){return m.dir(a,"nextSibling")},prevAll:function(a){return m.dir(a,"previousSibling")},nextUntil:function(a,b,c){return m.dir(a,"nextSibling",c)},prevUntil:function(a,b,c){return m.dir(a,"previousSibling",c)},siblings:function(a){return m.sibling((a.parentNode||{}).firstChild,a)},children:function(a){return m.sibling(a.firstChild)},contents:function(a){return m.nodeName(a,"iframe")?a.contentDocument||a.contentWindow.document:m.merge([],a.childNodes)}},function(a,b){m.fn[a]=function(c,d){var e=m.map(this,b,c);return"Until"!==a.slice(-5)&&(d=c),d&&"string"==typeof d&&(e=m.filter(d,e)),this.length>1&&(C[a]||(e=m.unique(e)),B.test(a)&&(e=e.reverse())),this.pushStack(e)}});var E=/\S+/g,F={};function G(a){var b=F[a]={};return m.each(a.match(E)||[],function(a,c){b[c]=!0}),b}m.Callbacks=function(a){a="string"==typeof a?F[a]||G(a):m.extend({},a);var b,c,d,e,f,g,h=[],i=!a.once&&[],j=function(l){for(c=a.memory&&l,d=!0,f=g||0,g=0,e=h.length,b=!0;h&&e>f;f++)if(h[f].apply(l[0],l[1])===!1&&a.stopOnFalse){c=!1;break}b=!1,h&&(i?i.length&&j(i.shift()):c?h=[]:k.disable())},k={add:function(){if(h){var d=h.length;!function f(b){m.each(b,function(b,c){var d=m.type(c);"function"===d?a.unique&&k.has(c)||h.push(c):c&&c.length&&"string"!==d&&f(c)})}(arguments),b?e=h.length:c&&(g=d,j(c))}return this},remove:function(){return h&&m.each(arguments,function(a,c){var d;while((d=m.inArray(c,h,d))>-1)h.splice(d,1),b&&(e>=d&&e--,f>=d&&f--)}),this},has:function(a){return a?m.inArray(a,h)>-1:!(!h||!h.length)},empty:function(){return h=[],e=0,this},disable:function(){return h=i=c=void 0,this},disabled:function(){return!h},lock:function(){return i=void 0,c||k.disable(),this},locked:function(){return!i},fireWith:function(a,c){return!h||d&&!i||(c=c||[],c=[a,c.slice?c.slice():c],b?i.push(c):j(c)),this},fire:function(){return k.fireWith(this,arguments),this},fired:function(){return!!d}};return k},m.extend({Deferred:function(a){var b=[["resolve","done",m.Callbacks("once memory"),"resolved"],["reject","fail",m.Callbacks("once memory"),"rejected"],["notify","progress",m.Callbacks("memory")]],c="pending",d={state:function(){return c},always:function(){return e.done(arguments).fail(arguments),this},then:function(){var a=arguments;return m.Deferred(function(c){m.each(b,function(b,f){var g=m.isFunction(a[b])&&a[b];e[f[1]](function(){var a=g&&g.apply(this,arguments);a&&m.isFunction(a.promise)?a.promise().done(c.resolve).fail(c.reject).progress(c.notify):c[f[0]+"With"](this===d?c.promise():this,g?[a]:arguments)})}),a=null}).promise()},promise:function(a){return null!=a?m.extend(a,d):d}},e={};return d.pipe=d.then,m.each(b,function(a,f){var g=f[2],h=f[3];d[f[1]]=g.add,h&&g.add(function(){c=h},b[1^a][2].disable,b[2][2].lock),e[f[0]]=function(){return e[f[0]+"With"](this===e?d:this,arguments),this},e[f[0]+"With"]=g.fireWith}),d.promise(e),a&&a.call(e,e),e},when:function(a){var b=0,c=d.call(arguments),e=c.length,f=1!==e||a&&m.isFunction(a.promise)?e:0,g=1===f?a:m.Deferred(),h=function(a,b,c){return function(e){b[a]=this,c[a]=arguments.length>1?d.call(arguments):e,c===i?g.notifyWith(b,c):--f||g.resolveWith(b,c)}},i,j,k;if(e>1)for(i=new Array(e),j=new Array(e),k=new Array(e);e>b;b++)c[b]&&m.isFunction(c[b].promise)?c[b].promise().done(h(b,k,c)).fail(g.reject).progress(h(b,j,i)):--f;return f||g.resolveWith(k,c),g.promise()}});var H;m.fn.ready=function(a){return m.ready.promise().done(a),this},m.extend({isReady:!1,readyWait:1,holdReady:function(a){a?m.readyWait++:m.ready(!0)},ready:function(a){if(a===!0?!--m.readyWait:!m.isReady){if(!y.body)return setTimeout(m.ready);m.isReady=!0,a!==!0&&--m.readyWait>0||(H.resolveWith(y,[m]),m.fn.triggerHandler&&(m(y).triggerHandler("ready"),m(y).off("ready")))}}});function I(){y.addEventListener?(y.removeEventListener("DOMContentLoaded",J,!1),a.removeEventListener("load",J,!1)):(y.detachEvent("onreadystatechange",J),a.detachEvent("onload",J))}function J(){(y.addEventListener||"load"===event.type||"complete"===y.readyState)&&(I(),m.ready())}m.ready.promise=function(b){if(!H)if(H=m.Deferred(),"complete"===y.readyState)setTimeout(m.ready);else if(y.addEventListener)y.addEventListener("DOMContentLoaded",J,!1),a.addEventListener("load",J,!1);else{y.attachEvent("onreadystatechange",J),a.attachEvent("onload",J);var c=!1;try{c=null==a.frameElement&&y.documentElement}catch(d){}c&&c.doScroll&&!function e(){if(!m.isReady){try{c.doScroll("left")}catch(a){return setTimeout(e,50)}I(),m.ready()}}()}return H.promise(b)};var K="undefined",L;for(L in m(k))break;k.ownLast="0"!==L,k.inlineBlockNeedsLayout=!1,m(function(){var a,b,c,d;c=y.getElementsByTagName("body")[0],c&&c.style&&(b=y.createElement("div"),d=y.createElement("div"),d.style.cssText="position:absolute;border:0;width:0;height:0;top:0;left:-9999px",c.appendChild(d).appendChild(b),typeof b.style.zoom!==K&&(b.style.cssText="display:inline;margin:0;border:0;padding:1px;width:1px;zoom:1",k.inlineBlockNeedsLayout=a=3===b.offsetWidth,a&&(c.style.zoom=1)),c.removeChild(d))}),function(){var a=y.createElement("div");if(null==k.deleteExpando){k.deleteExpando=!0;try{delete a.test}catch(b){k.deleteExpando=!1}}a=null}(),m.acceptData=function(a){var b=m.noData[(a.nodeName+" ").toLowerCase()],c=+a.nodeType||1;return 1!==c&&9!==c?!1:!b||b!==!0&&a.getAttribute("classid")===b};var M=/^(?:\{[\w\W]*\}|\[[\w\W]*\])$/,N=/([A-Z])/g;function O(a,b,c){if(void 0===c&&1===a.nodeType){var d="data-"+b.replace(N,"-$1").toLowerCase();if(c=a.getAttribute(d),"string"==typeof c){try{c="true"===c?!0:"false"===c?!1:"null"===c?null:+c+""===c?+c:M.test(c)?m.parseJSON(c):c}catch(e){}m.data(a,b,c)}else c=void 0}return c}function P(a){var b;for(b in a)if(("data"!==b||!m.isEmptyObject(a[b]))&&"toJSON"!==b)return!1;
@@ -1745,7 +1745,7 @@ summary {
 
 
 
-<h1 class="title toc-ignore">Weighting</h1>
+<h1 class="title toc-ignore">Prediction</h1>
 <h4 class="date">January 13, 2020</h4>
 
 </div>
@@ -1754,267 +1754,446 @@ summary {
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-text-begin -->
-<div id="traditional-methods" class="section level1">
-<h1>Traditional methods</h1>
+<p>A common post-processing task in survey analysis is the “imputation” of opinions or behaviors to respondents who have not provided that information. Here I want to differentiate between “imputation” which I will restrict to an auxiliary task for the estimation of parameters of interest and “prediction” which I will use for all tasks that fill fill-in gaps of direct interest. The differentiation is slightly arbitrary but it is useful for our purposes.</p>
+<p>Let’s start with prediction. In this case, we are going to take a study from the CIS and we are going to do something fairly straightforward. We will use all the information we can from the questionnaire in order to assign a vote choice to all the respondents in our data. For instance, we can take study 3242 from the CIS (the pre-electoral study for the April 2019 elections) and we can fill-in question <code>P10</code> about vote intention. In this case, we are going to assign a party choice to <em>all</em> respondents, i.e., we are going to work under the assumption of full turnout. In addition, we are not going to edit the intended behavior of anyone.</p>
+<p>We have two possible strategies ahead of us. One is to follow a theoretical model of voting behavior that can be used to make reasonable, theoretically-grounded predictions. The other is the one we will use here: we will use a flexible, data-driven approach to make predictions. In this case, the we have to be careful to not overfit the data.</p>
+<p>Our main model will be a XGBoost, which is very common in the machine learning literature. We could use the <code>caret</code> package to test different approaches (never a bad idea!), but in this case we will go straight to the <code>xgboost</code> package.</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjpbImZyYW1lIDwtIHJlYWRSRFMoZmlsZS5wYXRoKERBVEFESVIsIFwiZnJhbWUuUkRTXCIpKSIsIiMjIFNvcnQiLCJvbyA8LSBzYW1wbGUoMTpucm93KGZyYW1lKSwgcmVwbGFjZT1GQUxTRSkiLCJmcmFtZSA8LSBmcmFtZVtvbywgXSIsIiIsIndzIDwtIHJlYWRSRFMoZmlsZS5wYXRoKERBVEFESVIsIFwid2VpZ2h0ZWQtc2FtcGxlLlJEU1wiKSkiLCJzdnlzcnMgPC0gc3Z5ZGVzaWduKGlkPSB+MSwgd2VpZ2h0cz0gfjEsIGRhdGE9d3MpIl19 -->
-<pre class="r"><code>frame &lt;- readRDS(file.path(DATADIR, &quot;frame.RDS&quot;))
-## Sort
-oo &lt;- sample(1:nrow(frame), replace=FALSE)
-frame &lt;- frame[oo, ]
+<!-- rnb-source-begin eyJkYXRhIjoibGlicmFyeShjYXJldCkifQ== -->
+<pre class="r"><code>library(caret)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-message-begin eyJkYXRhIjoiTG9hZGluZyByZXF1aXJlZCBwYWNrYWdlOiBsYXR0aWNlXG4ifQ== -->
+<pre><code>Loading required package: lattice</code></pre>
+<!-- rnb-message-end -->
+<!-- rnb-message-begin eyJkYXRhIjoiTG9hZGluZyByZXF1aXJlZCBwYWNrYWdlOiBnZ3Bsb3QyXG4ifQ== -->
+<pre><code>Loading required package: ggplot2</code></pre>
+<!-- rnb-message-end -->
+<!-- rnb-source-begin eyJkYXRhIjoibGlicmFyeSh4Z2Jvb3N0KSJ9 -->
+<pre class="r"><code>library(xgboost)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<p>First of all, we need to load and clean up the data a little bit.</p>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjpbIkNMRUFOX0RBVEEgPC0gZmlsZS5wYXRoKERBVEFfRElSLCBcImNpcy1jbGVhbi1kYXRhLlJEU1wiKSIsImR0YSA8LSByZWFkUkRTKENMRUFOX0RBVEEpIl19 -->
+<pre class="r"><code>CLEAN_DATA &lt;- file.path(DATA_DIR, &quot;cis-clean-data.RDS&quot;)
+dta &lt;- readRDS(CLEAN_DATA)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<p>As we said above, we will start by reallocating those who are undecided and also those who have decided to not vote. These are our <em>unknown</em> observations.</p>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjpbImR0YSR2b3RlaW50ZW50aW9uW2R0YSR2b3RlaW50ZW50aW9uID09IFwidW5kZWNpZGVkXCIgfFxuICAgICAgICAgICAgICAgICAgZHRhJHZvdGVpbnRlbnRpb24gPT0gXCJ3b250XCJdIDwtIE5BIiwiZHRhJHZvdGVpbnRlbnRpb24gPC0gYXMuZmFjdG9yKGFzLmNoYXJhY3RlcihkdGEkdm90ZWludGVudGlvbikpIiwiIiwidW5rbm93biA8LSBkdGFbaXMubmEoZHRhJHZvdGVpbnRlbnRpb24pLCBdIiwia25vd24gPC0gZHRhWyFpcy5uYShkdGEkdm90ZWludGVudGlvbiksIF0iXX0= -->
+<pre class="r"><code>dta$voteintention[dta$voteintention == &quot;undecided&quot; |
+                  dta$voteintention == &quot;wont&quot;] &lt;- NA
+dta$voteintention &lt;- as.factor(as.character(dta$voteintention))
 
-ws &lt;- readRDS(file.path(DATADIR, &quot;weighted-sample.RDS&quot;))
-svysrs &lt;- svydesign(id= ~1, weights= ~1, data=ws)</code></pre>
+unknown &lt;- dta[is.na(dta$voteintention), ]
+known &lt;- dta[!is.na(dta$voteintention), ]</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
-<div id="poststratification" class="section level2">
-<h2>Poststratification</h2>
-<p>In the previous session we saw the concept of stratification as a way introducing some information into our design to ensure that some groups (strata) are represented in a given way. Poststratification follows the same idea but, as the name says, it is an adjustment that we make after the sample is collected. It is best thought of as a way of benchmarking our survey against known quantities from the population.</p>
-<p>Let’s apply this idea to our sample with nonresponse. Remember that we have information in the frame about the gender and age of individuals. Think of these as our strata.</p>
+<p>Our goal now is to make inferences about the <code>unknown</code> sample using whatever we can learn about the <code>known</code> one. The key concept here is that of <em>bias-variance</em> trade-off. We will start by splitting our <code>known</code> dataset into a training and a test set. In this case, we will set aside 20% of the observations as test.</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjpbImdlbmRlcl9hZ2UgPC0gZGF0YS5mcmFtZShwcm9wLnRhYmxlKHRhYmxlKGZyYW1lJGdlbmRlciwiLCIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmcmFtZSRmYWdlKSkpIiwibmFtZXMoZ2VuZGVyX2FnZSlbYygxLCAyKV0gPC0gYyhcImdlbmRlclwiLCBcImZhZ2VcIikiLCJnZW5kZXJfYWdlJEZyZXEgPC0gZ2VuZGVyX2FnZSRGcmVxICogbnJvdyhzcnMpIl19 -->
-<pre class="r"><code>gender_age &lt;- data.frame(prop.table(table(frame$gender,
-                                          frame$fage)))
-names(gender_age)[c(1, 2)] &lt;- c(&quot;gender&quot;, &quot;fage&quot;)
-gender_age$Freq &lt;- gender_age$Freq * nrow(srs)</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjpbInRyYWluaW5nIDwtIHNhbXBsZSgxOm5yb3coa25vd24pLCBucm93KGtub3duKSouOCkiLCJ0ZXN0aW5nIDwtIHNldGRpZmYoMTpucm93KGtub3duKSwgdHJhaW5pbmcpIiwidHJhaW5pbmcgPC0ga25vd25bdHJhaW5pbmcsIF0iLCJ0ZXN0aW5nIDwtIGtub3duW3Rlc3RpbmcsIF0iXX0= -->
+<pre class="r"><code>training &lt;- sample(1:nrow(known), nrow(known)*.8)
+testing &lt;- setdiff(1:nrow(known), training)
+training &lt;- known[training, ]
+testing &lt;- known[testing, ]</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
-<p>What the <code>gender_age</code> object tells us is the proportion of cases in each cell that we have in the population. If we want to make the proportion of cases in each cell in our sample match that of the population we can divide one over the other and use that as a correction factor. With our data declared as a design object we can use the <code>postStratify</code> function. Notice that we declare the <code>strata</code> using a formula interface and we pass as <code>population</code> a <code>data.frame</code> with the expected counts in the population.</p>
+<!-- rnb-text-end -->
+<!-- rnb-text-begin -->
+<p>Now the idea is the following. We are going to take our training set and we are going to fit models of different complexity to it. In the case of XGBoost there are several hyperparameters that we can tune in order to select the one with the best performance. The strategy we will use here is the simplest one available: we will simply test different combinations of hyperparameters in a regular grid and we will see how each of those combinations work. For the sake of illustration, I am going to be using here a very small grid:</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjpbInN2eXBzIDwtIHBvc3RTdHJhdGlmeShzdnlzcnMsIiwiICAgICAgICAgICAgICAgICAgICAgIHN0cmF0YT1+IGdlbmRlciAqIGZhZ2UsIiwiICAgICAgICAgICAgICAgICAgICAgIHBvcHVsYXRpb249Z2VuZGVyX2FnZSkiXX0= -->
-<pre class="r"><code>svyps &lt;- postStratify(svysrs,
-                      strata=~ gender * fage,
-                      population=gender_age)</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoicGFyYW1fZ3JpZCA8LSBleHBhbmQuZ3JpZChtYXguZGVwdGg9YygxLCAyLCAzKSxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgZXRhPWMoLjEpKSAifQ== -->
+<pre class="r"><code>param_grid &lt;- expand.grid(max.depth=c(1, 2, 3),
+                          eta=c(.1)) </code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
-<p>We can now retrieve the weights from the new object:</p>
+<p>In doing so, there is the risk that our models will learn <em>too much</em> about the training data (Why?). Thus, we will want to <em>fit</em> the model and to <em>evaluate</em> the model using different datasets. That’s where the <code>xgb.cv</code> function will help us. In this case, we will be using 5-fold cross-validation over the training set (How many cases are we using in each step?).</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiaGVhZCh3ZWlnaHRzKHN2eXBzKSkifQ== -->
-<pre class="r"><code>head(weights(svyps))</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<p>And compare the calculations that we would obtain from the poststratified sample and the raw sample.</p>
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjpbInN2eW1lYW4ofiBnZW5kZXIsIHN2eXBzKSIsInN2eW1lYW4ofiBnZW5kZXIsIHN2eXNycykiXX0= -->
-<pre class="r"><code>svymean(~ gender, svyps)
-svymean(~ gender, svysrs)</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<p>More importantly, we can see that not only the marginals match, the cross-breaks also match!</p>
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjpbInN2eW1lYW4ofiBpbnRlcmFjdGlvbihnZW5kZXIsIGZhZ2UpLCBzdnlwcykiLCJzdnltZWFuKH4gaW50ZXJhY3Rpb24oZ2VuZGVyLCBmYWdlKSwgc3Z5c3JzKSIsInByb3AudGFibGUodGFibGUoZnJhbWUkZ2VuZGVyLCBmcmFtZSRmYWdlKSkiXX0= -->
-<pre class="r"><code>svymean(~ interaction(gender, fage), svyps)
-svymean(~ interaction(gender, fage), svysrs)
-prop.table(table(frame$gender, frame$fage))</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<p>Well, at least for the variables that we poststratified on:</p>
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjpbInN2eW1lYW4ofiBmZWR1Yywgc3Z5cHMpIiwicHJvcC50YWJsZSh0YWJsZShmcmFtZSRmZWR1YykpIl19 -->
-<pre class="r"><code>svymean(~ feduc, svyps)
-prop.table(table(frame$feduc))</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-</div>
-<div id="raking" class="section level2">
-<h2>Raking</h2>
-<p>Poststratification presents one main limitation. Mainly, the assumption that we know the cross-breaks for the same variables in the population. Sometimes, we only have partial information. Maybe we know the marginal distribution of one variable (say, the proportion of men and women) and the marginal distribution of another variable (say, the proportion of people by age group) but not the joint distribution (how many men and women belong to each age group). This type of situation often appears when we have several variables that we want to benchmark. For those cases, we can use a different strategy.</p>
-<p>Imagine that in the previous example we have access to the joint distribution of age and gender, but we only have the marginal distribution of education.</p>
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjpbImVkdWMgPC0gZGF0YS5mcmFtZShwcm9wLnRhYmxlKHRhYmxlKGZyYW1lJGZlZHVjKSkpIiwibmFtZXMoZWR1YylbMV0gPC0gXCJmZWR1Y1wiIiwiZWR1YyRGcmVxIDwtIGVkdWMkRnJlcSAqIG5yb3coc3JzKSJdfQ== -->
-<pre class="r"><code>educ &lt;- data.frame(prop.table(table(frame$feduc)))
-names(educ)[1] &lt;- &quot;feduc&quot;
-educ$Freq &lt;- educ$Freq * nrow(srs)</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<p>The function <code>rake</code> is very similar to <code>postStratify</code>: we pass the sample margins and the population margins and it returns back a design object that incorporates weights.</p>
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjpbInN2eXJha2UgPC0gcmFrZShzdnlzcnMsIiwiICAgICAgICAgICAgICAgIHNhbXBsZS5tYXJnaW5zPWxpc3QofiBnZW5kZXIgKiBmYWdlLCB+IGZlZHVjKSwiLCIgICAgICAgICAgICAgICAgcG9wdWxhdGlvbi5tYXJnaW5zPWxpc3QoZ2VuZGVyX2FnZSwgZWR1YykpIl19 -->
-<pre class="r"><code>svyrake &lt;- rake(svysrs,
-                sample.margins=list(~ gender * fage, ~ feduc),
-                population.margins=list(gender_age, educ))</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<p>We can look again at the weights</p>
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiaGVhZCh3dyA8LSB3ZWlnaHRzKHN2eXJha2UpKSJ9 -->
-<pre class="r"><code>head(ww &lt;- weights(svyrake))</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<p>but something to notice is that, because the unbalance in education was relatively large, we have now a fairly askew distribution of weights:</p>
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoicXVhbnRpbGUod3cpIn0= -->
-<pre class="r"><code>quantile(ww)</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<p>What does that mean for us? To avoid that some individual units have too much influence on the estimation we can trim the weights:</p>
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoic3Z5cmFrZSA8LSB0cmltV2VpZ2h0cyhzdnlyYWtlLCB1cHBlcj01LCBsb3dlcj0wKSJ9 -->
-<pre class="r"><code>svyrake &lt;- trimWeights(svyrake, upper=5, lower=0)</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<p>We can now check the new estimates</p>
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjpbInN2eW1lYW4ofiBnZW5kZXIsIHN2eXJha2UpIiwic3Z5bWVhbih+IGdlbmRlciwgc3Z5cHMpIiwicHJvcC50YWJsZSh0YWJsZShmcmFtZSRnZW5kZXIpKSJdfQ== -->
-<pre class="r"><code>svymean(~ gender, svyrake)
-svymean(~ gender, svyps)
-prop.table(table(frame$gender))</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-</div>
-<div id="calibration" class="section level2">
-<h2>Calibration</h2>
-<p>What to do with continuous variables? One option is to use a GREG estimator that generalizes both poststratification and raking and uses an approach similar to a linear model. Calibration is a very flexible approach but the basic idea is similar to what we have seen.</p>
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjpbInBvcF90b3RhbHMgPC0gYyhgKEludGVyY2VwdClgPW5yb3coZnJhbWUpLCIsIiAgICAgICAgICAgICAgICBgbG9nKGFnZSlgPXN1bShsb2coZnJhbWUkYWdlKSksIiwiICAgICAgICAgICAgICAgIGBnZW5kZXJtYWxlYD1zdW0oZnJhbWUkZ2VuZGVyID09IFwibWFsZVwiKSkiLCIiLCJzdnljYWwgPC0gY2FsaWJyYXRlKHN2eXNycywiLCIgICAgICAgICAgICAgICAgICAgIGZvcm11bGE9fiBsb2coYWdlKSArIGdlbmRlciwiLCIgICAgICAgICAgICAgICAgICAgIHBvcHVsYXRpb249cG9wX3RvdGFscykiXX0= -->
-<pre class="r"><code>pop_totals &lt;- c(`(Intercept)`=nrow(frame),
-                `log(age)`=sum(log(frame$age)),
-                `gendermale`=sum(frame$gender == &quot;male&quot;))
+<!-- rnb-source-begin eyJkYXRhIjpbImJlc3QgPC0gMWU2IiwiYmVzdF9pbmRleCA8LSBOQSIsImJlc3RfcGFyYW1zIDwtIE5BIiwiIiwiZm9yIChpIGluIDE6bnJvdyhwYXJhbV9ncmlkKSkge1xuICAgIG1zZyA8LSBzcHJpbnRmKFwiQ29tcHV0YXRpb24gd2l0aCAoJXMpXCIsXG4gICAgICAgICAgICAgICAgICAgcGFzdGUocGFyYW1fZ3JpZFtpLCBdLCBjb2xsYXBzZT1cIixcIikpXG4gICAgY2F0KG1zZywgXCJcXG5cIilcbiAgICBtb2RfIDwtIHhnYi5jdihkYXRhPWFzLm1hdHJpeChkdiksXG4gICAgICAgICAgICAgICAgICBsYWJlbD1hcy5tYXRyaXgoYXMubnVtZXJpYyh0cmFpbmluZyR2b3RlaW50ZW50aW9uKSAtIDEpLFxuICAgICAgICAgICAgICAgICAgbmZvbGQ9NSxcbiAgICAgICAgICAgICAgICAgIHBhcmFtcz1wYXJhbV9ncmlkW2ksIF0sXG4gICAgICAgICAgICAgICAgICBudGhyZWFkPTQsXG4gICAgICAgICAgICAgICAgICBucm91bmRzPTUwMCxcbiAgICAgICAgICAgICAgICAgIGVhcmx5X3N0b3BwaW5nX3JvdW5kcz01LFxuICAgICAgICAgICAgICAgICAgb2JqZWN0aXZlPVwibXVsdGk6c29mdG1heFwiLFxuICAgICAgICAgICAgICAgICAgbnVtX2NsYXNzPTEyKVxuXG4gICAgbWVycm9yX21lYW5faW5kZXhfIDwtIG1vZF8kYmVzdF9pdGVyYXRpb25cbiAgICBtaW5fbWVycm9yXyA8LSBtb2RfJGV2YWx1YXRpb25fbG9nW21lcnJvcl9tZWFuX2luZGV4X10kdGVzdF9tZXJyb3JfbWVhblxuXG4gICAgaWYgKG1pbl9tZXJyb3JfIDwgYmVzdCkge1xuICAgICAgICBiZXN0IDwtIG1pbl9tZXJyb3JfXG4gICAgICAgIGJlc3RfaW5kZXggPC0gbWVycm9yX21lYW5faW5kZXhfXG4gICAgICAgIGJlc3RfcGFyYW0gPC0gcGFyYW1fZ3JpZFtpLCBdXG4gICAgfVxufSJdfQ== -->
+<pre class="r"><code>best &lt;- 1e6
+best_index &lt;- NA
+best_params &lt;- NA
 
-svycal &lt;- calibrate(svysrs,
-                    formula=~ log(age) + gender,
-                    population=pop_totals)</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<p>We can now compare some of the estimates:</p>
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjpbInN2eW1lYW4ofiBsb2coYWdlKSArIGdlbmRlciwgc3Z5Y2FsKSIsInN2eW1lYW4ofiBsb2coYWdlKSArIGdlbmRlciwgc3Z5cHMpIiwic3Z5bWVhbih+IGxvZyhhZ2UpICsgZ2VuZGVyLCBzdnlzcnMpIl19 -->
-<pre class="r"><code>svymean(~ log(age) + gender, svycal)
-svymean(~ log(age) + gender, svyps)
-svymean(~ log(age) + gender, svysrs)</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-</div>
-</div>
-<div id="methods-from-the-causal-inference-literature" class="section level1">
-<h1>Methods from the causal inference literature</h1>
-<p>The methods that we discussed above take the view that the sample was extracted from a population and that maybe there are some remaining unbalances that need to be addressed. These unbalances can be fixed by benchmarking the sample against known population statistics and so the only question is about the type of information that is available to the analyst. More recently, the literature has taken a different approach, borrowing from the causal inference literature. There are two main methods in this literature. One tries to address the problem of selection into the sample by estimating the inclusion probabilities, i.e., by creating propensity scores that can then be used as weights. The other approach, the “superpopulation” approach is far less common.</p>
-<div id="pseudo-inclusion-probabilities" class="section level2">
-<h2>Pseudo-inclusion probabilities</h2>
-<p>The method of pseudo-inclusion probabilities is simple. <em>All</em> we need to do is estimate, for each individual, the probability with which it was selected into the sample. Of course, this is more easily said than done. In our case, we do have a reasonable pseudo-frame for the sample so the first thing we will do is assign a treatment arm to frame and sample. Here, we will take the sample as the treatment group.</p>
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjpbIndzJHkgPC0gMSIsImZyYW1lJHkgPC0gMCIsIiMjIFRvIHJlZHVjZSBjb21wdXRhdGlvbiB0aW1lIiwiTiA8LSAyNTAwMDAiLCJmcmFtZSA8LSBmcmFtZVsxOk4sIF0iLCJjb21iaW5lZCA8LSBwbHlyOjo6cmJpbmQuZmlsbCh3cywgZnJhbWUpIl19 -->
-<pre class="r"><code>ws$y &lt;- 1
-frame$y &lt;- 0
-## To reduce computation time
-N &lt;- 250000
-frame &lt;- frame[1:N, ]
-combined &lt;- plyr:::rbind.fill(ws, frame)</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<p>The next step is to estimate the model that assigns cases from the frame to the sample. The process here is identical to that of propensity score matching, for instance and consists on identifying a model that produces a reasonable balance between covariates in the sample relative to the frame (Why?). Back in the day, one would try many different specifications of a choice model but it is more common now to rely on machine learning models. For instance, it is common to use tree-based models because they also have the advantage of creating weighting cells if we need them.</p>
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjpbImxpYnJhcnkocGFydHlraXQpIiwibW9kIDwtIGN0cmVlKHkgfiBnZW5kZXIgKyBhZ2UgKyBmZWR1YyArIGZvY2N1cCwiLCIgICAgICAgICAgICAgZGF0YT1jb21iaW5lZCwiLCIgICAgICAgICAgICAgY29udHJvbCA9IGN0cmVlX2NvbnRyb2wobWluY3JpdGVyaW9uPTAuMDA1LCIsIiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtaW5zcGxpdD0wLCIsIiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtaW5idWNrZXQ9MCkpIl19 -->
-<pre class="r"><code>library(partykit)
-mod &lt;- ctree(y ~ gender + age + feduc + foccup,
-             data=combined,
-             control = ctree_control(mincriterion=0.005,
-                                     minsplit=0,
-                                     minbucket=0))</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<p>Is this a good model? What would be a good way of testing whether we should keep searching?</p>
-<p>Let’s assume for now that the model is what we want. The remaining steps consist on estimating the predicted probabilities for each case in the sample and treat them as weights.</p>
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjpbInBoYXQgPC0gcHJlZGljdChtb2QsIG5ld2RhdGE9d3MpIiwid2VpZ2h0cyA8LSAxL3BoYXQiLCJ3ZWlnaHRzIDwtIHdlaWdodHMvbWVhbih3ZWlnaHRzKSAjIyBUb28gbGFyZ2UiXX0= -->
-<pre class="r"><code>phat &lt;- predict(mod, newdata=ws)
-weights &lt;- 1/phat
-weights &lt;- weights/mean(weights) ## Too large</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<p>We can now use those weights and check whether the distribution of a known variable has improved relative to our benchmark.</p>
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjpbInByb3AudGFibGUoeHRhYnMod2VpZ2h0cyB+IGZhZ2UsIGRhdGE9d3MpKSIsInByb3AudGFibGUoeHRhYnMoICAgICAgICB+IGZhZ2UsIGRhdGE9d3MpKSIsInByb3AudGFibGUoeHRhYnMoICAgICAgICB+IGZhZ2UsIGRhdGE9ZnJhbWUpKSJdfQ== -->
-<pre class="r"><code>prop.table(xtabs(weights ~ fage, data=ws))
-prop.table(xtabs(        ~ fage, data=ws))
-prop.table(xtabs(        ~ fage, data=frame))</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-</div>
-<div id="calibration-using-matching" class="section level2">
-<h2>Calibration using matching</h2>
-<!-- rnb-text-end -->
-<!-- rnb-text-begin -->
-<p>If the goal is to create weights such that some covariates are balanced between treatment and control, we can take the inverse approach—rather than starting with a model to find the weights, we can just think of it as an optimization problem and find those weights directly. If we come at it from that point of view, the problem is very similar to that of covariate matching. There are many different methods to perform matching and there is no clear reason to prefer one over the other.</p>
-<p>One possibility is to use an entropy-based approach.</p>
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjpbImxpYnJhcnkoV2VpZ2h0SXQpIiwiIiwiIyMgQVRDIGlzIGltcG9ydGFudCIsIm91dCA8LSB3ZWlnaHRpdCh5IH4gZ2VuZGVyICsgZmFnZSArIGZlZHVjICsgZm9jY3VwLCBkYXRhPWNvbWJpbmVkLCIsIiAgICAgICAgICAgICAgICBtZXRob2Q9XCJlYmFsXCIsIiwiICAgICAgICAgICAgICAgIGVzdGltYW5kPVwiQVRDXCIpIiwic3VtbWFyeShvdXQpIl19 -->
-<pre class="r"><code>library(WeightIt)
+for (i in 1:nrow(param_grid)) {
+    msg &lt;- sprintf(&quot;Computation with (%s)&quot;,
+                   paste(param_grid[i, ], collapse=&quot;,&quot;))
+    cat(msg, &quot;\n&quot;)
+    mod_ &lt;- xgb.cv(data=as.matrix(dv),
+                  label=as.matrix(as.numeric(training$voteintention) - 1),
+                  nfold=5,
+                  params=param_grid[i, ],
+                  nthread=4,
+                  nrounds=500,
+                  early_stopping_rounds=5,
+                  objective=&quot;multi:softmax&quot;,
+                  num_class=12)
 
-## ATC is important
-out &lt;- weightit(y ~ gender + fage + feduc + foccup, data=combined,
-                method=&quot;ebal&quot;,
-                estimand=&quot;ATC&quot;)
-summary(out)</code></pre>
+    merror_mean_index_ &lt;- mod_$best_iteration
+    min_merror_ &lt;- mod_$evaluation_log[merror_mean_index_]$test_merror_mean
+
+    if (min_merror_ &lt; best) {
+        best &lt;- min_merror_
+        best_index &lt;- merror_mean_index_
+        best_param &lt;- param_grid[i, ]
+    }
+}</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiQ29tcHV0YXRpb24gd2l0aCAoMSwwLjEpIFxuWzFdXHR0cmFpbi1tZXJyb3I6MC4xNjcxMTcrMC4wMDgwNjRcdHRlc3QtbWVycm9yOjAuMTcyNzQ0KzAuMDEyOTE4IFxuTXVsdGlwbGUgZXZhbCBtZXRyaWNzIGFyZSBwcmVzZW50LiBXaWxsIHVzZSB0ZXN0X21lcnJvciBmb3IgZWFybHkgc3RvcHBpbmcuXG5XaWxsIHRyYWluIHVudGlsIHRlc3RfbWVycm9yIGhhc24ndCBpbXByb3ZlZCBpbiA1IHJvdW5kcy5cblxuWzJdXHR0cmFpbi1tZXJyb3I6MC4xNDkwNDcrMC4wMDEyMzhcdHRlc3QtbWVycm9yOjAuMTQ5MTIwKzAuMDA2ODc1IFxuWzNdXHR0cmFpbi1tZXJyb3I6MC4xNDgyMjkrMC4wMDEzODRcdHRlc3QtbWVycm9yOjAuMTQ4MjY1KzAuMDA3OTg4IFxuWzRdXHR0cmFpbi1tZXJyb3I6MC4xNDc5NzkrMC4wMDEzNzlcdHRlc3QtbWVycm9yOjAuMTQ4MjY1KzAuMDA3NDI0IFxuWzVdXHR0cmFpbi1tZXJyb3I6MC4xNDY4MDYrMC4wMDA2NjhcdHRlc3QtbWVycm9yOjAuMTQ4MjY1KzAuMDA4OTI5IFxuWzZdXHR0cmFpbi1tZXJyb3I6MC4xNDY3NzArMC4wMDI3ODRcdHRlc3QtbWVycm9yOjAuMTQ3OTgwKzAuMDA3ODYwIFxuWzddXHR0cmFpbi1tZXJyb3I6MC4xNDU4MTArMC4wMDE3NzBcdHRlc3QtbWVycm9yOjAuMTQ2MjcyKzAuMDA3NTEwIFxuWzhdXHR0cmFpbi1tZXJyb3I6MC4xNDYwNTgrMC4wMDE5MjhcdHRlc3QtbWVycm9yOjAuMTQ2Njk5KzAuMDA3NDE0IFxuWzldXHR0cmFpbi1tZXJyb3I6MC4xNDE0MzQrMC4wMDE5NjRcdHRlc3QtbWVycm9yOjAuMTQzMTQyKzAuMDA3OTgzIFxuWzEwXVx0dHJhaW4tbWVycm9yOjAuMTM5MzAwKzAuMDAzMDgzXHR0ZXN0LW1lcnJvcjowLjE0MjE0NiswLjAwODEyMSBcblsxMV1cdHRyYWluLW1lcnJvcjowLjEzNDY0MCswLjAwMzU1MFx0dGVzdC1tZXJyb3I6MC4xMzY1OTcrMC4wMDk0ODkgXG5bMTJdXHR0cmFpbi1tZXJyb3I6MC4xMzMzMjQrMC4wMDI4NzFcdHRlc3QtbWVycm9yOjAuMTM2MDI4KzAuMDA4NzIzIFxuWzEzXVx0dHJhaW4tbWVycm9yOjAuMTMwNjU2KzAuMDAyMzMxXHR0ZXN0LW1lcnJvcjowLjEzMTE4OSswLjAxMDQ5NCBcblsxNF1cdHRyYWluLW1lcnJvcjowLjEyOTA1NSswLjAwMjU4N1x0dGVzdC1tZXJyb3I6MC4xMjk5MDkrMC4wMDg2MDYgXG5bMTVdXHR0cmFpbi1tZXJyb3I6MC4xMjc1MjYrMC4wMDI2NjJcdHRlc3QtbWVycm9yOjAuMTI4MzQ0KzAuMDA4MDA5IFxuWzE2XVx0dHJhaW4tbWVycm9yOjAuMTI2NTMwKzAuMDAxODkzXHR0ZXN0LW1lcnJvcjowLjEyNzIwNSswLjAwOTA4OSBcblsxN11cdHRyYWluLW1lcnJvcjowLjEyNTAwMCswLjAwMjI5M1x0dGVzdC1tZXJyb3I6MC4xMjU2NDArMC4wMDg3NzEgXG5bMThdXHR0cmFpbi1tZXJyb3I6MC4xMjQ3NTErMC4wMDIzMTNcdHRlc3QtbWVycm9yOjAuMTI1NjQwKzAuMDA3NzU1IFxuWzE5XVx0dHJhaW4tbWVycm9yOjAuMTI0MDA0KzAuMDAyMDk5XHR0ZXN0LW1lcnJvcjowLjEyNTM1NSswLjAwNzI5MyBcblsyMF1cdHRyYWluLW1lcnJvcjowLjEyMjU0NiswLjAwMjU2OFx0dGVzdC1tZXJyb3I6MC4xMjQ2NDQrMC4wMDg2NDggXG5bMjFdXHR0cmFpbi1tZXJyb3I6MC4xMjE3MjcrMC4wMDE4MjdcdHRlc3QtbWVycm9yOjAuMTIyNzk1KzAuMDA4NTIwIFxuWzIyXVx0dHJhaW4tbWVycm9yOjAuMTIwODM4KzAuMDAxMzY5XHR0ZXN0LW1lcnJvcjowLjEyMjIyNSswLjAwOTE0NyBcblsyM11cdHRyYWluLW1lcnJvcjowLjEyMDUxOCswLjAwMTc1N1x0dGVzdC1tZXJyb3I6MC4xMjE5NDErMC4wMDg5NDAgXG5bMjRdXHR0cmFpbi1tZXJyb3I6MC4xMTk1OTMrMC4wMDI0ODZcdHRlc3QtbWVycm9yOjAuMTIwODAzKzAuMDA3MTI2IFxuWzI1XVx0dHJhaW4tbWVycm9yOjAuMTE4NTk3KzAuMDAyNDQxXHR0ZXN0LW1lcnJvcjowLjExOTgwNyswLjAwNzIxMSBcblsyNl1cdHRyYWluLW1lcnJvcjowLjExODI3NyswLjAwMjQ1NVx0dGVzdC1tZXJyb3I6MC4xMTkwOTUrMC4wMDY4MDcgXG5bMjddXHR0cmFpbi1tZXJyb3I6MC4xMTgwNjQrMC4wMDI1OTFcdHRlc3QtbWVycm9yOjAuMTIwMjMzKzAuMDA2NjcyIFxuWzI4XVx0dHJhaW4tbWVycm9yOjAuMTE3NzA4KzAuMDAyNjI2XHR0ZXN0LW1lcnJvcjowLjExOTUyMiswLjAwNjM2NiBcblsyOV1cdHRyYWluLW1lcnJvcjowLjExNzQ1OSswLjAwMjIxNVx0dGVzdC1tZXJyb3I6MC4xMTkwOTUrMC4wMDY2MjMgXG5bMzBdXHR0cmFpbi1tZXJyb3I6MC4xMTY3MTIrMC4wMDIwNTFcdHRlc3QtbWVycm9yOjAuMTE4ODExKzAuMDA2MjQxIFxuWzMxXVx0dHJhaW4tbWVycm9yOjAuMTE2NDk4KzAuMDAyMDg1XHR0ZXN0LW1lcnJvcjowLjExODM4NCswLjAwNjM0OSBcblszMl1cdHRyYWluLW1lcnJvcjowLjExNTY0NSswLjAwMjI5Nlx0dGVzdC1tZXJyb3I6MC4xMTc2NzMrMC4wMDYzMzcgXG5bMzNdXHR0cmFpbi1tZXJyb3I6MC4xMTU1MzgrMC4wMDE4MDRcdHRlc3QtbWVycm9yOjAuMTE3ODE1KzAuMDA2MTU0IFxuWzM0XVx0dHJhaW4tbWVycm9yOjAuMTE0NzU1KzAuMDAxOTczXHR0ZXN0LW1lcnJvcjowLjExNzEwMyswLjAwNjA2OCBcblszNV1cdHRyYWluLW1lcnJvcjowLjExNDc1NiswLjAwMjMzMVx0dGVzdC1tZXJyb3I6MC4xMTc2NzMrMC4wMDYwOTMgXG5bMzZdXHR0cmFpbi1tZXJyb3I6MC4xMTQxODYrMC4wMDIyOTVcdHRlc3QtbWVycm9yOjAuMTE3NjczKzAuMDA1NzA4IFxuWzM3XVx0dHJhaW4tbWVycm9yOjAuMTEzODY2KzAuMDAxNjU0XHR0ZXN0LW1lcnJvcjowLjExNzEwNCswLjAwNTk3MSBcblszOF1cdHRyYWluLW1lcnJvcjowLjExMzI5NyswLjAwMTkxOVx0dGVzdC1tZXJyb3I6MC4xMTY1MzQrMC4wMDU5MDMgXG5bMzldXHR0cmFpbi1tZXJyb3I6MC4xMTI3NjMrMC4wMDEyNTRcdHRlc3QtbWVycm9yOjAuMTE3MTAzKzAuMDA1NTc3IFxuWzQwXVx0dHJhaW4tbWVycm9yOjAuMTEyMDUyKzAuMDAxNzkxXHR0ZXN0LW1lcnJvcjowLjExNjEwNyswLjAwNTU0NCBcbls0MV1cdHRyYWluLW1lcnJvcjowLjExMTQ0NyswLjAwMjA1Mlx0dGVzdC1tZXJyb3I6MC4xMTYzOTErMC4wMDU5MjEgXG5bNDJdXHR0cmFpbi1tZXJyb3I6MC4xMTA4NDIrMC4wMDIwNjlcdHRlc3QtbWVycm9yOjAuMTE1NjgwKzAuMDA1ODg2IFxuWzQzXVx0dHJhaW4tbWVycm9yOjAuMTEwNzAwKzAuMDAxOTc2XHR0ZXN0LW1lcnJvcjowLjExNTUzNyswLjAwNTg2NiBcbls0NF1cdHRyYWluLW1lcnJvcjowLjExMDIzOCswLjAwMTUxOVx0dGVzdC1tZXJyb3I6MC4xMTU2ODArMC4wMDYzNjIgXG5bNDVdXHR0cmFpbi1tZXJyb3I6MC4xMDk4ODIrMC4wMDE4NTNcdHRlc3QtbWVycm9yOjAuMTE1Mzk1KzAuMDA1ODUwIFxuWzQ2XVx0dHJhaW4tbWVycm9yOjAuMTA5NzQwKzAuMDAxNjg2XHR0ZXN0LW1lcnJvcjowLjExNTI1MyswLjAwNjU4OSBcbls0N11cdHRyYWluLW1lcnJvcjowLjEwOTIwNiswLjAwMTcyNFx0dGVzdC1tZXJyb3I6MC4xMTU1MzgrMC4wMDYyMDkgXG5bNDhdXHR0cmFpbi1tZXJyb3I6MC4xMDg3NzkrMC4wMDE1ODZcdHRlc3QtbWVycm9yOjAuMTE0ODI2KzAuMDA2MzIyIFxuWzQ5XVx0dHJhaW4tbWVycm9yOjAuMTA4NDIzKzAuMDAxNzE5XHR0ZXN0LW1lcnJvcjowLjExNDM5OSswLjAwNjc5MiBcbls1MF1cdHRyYWluLW1lcnJvcjowLjEwODEwMyswLjAwMTU3MVx0dGVzdC1tZXJyb3I6MC4xMTM2ODgrMC4wMDYzNDAgXG5bNTFdXHR0cmFpbi1tZXJyb3I6MC4xMDc3MTIrMC4wMDEyNzlcdHRlc3QtbWVycm9yOjAuMTEzNDA0KzAuMDA2MzEzIFxuWzUyXVx0dHJhaW4tbWVycm9yOjAuMTA3NDI3KzAuMDAxNDUxXHR0ZXN0LW1lcnJvcjowLjExMjk3NyswLjAwNjEzMyBcbls1M11cdHRyYWluLW1lcnJvcjowLjEwNzQ5OSswLjAwMTQzNVx0dGVzdC1tZXJyb3I6MC4xMTM0MDQrMC4wMDY1MjIgXG5bNTRdXHR0cmFpbi1tZXJyb3I6MC4xMDcxMDcrMC4wMDE0MDRcdHRlc3QtbWVycm9yOjAuMTEyODM1KzAuMDA1OTcwIFxuWzU1XVx0dHJhaW4tbWVycm9yOjAuMTA2NjA5KzAuMDAxMzc3XHR0ZXN0LW1lcnJvcjowLjExMjEyNCswLjAwNjYwNiBcbls1Nl1cdHRyYWluLW1lcnJvcjowLjEwNjY4MCswLjAwMTM5NVx0dGVzdC1tZXJyb3I6MC4xMTIyNjYrMC4wMDY4MjQgXG5bNTddXHR0cmFpbi1tZXJyb3I6MC4xMDYzMjUrMC4wMDEzNTVcdHRlc3QtbWVycm9yOjAuMTExNjk3KzAuMDA2ODY5IFxuWzU4XVx0dHJhaW4tbWVycm9yOjAuMTA1ODk4KzAuMDAxNDIxXHR0ZXN0LW1lcnJvcjowLjExMTI3MCswLjAwNjQyNSBcbls1OV1cdHRyYWluLW1lcnJvcjowLjEwNTU3OCswLjAwMTQ1NVx0dGVzdC1tZXJyb3I6MC4xMTA0MTYrMC4wMDU5NDggXG5bNjBdXHR0cmFpbi1tZXJyb3I6MC4xMDUyMjIrMC4wMDEzNjJcdHRlc3QtbWVycm9yOjAuMTA5OTg5KzAuMDA1OTQyIFxuWzYxXVx0dHJhaW4tbWVycm9yOjAuMTA0NjUzKzAuMDAxNDEyXHR0ZXN0LW1lcnJvcjowLjExMDEzMSswLjAwNjY5MSBcbls2Ml1cdHRyYWluLW1lcnJvcjowLjEwMzgzNSswLjAwMTUxMlx0dGVzdC1tZXJyb3I6MC4xMDg4NTArMC4wMDY0MzQgXG5bNjNdXHR0cmFpbi1tZXJyb3I6MC4xMDQwNDgrMC4wMDEyMDJcdHRlc3QtbWVycm9yOjAuMTA4ODUwKzAuMDA2NDM0IFxuWzY0XVx0dHJhaW4tbWVycm9yOjAuMTAzOTc3KzAuMDAxMDg4XHR0ZXN0LW1lcnJvcjowLjEwODg1MCswLjAwNjA5NSBcbls2NV1cdHRyYWluLW1lcnJvcjowLjEwMzgzNSswLjAwMDk5OVx0dGVzdC1tZXJyb3I6MC4xMDg0MjMrMC4wMDY0NjUgXG5bNjZdXHR0cmFpbi1tZXJyb3I6MC4xMDMxOTQrMC4wMDEzMDNcdHRlc3QtbWVycm9yOjAuMTA3OTk2KzAuMDA2MDg5IFxuWzY3XVx0dHJhaW4tbWVycm9yOjAuMTAyNjk2KzAuMDAxMDc2XHR0ZXN0LW1lcnJvcjowLjEwNzg1NCswLjAwNTkyNSBcbls2OF1cdHRyYWluLW1lcnJvcjowLjEwMjc2OCswLjAwMDg3Nlx0dGVzdC1tZXJyb3I6MC4xMDgyODErMC4wMDY0MTIgXG5bNjldXHR0cmFpbi1tZXJyb3I6MC4xMDI0MTIrMC4wMDA5OThcdHRlc3QtbWVycm9yOjAuMTA4MTM5KzAuMDA2NzI2IFxuWzcwXVx0dHJhaW4tbWVycm9yOjAuMTAyMDIxKzAuMDAwODk3XHR0ZXN0LW1lcnJvcjowLjEwNzg1NCswLjAwNjkyNiBcbls3MV1cdHRyYWluLW1lcnJvcjowLjEwMTY2NSswLjAwMTA3M1x0dGVzdC1tZXJyb3I6MC4xMDcxNDIrMC4wMDY1OTcgXG5bNzJdXHR0cmFpbi1tZXJyb3I6MC4xMDE1NTgrMC4wMDEyNTBcdHRlc3QtbWVycm9yOjAuMTA3MTQyKzAuMDA2Mzk4IFxuWzczXVx0dHJhaW4tbWVycm9yOjAuMTAxNDUxKzAuMDAxMjA5XHR0ZXN0LW1lcnJvcjowLjEwNzI4NCswLjAwNjU1MCBcbls3NF1cdHRyYWluLW1lcnJvcjowLjEwMTEzMSswLjAwMTUwNlx0dGVzdC1tZXJyb3I6MC4xMDY4NTgrMC4wMDY4NTcgXG5bNzVdXHR0cmFpbi1tZXJyb3I6MC4xMDEwMjQrMC4wMDE2NDBcdHRlc3QtbWVycm9yOjAuMTA2NDMxKzAuMDA2MTA3IFxuWzc2XVx0dHJhaW4tbWVycm9yOjAuMTAwODExKzAuMDAxNzM1XHR0ZXN0LW1lcnJvcjowLjEwNTU3OCswLjAwNjEyNyBcbls3N11cdHRyYWluLW1lcnJvcjowLjEwMDc0MCswLjAwMTYzOFx0dGVzdC1tZXJyb3I6MC4xMDU4NjIrMC4wMDY5MTEgXG5bNzhdXHR0cmFpbi1tZXJyb3I6MC4xMDAyNDIrMC4wMDE0NzJcdHRlc3QtbWVycm9yOjAuMTA1MTUxKzAuMDA2NzgxIFxuWzc5XVx0dHJhaW4tbWVycm9yOjAuMTAwMDY0KzAuMDAxNTEwXHR0ZXN0LW1lcnJvcjowLjEwNTI5MyswLjAwNjQ2NSBcbls4MF1cdHRyYWluLW1lcnJvcjowLjEwMDA2NCswLjAwMTUyM1x0dGVzdC1tZXJyb3I6MC4xMDUxNTErMC4wMDY2NDIgXG5bODFdXHR0cmFpbi1tZXJyb3I6MC4wOTk3NDQrMC4wMDE2MDBcdHRlc3QtbWVycm9yOjAuMTA1NDM1KzAuMDA2NzAxIFxuWzgyXVx0dHJhaW4tbWVycm9yOjAuMDk5Nzc5KzAuMDAxNTI3XHR0ZXN0LW1lcnJvcjowLjEwNTI5MyswLjAwNzAwOSBcbls4M11cdHRyYWluLW1lcnJvcjowLjA5OTUzMCswLjAwMTU4MVx0dGVzdC1tZXJyb3I6MC4xMDUyOTMrMC4wMDY4NjAgXG5bODRdXHR0cmFpbi1tZXJyb3I6MC4wOTk0MjQrMC4wMDE4NDlcdHRlc3QtbWVycm9yOjAuMTA1MjkzKzAuMDA2OTgwIFxuWzg1XVx0dHJhaW4tbWVycm9yOjAuMDk5NDk1KzAuMDAyMDcxXHR0ZXN0LW1lcnJvcjowLjEwNTAwOCswLjAwNjczNiBcbls4Nl1cdHRyYWluLW1lcnJvcjowLjA5OTI4MSswLjAwMjA0NFx0dGVzdC1tZXJyb3I6MC4xMDQ4NjYrMC4wMDcxMDAgXG5bODddXHR0cmFpbi1tZXJyb3I6MC4wOTkzMTcrMC4wMDI0NzhcdHRlc3QtbWVycm9yOjAuMTA0NTgxKzAuMDA3Mjg3IFxuWzg4XVx0dHJhaW4tbWVycm9yOjAuMDk4OTYxKzAuMDAyMjg2XHR0ZXN0LW1lcnJvcjowLjEwNTAwOSswLjAwNjg3MyBcbls4OV1cdHRyYWluLW1lcnJvcjowLjA5ODc0OCswLjAwMjI0OFx0dGVzdC1tZXJyb3I6MC4xMDQ0MzkrMC4wMDY4MDUgXG5bOTBdXHR0cmFpbi1tZXJyb3I6MC4wOTg2NDErMC4wMDIzNTZcdHRlc3QtbWVycm9yOjAuMTA0NzI0KzAuMDA3MDk1IFxuWzkxXVx0dHJhaW4tbWVycm9yOjAuMDk4NDI4KzAuMDAyMjQ2XHR0ZXN0LW1lcnJvcjowLjEwNDI5NyswLjAwNzQzMSBcbls5Ml1cdHRyYWluLW1lcnJvcjowLjA5ODI4NSswLjAwMjQ3OFx0dGVzdC1tZXJyb3I6MC4xMDQ1ODErMC4wMDcxNDQgXG5bOTNdXHR0cmFpbi1tZXJyb3I6MC4wOTgxMDgrMC4wMDIzMDNcdHRlc3QtbWVycm9yOjAuMTA0MTU0KzAuMDA3MjUyIFxuWzk0XVx0dHJhaW4tbWVycm9yOjAuMDk3Nzg4KzAuMDAyMzQ5XHR0ZXN0LW1lcnJvcjowLjEwNDE1NSswLjAwNzA1NyBcbls5NV1cdHRyYWluLW1lcnJvcjowLjA5NzcxNiswLjAwMjI1MFx0dGVzdC1tZXJyb3I6MC4xMDM3MjcrMC4wMDcwOTYgXG5bOTZdXHR0cmFpbi1tZXJyb3I6MC4wOTc0NjcrMC4wMDI0ODRcdHRlc3QtbWVycm9yOjAuMTA0Mjk2KzAuMDA3NDcxIFxuWzk3XVx0dHJhaW4tbWVycm9yOjAuMDk3NTAzKzAuMDAyMzk2XHR0ZXN0LW1lcnJvcjowLjEwMzg3MCswLjAwNzQ0OSBcbls5OF1cdHRyYWluLW1lcnJvcjowLjA5NzUzOSswLjAwMjI2NFx0dGVzdC1tZXJyb3I6MC4xMDM1ODUrMC4wMDc0MTcgXG5bOTldXHR0cmFpbi1tZXJyb3I6MC4wOTcyMTgrMC4wMDIzNjJcdHRlc3QtbWVycm9yOjAuMTAzNzI3KzAuMDA3NTg5IFxuWzEwMF1cdHRyYWluLW1lcnJvcjowLjA5NzMyNSswLjAwMjM3N1x0dGVzdC1tZXJyb3I6MC4xMDMxNTgrMC4wMDcyMzEgXG5bMTAxXVx0dHJhaW4tbWVycm9yOjAuMDk3MTEyKzAuMDAyMjUyXHR0ZXN0LW1lcnJvcjowLjEwMzMwMSswLjAwNzEwOSBcblsxMDJdXHR0cmFpbi1tZXJyb3I6MC4wOTY4NjMrMC4wMDIxNzdcdHRlc3QtbWVycm9yOjAuMTAzNDQzKzAuMDA3MDcyIFxuWzEwM11cdHRyYWluLW1lcnJvcjowLjA5NjYxMyswLjAwMjEzOVx0dGVzdC1tZXJyb3I6MC4xMDMxNTkrMC4wMDczNTkgXG5bMTA0XVx0dHJhaW4tbWVycm9yOjAuMDk2NTc4KzAuMDAyMDQ5XHR0ZXN0LW1lcnJvcjowLjEwMzE1OSswLjAwNzQ5OCBcblsxMDVdXHR0cmFpbi1tZXJyb3I6MC4wOTY0MzYrMC4wMDIxNjZcdHRlc3QtbWVycm9yOjAuMTAzMDE2KzAuMDA3NTE0IFxuWzEwNl1cdHRyYWluLW1lcnJvcjowLjA5NjI5MyswLjAwMjAwN1x0dGVzdC1tZXJyb3I6MC4xMDI4NzQrMC4wMDc2NzcgXG5bMTA3XVx0dHJhaW4tbWVycm9yOjAuMDk2MTE2KzAuMDAxODYzXHR0ZXN0LW1lcnJvcjowLjEwMjczMiswLjAwNzk5OCBcblsxMDhdXHR0cmFpbi1tZXJyb3I6MC4wOTYwODArMC4wMDE5NzlcdHRlc3QtbWVycm9yOjAuMTAyMTYyKzAuMDA3OTc1IFxuWzEwOV1cdHRyYWluLW1lcnJvcjowLjA5NTgzMSswLjAwMjA2NFx0dGVzdC1tZXJyb3I6MC4xMDI3MzIrMC4wMDc2ODggXG5bMTEwXVx0dHJhaW4tbWVycm9yOjAuMDk1NTExKzAuMDAyMTk0XHR0ZXN0LW1lcnJvcjowLjEwMjQ0NyswLjAwNzk3OSBcblsxMTFdXHR0cmFpbi1tZXJyb3I6MC4wOTU0NDArMC4wMDIxNjFcdHRlc3QtbWVycm9yOjAuMTAyMTYzKzAuMDA3ODExIFxuWzExMl1cdHRyYWluLW1lcnJvcjowLjA5NTQ0MCswLjAwMjA5NVx0dGVzdC1tZXJyb3I6MC4xMDIzMDUrMC4wMDc5NzkgXG5bMTEzXVx0dHJhaW4tbWVycm9yOjAuMDk1MjI2KzAuMDAyMDAzXHR0ZXN0LW1lcnJvcjowLjEwMjMwNSswLjAwNzk3OSBcblN0b3BwaW5nLiBCZXN0IGl0ZXJhdGlvbjpcblsxMDhdXHR0cmFpbi1tZXJyb3I6MC4wOTYwODArMC4wMDE5NzlcdHRlc3QtbWVycm9yOjAuMTAyMTYyKzAuMDA3OTc1XG5cbkNvbXB1dGF0aW9uIHdpdGggKDIsMC4xKSBcblsxXVx0dHJhaW4tbWVycm9yOjAuMTM0Mjg0KzAuMDAyNzM0XHR0ZXN0LW1lcnJvcjowLjE0MDQzOSswLjAwMjAxMCBcbk11bHRpcGxlIGV2YWwgbWV0cmljcyBhcmUgcHJlc2VudC4gV2lsbCB1c2UgdGVzdF9tZXJyb3IgZm9yIGVhcmx5IHN0b3BwaW5nLlxuV2lsbCB0cmFpbiB1bnRpbCB0ZXN0X21lcnJvciBoYXNuJ3QgaW1wcm92ZWQgaW4gNSByb3VuZHMuXG5cblsyXVx0dHJhaW4tbWVycm9yOjAuMTI5MjY5KzAuMDAzNTk0XHR0ZXN0LW1lcnJvcjowLjEzNzAyMyswLjAwMzk3NiBcblszXVx0dHJhaW4tbWVycm9yOjAuMTI3MDYzKzAuMDAzMDM4XHR0ZXN0LW1lcnJvcjowLjEzMzA0MSswLjAwMzg2MiBcbls0XVx0dHJhaW4tbWVycm9yOjAuMTI1NzQ3KzAuMDAyNDA5XHR0ZXN0LW1lcnJvcjowLjEzMzA0MCswLjAwMzY1MyBcbls1XVx0dHJhaW4tbWVycm9yOjAuMTIzOTMzKzAuMDAyODI5XHR0ZXN0LW1lcnJvcjowLjEyOTMzOSswLjAwMjQyOCBcbls2XVx0dHJhaW4tbWVycm9yOjAuMTIxNTUwKzAuMDAyOTgwXHR0ZXN0LW1lcnJvcjowLjEyNzM0OCswLjAwMTk0NCBcbls3XVx0dHJhaW4tbWVycm9yOjAuMTIwODc0KzAuMDAzMTY4XHR0ZXN0LW1lcnJvcjowLjEyNzIwNSswLjAwMjM2MCBcbls4XVx0dHJhaW4tbWVycm9yOjAuMTE5MTMxKzAuMDAyNTc0XHR0ZXN0LW1lcnJvcjowLjEyNTkyNCswLjAwMTQzNSBcbls5XVx0dHJhaW4tbWVycm9yOjAuMTE4MTM1KzAuMDAyMzQ0XHR0ZXN0LW1lcnJvcjowLjEyNDY0NSswLjAwMjQ3MyBcblsxMF1cdHRyYWluLW1lcnJvcjowLjExNjgxOSswLjAwMjEwNlx0dGVzdC1tZXJyb3I6MC4xMjQyMTgrMC4wMDI0MzcgXG5bMTFdXHR0cmFpbi1tZXJyb3I6MC4xMTU2NDUrMC4wMDEzMDhcdHRlc3QtbWVycm9yOjAuMTIyMzY5KzAuMDAyOTk0IFxuWzEyXVx0dHJhaW4tbWVycm9yOjAuMTE0MjIyKzAuMDAxNjA0XHR0ZXN0LW1lcnJvcjowLjEyMTM3MyswLjAwMjM3OCBcblsxM11cdHRyYWluLW1lcnJvcjowLjExMzA4NCswLjAwMTQzMVx0dGVzdC1tZXJyb3I6MC4xMTkwOTYrMC4wMDI0NjcgXG5bMTRdXHR0cmFpbi1tZXJyb3I6MC4xMTE3NjcrMC4wMDEyMzFcdHRlc3QtbWVycm9yOjAuMTE3MTA1KzAuMDAyOTcwIFxuWzE1XVx0dHJhaW4tbWVycm9yOjAuMTExMTk4KzAuMDAxNDE4XHR0ZXN0LW1lcnJvcjowLjExNzI0NyswLjAwMjg5NyBcblsxNl1cdHRyYWluLW1lcnJvcjowLjExMDUyMiswLjAwMTI3NFx0dGVzdC1tZXJyb3I6MC4xMTYxMDkrMC4wMDMwNjIgXG5bMTddXHR0cmFpbi1tZXJyb3I6MC4xMDkyNDIrMC4wMDE1ODhcdHRlc3QtbWVycm9yOjAuMTE2MjUxKzAuMDAyMzgyIFxuWzE4XVx0dHJhaW4tbWVycm9yOjAuMTA4MjQ2KzAuMDAxNDg1XHR0ZXN0LW1lcnJvcjowLjExNTU0MCswLjAwMzIzNSBcblsxOV1cdHRyYWluLW1lcnJvcjowLjEwNzU3MCswLjAwMTc4MFx0dGVzdC1tZXJyb3I6MC4xMTQ2ODYrMC4wMDM1OTcgXG5bMjBdXHR0cmFpbi1tZXJyb3I6MC4xMDcwMDErMC4wMDIxNTZcdHRlc3QtbWVycm9yOjAuMTEzMTIxKzAuMDAyNjU2IFxuWzIxXVx0dHJhaW4tbWVycm9yOjAuMTA2MDQwKzAuMDAxODM0XHR0ZXN0LW1lcnJvcjowLjExMjk3OSswLjAwMzMyOCBcblsyMl1cdHRyYWluLW1lcnJvcjowLjEwNTY0OSswLjAwMTg0MFx0dGVzdC1tZXJyb3I6MC4xMTE5ODIrMC4wMDI4NjAgXG5bMjNdXHR0cmFpbi1tZXJyb3I6MC4xMDQ0NzUrMC4wMDE5MTRcdHRlc3QtbWVycm9yOjAuMTExODQwKzAuMDAyNTE3IFxuWzI0XVx0dHJhaW4tbWVycm9yOjAuMTAzNDA4KzAuMDAxNjgwXHR0ZXN0LW1lcnJvcjowLjExMDI3NiswLjAwMzk5MyBcblsyNV1cdHRyYWluLW1lcnJvcjowLjEwMjk0NiswLjAwMTc4OFx0dGVzdC1tZXJyb3I6MC4xMTA1NjErMC4wMDQ0MDAgXG5bMjZdXHR0cmFpbi1tZXJyb3I6MC4xMDIwOTIrMC4wMDE5MTdcdHRlc3QtbWVycm9yOjAuMTA4ODUzKzAuMDAzOTA5IFxuWzI3XVx0dHJhaW4tbWVycm9yOjAuMTAwNzQwKzAuMDAxODAxXHR0ZXN0LW1lcnJvcjowLjEwODg1MyswLjAwMzUyOSBcblsyOF1cdHRyYWluLW1lcnJvcjowLjEwMDEzNSswLjAwMjAyNFx0dGVzdC1tZXJyb3I6MC4xMDg4NTMrMC4wMDM2NDIgXG5bMjldXHR0cmFpbi1tZXJyb3I6MC4wOTkzMTcrMC4wMDIyNTlcdHRlc3QtbWVycm9yOjAuMTA2ODYxKzAuMDA0MDA5IFxuWzMwXVx0dHJhaW4tbWVycm9yOjAuMDk4NDY0KzAuMDAyNjA3XHR0ZXN0LW1lcnJvcjowLjEwNjU3NyswLjAwNDgyNiBcblszMV1cdHRyYWluLW1lcnJvcjowLjA5Nzc1MiswLjAwMjc5NVx0dGVzdC1tZXJyb3I6MC4xMDY0MzUrMC4wMDQ1NDMgXG5bMzJdXHR0cmFpbi1tZXJyb3I6MC4wOTc2MTArMC4wMDI2MDlcdHRlc3QtbWVycm9yOjAuMTA1ODY1KzAuMDA0MTU3IFxuWzMzXVx0dHJhaW4tbWVycm9yOjAuMDk3MDA1KzAuMDAyNzMwXHR0ZXN0LW1lcnJvcjowLjEwNTQzOCswLjAwNDIwMSBcblszNF1cdHRyYWluLW1lcnJvcjowLjA5NjYxNCswLjAwMjcwNFx0dGVzdC1tZXJyb3I6MC4xMDUwMTErMC4wMDQ0MjIgXG5bMzVdXHR0cmFpbi1tZXJyb3I6MC4wOTU3OTYrMC4wMDI1MTdcdHRlc3QtbWVycm9yOjAuMTA0MzAxKzAuMDA1NDYxIFxuWzM2XVx0dHJhaW4tbWVycm9yOjAuMDk1NTgyKzAuMDAyNzIwXHR0ZXN0LW1lcnJvcjowLjEwNDQ0MyswLjAwNTY3NyBcblszN11cdHRyYWluLW1lcnJvcjowLjA5NTE5MSswLjAwMjYxNlx0dGVzdC1tZXJyb3I6MC4xMDUxNTQrMC4wMDU4MDMgXG5bMzhdXHR0cmFpbi1tZXJyb3I6MC4wOTQ1ODcrMC4wMDIzODdcdHRlc3QtbWVycm9yOjAuMTA0NzI4KzAuMDA2MDI5IFxuWzM5XVx0dHJhaW4tbWVycm9yOjAuMDk0MDUzKzAuMDAyNDg5XHR0ZXN0LW1lcnJvcjowLjEwNDAxNiswLjAwNTcxNSBcbls0MF1cdHRyYWluLW1lcnJvcjowLjA5MzU1NCswLjAwMjMwN1x0dGVzdC1tZXJyb3I6MC4xMDM4NzQrMC4wMDU3OTcgXG5bNDFdXHR0cmFpbi1tZXJyb3I6MC4wOTMyMzQrMC4wMDIyNzBcdHRlc3QtbWVycm9yOjAuMTAzNDQ3KzAuMDA1MTMxIFxuWzQyXVx0dHJhaW4tbWVycm9yOjAuMDkzMDIxKzAuMDAyMjMyXHR0ZXN0LW1lcnJvcjowLjEwMzU4OSswLjAwNTIxMCBcbls0M11cdHRyYWluLW1lcnJvcjowLjA5MjczNyswLjAwMjI0NFx0dGVzdC1tZXJyb3I6MC4xMDI3MzYrMC4wMDUwMTAgXG5bNDRdXHR0cmFpbi1tZXJyb3I6MC4wOTIzODErMC4wMDIxNDZcdHRlc3QtbWVycm9yOjAuMTAzMTYzKzAuMDA1NjM2IFxuWzQ1XVx0dHJhaW4tbWVycm9yOjAuMDkxNzA1KzAuMDAyMzE0XHR0ZXN0LW1lcnJvcjowLjEwMzAyMCswLjAwNTMwNSBcbls0Nl1cdHRyYWluLW1lcnJvcjowLjA5MTQyMSswLjAwMjUzM1x0dGVzdC1tZXJyb3I6MC4xMDMzMDUrMC4wMDU2NjAgXG5bNDddXHR0cmFpbi1tZXJyb3I6MC4wOTEwNjUrMC4wMDI1MzhcdHRlc3QtbWVycm9yOjAuMTAzMDIxKzAuMDA2MjQ1IFxuWzQ4XVx0dHJhaW4tbWVycm9yOjAuMDkwMzE4KzAuMDAyMzIyXHR0ZXN0LW1lcnJvcjowLjEwMzE2MyswLjAwNjYxOSBcblN0b3BwaW5nLiBCZXN0IGl0ZXJhdGlvbjpcbls0M11cdHRyYWluLW1lcnJvcjowLjA5MjczNyswLjAwMjI0NFx0dGVzdC1tZXJyb3I6MC4xMDI3MzYrMC4wMDUwMTBcblxuQ29tcHV0YXRpb24gd2l0aCAoMywwLjEpIFxuWzFdXHR0cmFpbi1tZXJyb3I6MC4xMTM2NTMrMC4wMDI4NzNcdHRlc3QtbWVycm9yOjAuMTIyNjU3KzAuMDA2NzQ2IFxuTXVsdGlwbGUgZXZhbCBtZXRyaWNzIGFyZSBwcmVzZW50LiBXaWxsIHVzZSB0ZXN0X21lcnJvciBmb3IgZWFybHkgc3RvcHBpbmcuXG5XaWxsIHRyYWluIHVudGlsIHRlc3RfbWVycm9yIGhhc24ndCBpbXByb3ZlZCBpbiA1IHJvdW5kcy5cblxuWzJdXHR0cmFpbi1tZXJyb3I6MC4xMTAzODArMC4wMDE4NzZcdHRlc3QtbWVycm9yOjAuMTIyMjMzKzAuMDA2ODAyIFxuWzNdXHR0cmFpbi1tZXJyb3I6MC4xMDc5MjYrMC4wMDMzMzdcdHRlc3QtbWVycm9yOjAuMTE5Mzg3KzAuMDA3MjI0IFxuWzRdXHR0cmFpbi1tZXJyb3I6MC4xMDYxNDcrMC4wMDMzNTJcdHRlc3QtbWVycm9yOjAuMTE3Mzk2KzAuMDA3NjIzIFxuWzVdXHR0cmFpbi1tZXJyb3I6MC4xMDQ4MzErMC4wMDI2ODNcdHRlc3QtbWVycm9yOjAuMTE3NTM5KzAuMDA5MjA0IFxuWzZdXHR0cmFpbi1tZXJyb3I6MC4xMDMxOTUrMC4wMDI1NTFcdHRlc3QtbWVycm9yOjAuMTE1Njg2KzAuMDA2OTM5IFxuWzddXHR0cmFpbi1tZXJyb3I6MC4xMDE5MTQrMC4wMDE5NTBcdHRlc3QtbWVycm9yOjAuMTE0NjkwKzAuMDA2NzM3IFxuWzhdXHR0cmFpbi1tZXJyb3I6MC4xMDEyMzgrMC4wMDE1NzZcdHRlc3QtbWVycm9yOjAuMTEzNTUyKzAuMDA2NTYzIFxuWzldXHR0cmFpbi1tZXJyb3I6MC4xMDAzMTMrMC4wMDE2MThcdHRlc3QtbWVycm9yOjAuMTEyODQwKzAuMDA1ODc1IFxuWzEwXVx0dHJhaW4tbWVycm9yOjAuMDk5MzE3KzAuMDAxNDIwXHR0ZXN0LW1lcnJvcjowLjExMzEyMyswLjAwNTcyMyBcblsxMV1cdHRyYWluLW1lcnJvcjowLjA5ODAzNyswLjAwMTU5MVx0dGVzdC1tZXJyb3I6MC4xMTM0MDkrMC4wMDYzMTggXG5bMTJdXHR0cmFpbi1tZXJyb3I6MC4wOTczOTYrMC4wMDE5MzdcdHRlc3QtbWVycm9yOjAuMTEyNjk4KzAuMDA2NjUzIFxuWzEzXVx0dHJhaW4tbWVycm9yOjAuMDk2ODI3KzAuMDAxNjMyXHR0ZXN0LW1lcnJvcjowLjExMjI3MSswLjAwNjY4MSBcblsxNF1cdHRyYWluLW1lcnJvcjowLjA5NTkzOCswLjAwMTgxMFx0dGVzdC1tZXJyb3I6MC4xMTE4NDQrMC4wMDYxNjAgXG5bMTVdXHR0cmFpbi1tZXJyb3I6MC4wOTQ4NzArMC4wMDE5NTJcdHRlc3QtbWVycm9yOjAuMTEwOTg5KzAuMDA3NTg1IFxuWzE2XVx0dHJhaW4tbWVycm9yOjAuMDk0NTUwKzAuMDAyMjU1XHR0ZXN0LW1lcnJvcjowLjExMDU2MyswLjAwNzAxMiBcblsxN11cdHRyYWluLW1lcnJvcjowLjA5MzQ4MyswLjAwMjQ0MVx0dGVzdC1tZXJyb3I6MC4xMDkxNDErMC4wMDc3NjUgXG5bMThdXHR0cmFpbi1tZXJyb3I6MC4wOTI3MDErMC4wMDIxNzVcdHRlc3QtbWVycm9yOjAuMTA4OTk5KzAuMDA3NTk1IFxuWzE5XVx0dHJhaW4tbWVycm9yOjAuMDkxNjY5KzAuMDAyMjk3XHR0ZXN0LW1lcnJvcjowLjEwODU3MiswLjAwNzM2OCBcblsyMF1cdHRyYWluLW1lcnJvcjowLjA5MDg1MSswLjAwMjUxMlx0dGVzdC1tZXJyb3I6MC4xMDgyODgrMC4wMDc1NzcgXG5bMjFdXHR0cmFpbi1tZXJyb3I6MC4wODk0MjgrMC4wMDIxNjhcdHRlc3QtbWVycm9yOjAuMTA3NTc3KzAuMDA3MDI1IFxuWzIyXVx0dHJhaW4tbWVycm9yOjAuMDg4NTM5KzAuMDAyMTIxXHR0ZXN0LW1lcnJvcjowLjEwNjg2NCswLjAwNTgzNSBcblsyM11cdHRyYWluLW1lcnJvcjowLjA4Nzc5MiswLjAwMTgzNFx0dGVzdC1tZXJyb3I6MC4xMDY1ODArMC4wMDU4NjYgXG5bMjRdXHR0cmFpbi1tZXJyb3I6MC4wODcwODArMC4wMDEyMjZcdHRlc3QtbWVycm9yOjAuMTA2MDExKzAuMDA1NjAwIFxuWzI1XVx0dHJhaW4tbWVycm9yOjAuMDg2MzY5KzAuMDAxMjYzXHR0ZXN0LW1lcnJvcjowLjEwNTAxNCswLjAwNTE2MyBcblsyNl1cdHRyYWluLW1lcnJvcjowLjA4NTYyMiswLjAwMTM1NFx0dGVzdC1tZXJyb3I6MC4xMDUxNTYrMC4wMDUzMDQgXG5bMjddXHR0cmFpbi1tZXJyb3I6MC4wODQ5MTErMC4wMDE3ODZcdHRlc3QtbWVycm9yOjAuMTA0NzI5KzAuMDA1NTIyIFxuWzI4XVx0dHJhaW4tbWVycm9yOjAuMDg0MjcwKzAuMDAxNTYzXHR0ZXN0LW1lcnJvcjowLjEwNDQ0NSswLjAwNjA1MiBcblsyOV1cdHRyYWluLW1lcnJvcjowLjA4MzY2NSswLjAwMTYyMFx0dGVzdC1tZXJyb3I6MC4xMDM1OTErMC4wMDYzMTIgXG5bMzBdXHR0cmFpbi1tZXJyb3I6MC4wODMxNjcrMC4wMDE2NjdcdHRlc3QtbWVycm9yOjAuMTAzMzA3KzAuMDA2MzE1IFxuWzMxXVx0dHJhaW4tbWVycm9yOjAuMDgyNDIwKzAuMDAxNTg5XHR0ZXN0LW1lcnJvcjowLjEwMjczNyswLjAwNTgxMiBcblszMl1cdHRyYWluLW1lcnJvcjowLjA4MTY3MyswLjAwMTg0Mlx0dGVzdC1tZXJyb3I6MC4xMDIxNjgrMC4wMDU4NDkgXG5bMzNdXHR0cmFpbi1tZXJyb3I6MC4wODE1NjcrMC4wMDE2MDlcdHRlc3QtbWVycm9yOjAuMTAyNDU0KzAuMDA2NzI5IFxuWzM0XVx0dHJhaW4tbWVycm9yOjAuMDgwNjQyKzAuMDAxNTczXHR0ZXN0LW1lcnJvcjowLjEwMjE2OSswLjAwNTc2NSBcblszNV1cdHRyYWluLW1lcnJvcjowLjA3OTkzMCswLjAwMTY1OFx0dGVzdC1tZXJyb3I6MC4xMDIwMjYrMC4wMDYwOTAgXG5bMzZdXHR0cmFpbi1tZXJyb3I6MC4wNzkzMjYrMC4wMDE2NjJcdHRlc3QtbWVycm9yOjAuMTAxNDU4KzAuMDA3MjYyIFxuWzM3XVx0dHJhaW4tbWVycm9yOjAuMDc4ODk5KzAuMDAxNDcyXHR0ZXN0LW1lcnJvcjowLjEwMTAzMSswLjAwNzAwMSBcblszOF1cdHRyYWluLW1lcnJvcjowLjA3ODExNiswLjAwMTM5MFx0dGVzdC1tZXJyb3I6MC4xMDE2MDArMC4wMDcxMzAgXG5bMzldXHR0cmFpbi1tZXJyb3I6MC4wNzc0NDArMC4wMDE1MDdcdHRlc3QtbWVycm9yOjAuMTAwODkwKzAuMDA3NjYxIFxuWzQwXVx0dHJhaW4tbWVycm9yOjAuMDc2NjU4KzAuMDAxNDIzXHR0ZXN0LW1lcnJvcjowLjEwMTE3NCswLjAwNzc5OSBcbls0MV1cdHRyYWluLW1lcnJvcjowLjA3NjM3MyswLjAwMTY5MVx0dGVzdC1tZXJyb3I6MC4xMDExNzMrMC4wMDc3NTEgXG5bNDJdXHR0cmFpbi1tZXJyb3I6MC4wNzU5MTErMC4wMDE3NDRcdHRlc3QtbWVycm9yOjAuMTAwNjA0KzAuMDA3NzA0IFxuWzQzXVx0dHJhaW4tbWVycm9yOjAuMDc1Mzc3KzAuMDAxODM4XHR0ZXN0LW1lcnJvcjowLjEwMDc0NyswLjAwNzYwMCBcbls0NF1cdHRyYWluLW1lcnJvcjowLjA3NTEyOCswLjAwMTc1Mlx0dGVzdC1tZXJyb3I6MC4xMDAzMTkrMC4wMDczMjQgXG5bNDVdXHR0cmFpbi1tZXJyb3I6MC4wNzQ2NjUrMC4wMDE5MjJcdHRlc3QtbWVycm9yOjAuMTAwMzE5KzAuMDA3Mzc4IFxuWzQ2XVx0dHJhaW4tbWVycm9yOjAuMDc0MDYxKzAuMDAxODk4XHR0ZXN0LW1lcnJvcjowLjEwMDQ2MSswLjAwNzI2NiBcbls0N11cdHRyYWluLW1lcnJvcjowLjA3Mjk5NCswLjAwMTY2N1x0dGVzdC1tZXJyb3I6MC4wOTk4OTIrMC4wMDcwODcgXG5bNDhdXHR0cmFpbi1tZXJyb3I6MC4wNzI2MDIrMC4wMDE1NjRcdHRlc3QtbWVycm9yOjAuMTAwMzE4KzAuMDA2NDU4IFxuWzQ5XVx0dHJhaW4tbWVycm9yOjAuMDcxNzQ5KzAuMDAxNTcyXHR0ZXN0LW1lcnJvcjowLjEwMDE3NiswLjAwNzIxMyBcbls1MF1cdHRyYWluLW1lcnJvcjowLjA3MDg5NSswLjAwMTY3MVx0dGVzdC1tZXJyb3I6MC4wOTk3NTArMC4wMDc0MDYgXG5bNTFdXHR0cmFpbi1tZXJyb3I6MC4wNzAzNjIrMC4wMDE1OTFcdHRlc3QtbWVycm9yOjAuMDk5NDY1KzAuMDA2OTYxIFxuWzUyXVx0dHJhaW4tbWVycm9yOjAuMDY5ODY0KzAuMDAxNDI4XHR0ZXN0LW1lcnJvcjowLjA5OTQ2NSswLjAwNzI1OCBcbls1M11cdHRyYWluLW1lcnJvcjowLjA2OTUwOCswLjAwMTYxNVx0dGVzdC1tZXJyb3I6MC4wOTkxODArMC4wMDY4MTIgXG5bNTRdXHR0cmFpbi1tZXJyb3I6MC4wNjg2OTArMC4wMDE2NDVcdHRlc3QtbWVycm9yOjAuMDk4NzU0KzAuMDA3MjU4IFxuWzU1XVx0dHJhaW4tbWVycm9yOjAuMDY4MjI3KzAuMDAxNjgyXHR0ZXN0LW1lcnJvcjowLjA5OTQ2NCswLjAwNjUwOCBcbls1Nl1cdHRyYWluLW1lcnJvcjowLjA2Nzc2NSswLjAwMTc3OVx0dGVzdC1tZXJyb3I6MC4wOTk3NTArMC4wMDY1OTUgXG5bNTddXHR0cmFpbi1tZXJyb3I6MC4wNjcxOTYrMC4wMDE2NzJcdHRlc3QtbWVycm9yOjAuMDk5NjA3KzAuMDA2NjQ5IFxuWzU4XVx0dHJhaW4tbWVycm9yOjAuMDY2NzY5KzAuMDAxNTM4XHR0ZXN0LW1lcnJvcjowLjA5OTMyMyswLjAwNjkxMyBcbls1OV1cdHRyYWluLW1lcnJvcjowLjA2NjM0MiswLjAwMTQ4MVx0dGVzdC1tZXJyb3I6MC4wOTkwMzgrMC4wMDczNDkgXG5TdG9wcGluZy4gQmVzdCBpdGVyYXRpb246XG5bNTRdXHR0cmFpbi1tZXJyb3I6MC4wNjg2OTArMC4wMDE2NDVcdHRlc3QtbWVycm9yOjAuMDk4NzU0KzAuMDA3MjU4XG4ifQ== -->
+<pre><code>Computation with (1,0.1) 
+[1] train-merror:0.167117+0.008064  test-merror:0.172744+0.012918 
+Multiple eval metrics are present. Will use test_merror for early stopping.
+Will train until test_merror hasn&#39;t improved in 5 rounds.
+
+[2] train-merror:0.149047+0.001238  test-merror:0.149120+0.006875 
+[3] train-merror:0.148229+0.001384  test-merror:0.148265+0.007988 
+[4] train-merror:0.147979+0.001379  test-merror:0.148265+0.007424 
+[5] train-merror:0.146806+0.000668  test-merror:0.148265+0.008929 
+[6] train-merror:0.146770+0.002784  test-merror:0.147980+0.007860 
+[7] train-merror:0.145810+0.001770  test-merror:0.146272+0.007510 
+[8] train-merror:0.146058+0.001928  test-merror:0.146699+0.007414 
+[9] train-merror:0.141434+0.001964  test-merror:0.143142+0.007983 
+[10]    train-merror:0.139300+0.003083  test-merror:0.142146+0.008121 
+[11]    train-merror:0.134640+0.003550  test-merror:0.136597+0.009489 
+[12]    train-merror:0.133324+0.002871  test-merror:0.136028+0.008723 
+[13]    train-merror:0.130656+0.002331  test-merror:0.131189+0.010494 
+[14]    train-merror:0.129055+0.002587  test-merror:0.129909+0.008606 
+[15]    train-merror:0.127526+0.002662  test-merror:0.128344+0.008009 
+[16]    train-merror:0.126530+0.001893  test-merror:0.127205+0.009089 
+[17]    train-merror:0.125000+0.002293  test-merror:0.125640+0.008771 
+[18]    train-merror:0.124751+0.002313  test-merror:0.125640+0.007755 
+[19]    train-merror:0.124004+0.002099  test-merror:0.125355+0.007293 
+[20]    train-merror:0.122546+0.002568  test-merror:0.124644+0.008648 
+[21]    train-merror:0.121727+0.001827  test-merror:0.122795+0.008520 
+[22]    train-merror:0.120838+0.001369  test-merror:0.122225+0.009147 
+[23]    train-merror:0.120518+0.001757  test-merror:0.121941+0.008940 
+[24]    train-merror:0.119593+0.002486  test-merror:0.120803+0.007126 
+[25]    train-merror:0.118597+0.002441  test-merror:0.119807+0.007211 
+[26]    train-merror:0.118277+0.002455  test-merror:0.119095+0.006807 
+[27]    train-merror:0.118064+0.002591  test-merror:0.120233+0.006672 
+[28]    train-merror:0.117708+0.002626  test-merror:0.119522+0.006366 
+[29]    train-merror:0.117459+0.002215  test-merror:0.119095+0.006623 
+[30]    train-merror:0.116712+0.002051  test-merror:0.118811+0.006241 
+[31]    train-merror:0.116498+0.002085  test-merror:0.118384+0.006349 
+[32]    train-merror:0.115645+0.002296  test-merror:0.117673+0.006337 
+[33]    train-merror:0.115538+0.001804  test-merror:0.117815+0.006154 
+[34]    train-merror:0.114755+0.001973  test-merror:0.117103+0.006068 
+[35]    train-merror:0.114756+0.002331  test-merror:0.117673+0.006093 
+[36]    train-merror:0.114186+0.002295  test-merror:0.117673+0.005708 
+[37]    train-merror:0.113866+0.001654  test-merror:0.117104+0.005971 
+[38]    train-merror:0.113297+0.001919  test-merror:0.116534+0.005903 
+[39]    train-merror:0.112763+0.001254  test-merror:0.117103+0.005577 
+[40]    train-merror:0.112052+0.001791  test-merror:0.116107+0.005544 
+[41]    train-merror:0.111447+0.002052  test-merror:0.116391+0.005921 
+[42]    train-merror:0.110842+0.002069  test-merror:0.115680+0.005886 
+[43]    train-merror:0.110700+0.001976  test-merror:0.115537+0.005866 
+[44]    train-merror:0.110238+0.001519  test-merror:0.115680+0.006362 
+[45]    train-merror:0.109882+0.001853  test-merror:0.115395+0.005850 
+[46]    train-merror:0.109740+0.001686  test-merror:0.115253+0.006589 
+[47]    train-merror:0.109206+0.001724  test-merror:0.115538+0.006209 
+[48]    train-merror:0.108779+0.001586  test-merror:0.114826+0.006322 
+[49]    train-merror:0.108423+0.001719  test-merror:0.114399+0.006792 
+[50]    train-merror:0.108103+0.001571  test-merror:0.113688+0.006340 
+[51]    train-merror:0.107712+0.001279  test-merror:0.113404+0.006313 
+[52]    train-merror:0.107427+0.001451  test-merror:0.112977+0.006133 
+[53]    train-merror:0.107499+0.001435  test-merror:0.113404+0.006522 
+[54]    train-merror:0.107107+0.001404  test-merror:0.112835+0.005970 
+[55]    train-merror:0.106609+0.001377  test-merror:0.112124+0.006606 
+[56]    train-merror:0.106680+0.001395  test-merror:0.112266+0.006824 
+[57]    train-merror:0.106325+0.001355  test-merror:0.111697+0.006869 
+[58]    train-merror:0.105898+0.001421  test-merror:0.111270+0.006425 
+[59]    train-merror:0.105578+0.001455  test-merror:0.110416+0.005948 
+[60]    train-merror:0.105222+0.001362  test-merror:0.109989+0.005942 
+[61]    train-merror:0.104653+0.001412  test-merror:0.110131+0.006691 
+[62]    train-merror:0.103835+0.001512  test-merror:0.108850+0.006434 
+[63]    train-merror:0.104048+0.001202  test-merror:0.108850+0.006434 
+[64]    train-merror:0.103977+0.001088  test-merror:0.108850+0.006095 
+[65]    train-merror:0.103835+0.000999  test-merror:0.108423+0.006465 
+[66]    train-merror:0.103194+0.001303  test-merror:0.107996+0.006089 
+[67]    train-merror:0.102696+0.001076  test-merror:0.107854+0.005925 
+[68]    train-merror:0.102768+0.000876  test-merror:0.108281+0.006412 
+[69]    train-merror:0.102412+0.000998  test-merror:0.108139+0.006726 
+[70]    train-merror:0.102021+0.000897  test-merror:0.107854+0.006926 
+[71]    train-merror:0.101665+0.001073  test-merror:0.107142+0.006597 
+[72]    train-merror:0.101558+0.001250  test-merror:0.107142+0.006398 
+[73]    train-merror:0.101451+0.001209  test-merror:0.107284+0.006550 
+[74]    train-merror:0.101131+0.001506  test-merror:0.106858+0.006857 
+[75]    train-merror:0.101024+0.001640  test-merror:0.106431+0.006107 
+[76]    train-merror:0.100811+0.001735  test-merror:0.105578+0.006127 
+[77]    train-merror:0.100740+0.001638  test-merror:0.105862+0.006911 
+[78]    train-merror:0.100242+0.001472  test-merror:0.105151+0.006781 
+[79]    train-merror:0.100064+0.001510  test-merror:0.105293+0.006465 
+[80]    train-merror:0.100064+0.001523  test-merror:0.105151+0.006642 
+[81]    train-merror:0.099744+0.001600  test-merror:0.105435+0.006701 
+[82]    train-merror:0.099779+0.001527  test-merror:0.105293+0.007009 
+[83]    train-merror:0.099530+0.001581  test-merror:0.105293+0.006860 
+[84]    train-merror:0.099424+0.001849  test-merror:0.105293+0.006980 
+[85]    train-merror:0.099495+0.002071  test-merror:0.105008+0.006736 
+[86]    train-merror:0.099281+0.002044  test-merror:0.104866+0.007100 
+[87]    train-merror:0.099317+0.002478  test-merror:0.104581+0.007287 
+[88]    train-merror:0.098961+0.002286  test-merror:0.105009+0.006873 
+[89]    train-merror:0.098748+0.002248  test-merror:0.104439+0.006805 
+[90]    train-merror:0.098641+0.002356  test-merror:0.104724+0.007095 
+[91]    train-merror:0.098428+0.002246  test-merror:0.104297+0.007431 
+[92]    train-merror:0.098285+0.002478  test-merror:0.104581+0.007144 
+[93]    train-merror:0.098108+0.002303  test-merror:0.104154+0.007252 
+[94]    train-merror:0.097788+0.002349  test-merror:0.104155+0.007057 
+[95]    train-merror:0.097716+0.002250  test-merror:0.103727+0.007096 
+[96]    train-merror:0.097467+0.002484  test-merror:0.104296+0.007471 
+[97]    train-merror:0.097503+0.002396  test-merror:0.103870+0.007449 
+[98]    train-merror:0.097539+0.002264  test-merror:0.103585+0.007417 
+[99]    train-merror:0.097218+0.002362  test-merror:0.103727+0.007589 
+[100]   train-merror:0.097325+0.002377  test-merror:0.103158+0.007231 
+[101]   train-merror:0.097112+0.002252  test-merror:0.103301+0.007109 
+[102]   train-merror:0.096863+0.002177  test-merror:0.103443+0.007072 
+[103]   train-merror:0.096613+0.002139  test-merror:0.103159+0.007359 
+[104]   train-merror:0.096578+0.002049  test-merror:0.103159+0.007498 
+[105]   train-merror:0.096436+0.002166  test-merror:0.103016+0.007514 
+[106]   train-merror:0.096293+0.002007  test-merror:0.102874+0.007677 
+[107]   train-merror:0.096116+0.001863  test-merror:0.102732+0.007998 
+[108]   train-merror:0.096080+0.001979  test-merror:0.102162+0.007975 
+[109]   train-merror:0.095831+0.002064  test-merror:0.102732+0.007688 
+[110]   train-merror:0.095511+0.002194  test-merror:0.102447+0.007979 
+[111]   train-merror:0.095440+0.002161  test-merror:0.102163+0.007811 
+[112]   train-merror:0.095440+0.002095  test-merror:0.102305+0.007979 
+[113]   train-merror:0.095226+0.002003  test-merror:0.102305+0.007979 
+Stopping. Best iteration:
+[108]   train-merror:0.096080+0.001979  test-merror:0.102162+0.007975
+
+Computation with (2,0.1) 
+[1] train-merror:0.134284+0.002734  test-merror:0.140439+0.002010 
+Multiple eval metrics are present. Will use test_merror for early stopping.
+Will train until test_merror hasn&#39;t improved in 5 rounds.
+
+[2] train-merror:0.129269+0.003594  test-merror:0.137023+0.003976 
+[3] train-merror:0.127063+0.003038  test-merror:0.133041+0.003862 
+[4] train-merror:0.125747+0.002409  test-merror:0.133040+0.003653 
+[5] train-merror:0.123933+0.002829  test-merror:0.129339+0.002428 
+[6] train-merror:0.121550+0.002980  test-merror:0.127348+0.001944 
+[7] train-merror:0.120874+0.003168  test-merror:0.127205+0.002360 
+[8] train-merror:0.119131+0.002574  test-merror:0.125924+0.001435 
+[9] train-merror:0.118135+0.002344  test-merror:0.124645+0.002473 
+[10]    train-merror:0.116819+0.002106  test-merror:0.124218+0.002437 
+[11]    train-merror:0.115645+0.001308  test-merror:0.122369+0.002994 
+[12]    train-merror:0.114222+0.001604  test-merror:0.121373+0.002378 
+[13]    train-merror:0.113084+0.001431  test-merror:0.119096+0.002467 
+[14]    train-merror:0.111767+0.001231  test-merror:0.117105+0.002970 
+[15]    train-merror:0.111198+0.001418  test-merror:0.117247+0.002897 
+[16]    train-merror:0.110522+0.001274  test-merror:0.116109+0.003062 
+[17]    train-merror:0.109242+0.001588  test-merror:0.116251+0.002382 
+[18]    train-merror:0.108246+0.001485  test-merror:0.115540+0.003235 
+[19]    train-merror:0.107570+0.001780  test-merror:0.114686+0.003597 
+[20]    train-merror:0.107001+0.002156  test-merror:0.113121+0.002656 
+[21]    train-merror:0.106040+0.001834  test-merror:0.112979+0.003328 
+[22]    train-merror:0.105649+0.001840  test-merror:0.111982+0.002860 
+[23]    train-merror:0.104475+0.001914  test-merror:0.111840+0.002517 
+[24]    train-merror:0.103408+0.001680  test-merror:0.110276+0.003993 
+[25]    train-merror:0.102946+0.001788  test-merror:0.110561+0.004400 
+[26]    train-merror:0.102092+0.001917  test-merror:0.108853+0.003909 
+[27]    train-merror:0.100740+0.001801  test-merror:0.108853+0.003529 
+[28]    train-merror:0.100135+0.002024  test-merror:0.108853+0.003642 
+[29]    train-merror:0.099317+0.002259  test-merror:0.106861+0.004009 
+[30]    train-merror:0.098464+0.002607  test-merror:0.106577+0.004826 
+[31]    train-merror:0.097752+0.002795  test-merror:0.106435+0.004543 
+[32]    train-merror:0.097610+0.002609  test-merror:0.105865+0.004157 
+[33]    train-merror:0.097005+0.002730  test-merror:0.105438+0.004201 
+[34]    train-merror:0.096614+0.002704  test-merror:0.105011+0.004422 
+[35]    train-merror:0.095796+0.002517  test-merror:0.104301+0.005461 
+[36]    train-merror:0.095582+0.002720  test-merror:0.104443+0.005677 
+[37]    train-merror:0.095191+0.002616  test-merror:0.105154+0.005803 
+[38]    train-merror:0.094587+0.002387  test-merror:0.104728+0.006029 
+[39]    train-merror:0.094053+0.002489  test-merror:0.104016+0.005715 
+[40]    train-merror:0.093554+0.002307  test-merror:0.103874+0.005797 
+[41]    train-merror:0.093234+0.002270  test-merror:0.103447+0.005131 
+[42]    train-merror:0.093021+0.002232  test-merror:0.103589+0.005210 
+[43]    train-merror:0.092737+0.002244  test-merror:0.102736+0.005010 
+[44]    train-merror:0.092381+0.002146  test-merror:0.103163+0.005636 
+[45]    train-merror:0.091705+0.002314  test-merror:0.103020+0.005305 
+[46]    train-merror:0.091421+0.002533  test-merror:0.103305+0.005660 
+[47]    train-merror:0.091065+0.002538  test-merror:0.103021+0.006245 
+[48]    train-merror:0.090318+0.002322  test-merror:0.103163+0.006619 
+Stopping. Best iteration:
+[43]    train-merror:0.092737+0.002244  test-merror:0.102736+0.005010
+
+Computation with (3,0.1) 
+[1] train-merror:0.113653+0.002873  test-merror:0.122657+0.006746 
+Multiple eval metrics are present. Will use test_merror for early stopping.
+Will train until test_merror hasn&#39;t improved in 5 rounds.
+
+[2] train-merror:0.110380+0.001876  test-merror:0.122233+0.006802 
+[3] train-merror:0.107926+0.003337  test-merror:0.119387+0.007224 
+[4] train-merror:0.106147+0.003352  test-merror:0.117396+0.007623 
+[5] train-merror:0.104831+0.002683  test-merror:0.117539+0.009204 
+[6] train-merror:0.103195+0.002551  test-merror:0.115686+0.006939 
+[7] train-merror:0.101914+0.001950  test-merror:0.114690+0.006737 
+[8] train-merror:0.101238+0.001576  test-merror:0.113552+0.006563 
+[9] train-merror:0.100313+0.001618  test-merror:0.112840+0.005875 
+[10]    train-merror:0.099317+0.001420  test-merror:0.113123+0.005723 
+[11]    train-merror:0.098037+0.001591  test-merror:0.113409+0.006318 
+[12]    train-merror:0.097396+0.001937  test-merror:0.112698+0.006653 
+[13]    train-merror:0.096827+0.001632  test-merror:0.112271+0.006681 
+[14]    train-merror:0.095938+0.001810  test-merror:0.111844+0.006160 
+[15]    train-merror:0.094870+0.001952  test-merror:0.110989+0.007585 
+[16]    train-merror:0.094550+0.002255  test-merror:0.110563+0.007012 
+[17]    train-merror:0.093483+0.002441  test-merror:0.109141+0.007765 
+[18]    train-merror:0.092701+0.002175  test-merror:0.108999+0.007595 
+[19]    train-merror:0.091669+0.002297  test-merror:0.108572+0.007368 
+[20]    train-merror:0.090851+0.002512  test-merror:0.108288+0.007577 
+[21]    train-merror:0.089428+0.002168  test-merror:0.107577+0.007025 
+[22]    train-merror:0.088539+0.002121  test-merror:0.106864+0.005835 
+[23]    train-merror:0.087792+0.001834  test-merror:0.106580+0.005866 
+[24]    train-merror:0.087080+0.001226  test-merror:0.106011+0.005600 
+[25]    train-merror:0.086369+0.001263  test-merror:0.105014+0.005163 
+[26]    train-merror:0.085622+0.001354  test-merror:0.105156+0.005304 
+[27]    train-merror:0.084911+0.001786  test-merror:0.104729+0.005522 
+[28]    train-merror:0.084270+0.001563  test-merror:0.104445+0.006052 
+[29]    train-merror:0.083665+0.001620  test-merror:0.103591+0.006312 
+[30]    train-merror:0.083167+0.001667  test-merror:0.103307+0.006315 
+[31]    train-merror:0.082420+0.001589  test-merror:0.102737+0.005812 
+[32]    train-merror:0.081673+0.001842  test-merror:0.102168+0.005849 
+[33]    train-merror:0.081567+0.001609  test-merror:0.102454+0.006729 
+[34]    train-merror:0.080642+0.001573  test-merror:0.102169+0.005765 
+[35]    train-merror:0.079930+0.001658  test-merror:0.102026+0.006090 
+[36]    train-merror:0.079326+0.001662  test-merror:0.101458+0.007262 
+[37]    train-merror:0.078899+0.001472  test-merror:0.101031+0.007001 
+[38]    train-merror:0.078116+0.001390  test-merror:0.101600+0.007130 
+[39]    train-merror:0.077440+0.001507  test-merror:0.100890+0.007661 
+[40]    train-merror:0.076658+0.001423  test-merror:0.101174+0.007799 
+[41]    train-merror:0.076373+0.001691  test-merror:0.101173+0.007751 
+[42]    train-merror:0.075911+0.001744  test-merror:0.100604+0.007704 
+[43]    train-merror:0.075377+0.001838  test-merror:0.100747+0.007600 
+[44]    train-merror:0.075128+0.001752  test-merror:0.100319+0.007324 
+[45]    train-merror:0.074665+0.001922  test-merror:0.100319+0.007378 
+[46]    train-merror:0.074061+0.001898  test-merror:0.100461+0.007266 
+[47]    train-merror:0.072994+0.001667  test-merror:0.099892+0.007087 
+[48]    train-merror:0.072602+0.001564  test-merror:0.100318+0.006458 
+[49]    train-merror:0.071749+0.001572  test-merror:0.100176+0.007213 
+[50]    train-merror:0.070895+0.001671  test-merror:0.099750+0.007406 
+[51]    train-merror:0.070362+0.001591  test-merror:0.099465+0.006961 
+[52]    train-merror:0.069864+0.001428  test-merror:0.099465+0.007258 
+[53]    train-merror:0.069508+0.001615  test-merror:0.099180+0.006812 
+[54]    train-merror:0.068690+0.001645  test-merror:0.098754+0.007258 
+[55]    train-merror:0.068227+0.001682  test-merror:0.099464+0.006508 
+[56]    train-merror:0.067765+0.001779  test-merror:0.099750+0.006595 
+[57]    train-merror:0.067196+0.001672  test-merror:0.099607+0.006649 
+[58]    train-merror:0.066769+0.001538  test-merror:0.099323+0.006913 
+[59]    train-merror:0.066342+0.001481  test-merror:0.099038+0.007349 
+Stopping. Best iteration:
+[54]    train-merror:0.068690+0.001645  test-merror:0.098754+0.007258</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<p>Now that we have our best performing combination of hyperparameters, we can now apply it to the full training set.</p>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYmFzZSA8LSB4Z2Jvb3N0KGRhdGE9YXMubWF0cml4KGR2KSxcbiAgICAgICAgICAgICAgICBsYWJlbD1hcy5tYXRyaXgoYXMubnVtZXJpYyh0cmFpbmluZyR2b3RlaW50ZW50aW9uKSAtIDEpLFxuICAgICAgICAgICAgICAgIG50aHJlYWQ9NCxcbiAgICAgICAgICAgICAgICBwYXJhbXM9YmVzdF9wYXJhbSxcbiAgICAgICAgICAgICAgICBucm91bmRzPWJlc3RfaW5kZXgsXG4gICAgICAgICAgICAgICAgb2JqZWN0aXZlPVwibXVsdGk6c29mdG1heFwiLFxuICAgICAgICAgICAgICAgIG51bV9jbGFzcz0xMixcbiAgICAgICAgICAgICAgICB2ZXJib3NlPUZBTFNFKSJ9 -->
+<pre class="r"><code>base &lt;- xgboost(data=as.matrix(dv),
+                label=as.matrix(as.numeric(training$voteintention) - 1),
+                nthread=4,
+                params=best_param,
+                nrounds=best_index,
+                objective=&quot;multi:softmax&quot;,
+                num_class=12,
+                verbose=FALSE)</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
-<p>At this point we probably want to perform the same sanity checks as in the pseudo-inclusion approach, to make sure that the model balances correctly on the covariates that we are interested in.</p>
-<p>Whenever we are satisfied with the approach, we can then follow the same strategy as before:</p>
+<p>From this model we could try to say something about performance and how well it works. However, that’s not a good idea. Instead we are going to evaluate the performance of the model using the data that we set aside.</p>
 <!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjpbInd3IDwtIG91dCR3ZWlnaHRzW2NvbWJpbmVkJHkgPT0gMV0iLCJ3dyA8LSB3dy9tZWFuKHd3KSIsIiIsInByb3AudGFibGUoeHRhYnMod3cgfiBmYWdlLCBkYXRhPXdzKSkiLCJwcm9wLnRhYmxlKHh0YWJzKCAgICAgICB+IGZhZ2UsIGRhdGE9ZnJhbWUpKSIsInByb3AudGFibGUoeHRhYnMoICAgICAgIH4gZmFnZSwgZGF0YT13cykpIl19 -->
-<pre class="r"><code>ww &lt;- out$weights[combined$y == 1]
-ww &lt;- ww/mean(ww)
-
-prop.table(xtabs(ww ~ fage, data=ws))
-prop.table(xtabs(       ~ fage, data=frame))
-prop.table(xtabs(       ~ fage, data=ws))</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
-<p>However, it is important to keep in mind that matching is still a sort of model and that, therefore, it will only fix the issues that we tell it to fix.</p>
+<p>The easiest way to make this evaluation is through the confusion matrix: a comparison between the predictions we made and the known responses. We can characterize the confusion matrix in different ways, and <code>caret::confusionMatrix</code> offers many of the common statistics.</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjpbIiMjIEJ1dCBjYXJlZnVsISIsInByb3AudGFibGUoeHRhYnMod3cgfiBmYWdlICsgZmVkdWMsIGRhdGE9d3MpKSIsInByb3AudGFibGUoeHRhYnMoICAgfiBmYWdlICsgZmVkdWMsIGRhdGE9ZnJhbWUpKSAiXX0= -->
-<pre class="r"><code>## But careful!
-prop.table(xtabs(ww ~ fage + feduc, data=ws))
-prop.table(xtabs(   ~ fage + feduc, data=frame)) </code></pre>
+<!-- rnb-source-begin eyJkYXRhIjpbImNtIDwtIGNvbmZ1c2lvbk1hdHJpeChkYXRhPWZhY3RvcihwcmVkaWN0KGJhc2UsIGFzLm1hdHJpeChkdikpLCBsYWJlbHM9bGV2KSxcbiAgICAgICAgICAgICAgICAgICAgICByZWZlcmVuY2U9dGVzdGluZyR2b3RlaW50ZW50aW9uKSIsInByaW50KGNtKSJdfQ== -->
+<pre class="r"><code>cm &lt;- confusionMatrix(data=factor(predict(base, as.matrix(dv)), labels=lev),
+                      reference=testing$voteintention)
+print(cm)</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-</div>
-</div>
+<!-- rnb-output-begin eyJkYXRhIjoiQ29uZnVzaW9uIE1hdHJpeCBhbmQgU3RhdGlzdGljc1xuXG4gICAgICAgICAgICBSZWZlcmVuY2VcblByZWRpY3Rpb24gICBiaWxkdSBjaXVkYWRhbm9zIGVyYyAgaXUgb3RoZXIgcGRlY2F0IHBudiBwb2RlbW9zICBwcCBwc29lXG4gIGJpbGR1ICAgICAgICAgMzAgICAgICAgICAgMCAgIDAgICAwICAgICAwICAgICAgMCAgIDAgICAgICAgMCAgIDAgICAgMFxuICBjaXVkYWRhbm9zICAgICAwICAgICAgICAyMjQgICAwICAgMCAgICAgMyAgICAgIDAgICAwICAgICAgIDEgICA1ICAgIDJcbiAgZXJjICAgICAgICAgICAgMCAgICAgICAgICAwICA2MCAgIDAgICAgIDMgICAgICAzICAgMCAgICAgICAwICAgMCAgICAxXG4gIGl1ICAgICAgICAgICAgIDAgICAgICAgICAgMCAgIDAgIDI2ICAgICAxICAgICAgMCAgIDAgICAgICAgNSAgIDAgICAgMFxuICBvdGhlciAgICAgICAgICAwICAgICAgICAgIDkgICAwICAgNSAgIDExMSAgICAgIDEgICAxICAgICAgIDAgICAzICAgIDhcbiAgcGRlY2F0ICAgICAgICAgMCAgICAgICAgICAwICAgMSAgIDAgICAgIDIgICAgIDE2ICAgMCAgICAgICAwICAgMCAgICAwXG4gIHBudiAgICAgICAgICAgIDAgICAgICAgICAgMCAgIDAgICAwICAgICAxICAgICAgMCAgMjUgICAgICAgMSAgIDAgICAgMVxuICBwb2RlbW9zICAgICAgICAyICAgICAgICAgIDAgICAxICAgOCAgICAgMiAgICAgIDAgICAwICAgICAxMDcgICAwICAgIDlcbiAgcHAgICAgICAgICAgICAgMCAgICAgICAgICA4ICAgMCAgIDAgICAgIDggICAgICAwICAgMCAgICAgICAwIDMwNyAgICAyXG4gIHBzb2UgICAgICAgICAgIDAgICAgICAgICAgMSAgIDYgICA2ICAgIDExICAgICAgMSAgIDEgICAgICAgOSAgIDEgIDU3NlxuICB2b3ggICAgICAgICAgICAwICAgICAgICAgIDMgICAwICAgMCAgICAgMyAgICAgIDAgICAwICAgICAgIDEgICAzICAgIDFcbiAgICAgICAgICAgIFJlZmVyZW5jZVxuUHJlZGljdGlvbiAgIHZveFxuICBiaWxkdSAgICAgICAgMFxuICBjaXVkYWRhbm9zICAgNFxuICBlcmMgICAgICAgICAgMFxuICBpdSAgICAgICAgICAgMFxuICBvdGhlciAgICAgICAgM1xuICBwZGVjYXQgICAgICAgMFxuICBwbnYgICAgICAgICAgMFxuICBwb2RlbW9zICAgICAgMFxuICBwcCAgICAgICAgICAgOVxuICBwc29lICAgICAgICAgMVxuICB2b3ggICAgICAgIDExNVxuXG5PdmVyYWxsIFN0YXRpc3RpY3NcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgIEFjY3VyYWN5IDogMC45MDggICAgICAgICBcbiAgICAgICAgICAgICAgICAgOTUlIENJIDogKDAuODk0LCAwLjkyMSlcbiAgICBObyBJbmZvcm1hdGlvbiBSYXRlIDogMC4zNDEgICAgICAgICBcbiAgICBQLVZhbHVlIFtBY2MgPiBOSVJdIDogPDJlLTE2ICAgICAgICBcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICAgIEthcHBhIDogMC44ODcgICAgICAgICBcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiBNY25lbWFyJ3MgVGVzdCBQLVZhbHVlIDogTkEgICAgICAgICAgICBcblxuU3RhdGlzdGljcyBieSBDbGFzczpcblxuICAgICAgICAgICAgICAgICAgICAgQ2xhc3M6IGJpbGR1IENsYXNzOiBjaXVkYWRhbm9zIENsYXNzOiBlcmMgQ2xhc3M6IGl1XG5TZW5zaXRpdml0eSAgICAgICAgICAgICAgICAwLjkzNzUgICAgICAgICAgICAgMC45MTQgICAgIDAuODgyNCAgICAwLjU3NzhcblNwZWNpZmljaXR5ICAgICAgICAgICAgICAgIDEuMDAwMCAgICAgICAgICAgICAwLjk5MCAgICAgMC45OTU5ICAgIDAuOTk2NVxuUG9zIFByZWQgVmFsdWUgICAgICAgICAgICAgMS4wMDAwICAgICAgICAgICAgIDAuOTM3ICAgICAwLjg5NTUgICAgMC44MTI1XG5OZWcgUHJlZCBWYWx1ZSAgICAgICAgICAgICAwLjk5ODggICAgICAgICAgICAgMC45ODYgICAgIDAuOTk1MyAgICAwLjk4OTBcblByZXZhbGVuY2UgICAgICAgICAgICAgICAgIDAuMDE4MiAgICAgICAgICAgICAwLjEzOSAgICAgMC4wMzg3ICAgIDAuMDI1NlxuRGV0ZWN0aW9uIFJhdGUgICAgICAgICAgICAgMC4wMTcxICAgICAgICAgICAgIDAuMTI3ICAgICAwLjAzNDEgICAgMC4wMTQ4XG5EZXRlY3Rpb24gUHJldmFsZW5jZSAgICAgICAwLjAxNzEgICAgICAgICAgICAgMC4xMzYgICAgIDAuMDM4MSAgICAwLjAxODJcbkJhbGFuY2VkIEFjY3VyYWN5ICAgICAgICAgIDAuOTY4OCAgICAgICAgICAgICAwLjk1MiAgICAgMC45MzkxICAgIDAuNzg3MVxuICAgICAgICAgICAgICAgICAgICAgQ2xhc3M6IG90aGVyIENsYXNzOiBwZGVjYXQgQ2xhc3M6IHBudiBDbGFzczogcG9kZW1vc1xuU2Vuc2l0aXZpdHkgICAgICAgICAgICAgICAgMC43NjU1ICAgICAgICAwLjc2MTkgICAgIDAuOTI1OSAgICAgICAgIDAuODYyOVxuU3BlY2lmaWNpdHkgICAgICAgICAgICAgICAgMC45ODE0ICAgICAgICAwLjk5ODMgICAgIDAuOTk4MyAgICAgICAgIDAuOTg2NVxuUG9zIFByZWQgVmFsdWUgICAgICAgICAgICAgMC43ODcyICAgICAgICAwLjg0MjEgICAgIDAuODkyOSAgICAgICAgIDAuODI5NVxuTmVnIFByZWQgVmFsdWUgICAgICAgICAgICAgMC45NzkwICAgICAgICAwLjk5NzEgICAgIDAuOTk4OCAgICAgICAgIDAuOTg5NlxuUHJldmFsZW5jZSAgICAgICAgICAgICAgICAgMC4wODI1ICAgICAgICAwLjAxMTkgICAgIDAuMDE1NCAgICAgICAgIDAuMDcwNVxuRGV0ZWN0aW9uIFJhdGUgICAgICAgICAgICAgMC4wNjMxICAgICAgICAwLjAwOTEgICAgIDAuMDE0MiAgICAgICAgIDAuMDYwOVxuRGV0ZWN0aW9uIFByZXZhbGVuY2UgICAgICAgMC4wODAyICAgICAgICAwLjAxMDggICAgIDAuMDE1OSAgICAgICAgIDAuMDczNFxuQmFsYW5jZWQgQWNjdXJhY3kgICAgICAgICAgMC44NzM1ICAgICAgICAwLjg4MDEgICAgIDAuOTYyMSAgICAgICAgIDAuOTI0N1xuICAgICAgICAgICAgICAgICAgICAgQ2xhc3M6IHBwIENsYXNzOiBwc29lIENsYXNzOiB2b3hcblNlbnNpdGl2aXR5ICAgICAgICAgICAgICAwLjk2MiAgICAgICAwLjk2MCAgICAgMC44NzEyXG5TcGVjaWZpY2l0eSAgICAgICAgICAgICAgMC45ODEgICAgICAgMC45NjggICAgIDAuOTkzMlxuUG9zIFByZWQgVmFsdWUgICAgICAgICAgIDAuOTE5ICAgICAgIDAuOTQwICAgICAwLjkxMjdcbk5lZyBQcmVkIFZhbHVlICAgICAgICAgICAwLjk5MiAgICAgICAwLjk3OSAgICAgMC45ODk2XG5QcmV2YWxlbmNlICAgICAgICAgICAgICAgMC4xODEgICAgICAgMC4zNDEgICAgIDAuMDc1MVxuRGV0ZWN0aW9uIFJhdGUgICAgICAgICAgIDAuMTc1ICAgICAgIDAuMzI4ICAgICAwLjA2NTRcbkRldGVjdGlvbiBQcmV2YWxlbmNlICAgICAwLjE5MCAgICAgICAwLjM0OSAgICAgMC4wNzE3XG5CYWxhbmNlZCBBY2N1cmFjeSAgICAgICAgMC45NzIgICAgICAgMC45NjQgICAgIDAuOTMyMlxuIn0= -->
+<pre><code>Confusion Matrix and Statistics
 
-<div id="rmd-source-code">LS0tIAp0aXRsZTogIldlaWdodGluZyIKZGF0ZTogImByIGZvcm1hdChTeXMudGltZSgpLCAnJUIgJWQsICVZJylgIiAKLS0tCgpgYGB7ciBzZXR1cCwgaW5jbHVkZT1GQUxTRSwgY2FjaGU9RkFMU0V9CmxpYnJhcnkoc3VydmV5KQprbml0cjo6b3B0c19jaHVuayRzZXQoZXZhbCA9IEZBTFNFKQprbml0cjo6b3B0c19jaHVuayRzZXQoZmlnLnBhdGggPSAnLi9hc3NldHMvJykKREFUQURJUiA8LSAiLi8uLi9kdGEiCmBgYAoKIyBUcmFkaXRpb25hbCBtZXRob2RzCgpgYGB7cn0KZnJhbWUgPC0gcmVhZFJEUyhmaWxlLnBhdGgoREFUQURJUiwgImZyYW1lLlJEUyIpKQojIyBTb3J0Cm9vIDwtIHNhbXBsZSgxOm5yb3coZnJhbWUpLCByZXBsYWNlPUZBTFNFKQpmcmFtZSA8LSBmcmFtZVtvbywgXQoKd3MgPC0gcmVhZFJEUyhmaWxlLnBhdGgoREFUQURJUiwgIndlaWdodGVkLXNhbXBsZS5SRFMiKSkKc3Z5c3JzIDwtIHN2eWRlc2lnbihpZD0gfjEsIHdlaWdodHM9IH4xLCBkYXRhPXdzKQpgYGAKCiMjIFBvc3RzdHJhdGlmaWNhdGlvbgoKSW4gdGhlIHByZXZpb3VzIHNlc3Npb24gd2Ugc2F3IHRoZSBjb25jZXB0IG9mIHN0cmF0aWZpY2F0aW9uIGFzIGEgd2F5CmludHJvZHVjaW5nIHNvbWUgaW5mb3JtYXRpb24gaW50byBvdXIgZGVzaWduIHRvIGVuc3VyZSB0aGF0IHNvbWUKZ3JvdXBzIChzdHJhdGEpIGFyZSByZXByZXNlbnRlZCBpbiBhIGdpdmVuIHdheS4gUG9zdHN0cmF0aWZpY2F0aW9uCmZvbGxvd3MgdGhlIHNhbWUgaWRlYSBidXQsIGFzIHRoZSBuYW1lIHNheXMsIGl0IGlzIGFuIGFkanVzdG1lbnQgdGhhdAp3ZSBtYWtlIGFmdGVyIHRoZSBzYW1wbGUgaXMgY29sbGVjdGVkLiBJdCBpcyBiZXN0IHRob3VnaHQgb2YgYXMgYSB3YXkKb2YgYmVuY2htYXJraW5nIG91ciBzdXJ2ZXkgYWdhaW5zdCBrbm93biBxdWFudGl0aWVzIGZyb20gdGhlCnBvcHVsYXRpb24uCgpMZXQncyBhcHBseSB0aGlzIGlkZWEgdG8gb3VyIHNhbXBsZSB3aXRoIG5vbnJlc3BvbnNlLiBSZW1lbWJlciB0aGF0IHdlCmhhdmUgaW5mb3JtYXRpb24gaW4gdGhlIGZyYW1lIGFib3V0IHRoZSBnZW5kZXIgYW5kIGFnZSBvZiBpbmRpdmlkdWFscy4KVGhpbmsgb2YgdGhlc2UgYXMgb3VyIHN0cmF0YS4KCmBgYHtyfQpnZW5kZXJfYWdlIDwtIGRhdGEuZnJhbWUocHJvcC50YWJsZSh0YWJsZShmcmFtZSRnZW5kZXIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZyYW1lJGZhZ2UpKSkKbmFtZXMoZ2VuZGVyX2FnZSlbYygxLCAyKV0gPC0gYygiZ2VuZGVyIiwgImZhZ2UiKQpnZW5kZXJfYWdlJEZyZXEgPC0gZ2VuZGVyX2FnZSRGcmVxICogbnJvdyhzcnMpCmBgYAoKV2hhdCB0aGUgYGdlbmRlcl9hZ2VgIG9iamVjdCB0ZWxscyB1cyBpcyB0aGUgcHJvcG9ydGlvbiBvZiBjYXNlcyBpbgplYWNoIGNlbGwgdGhhdCB3ZSBoYXZlIGluIHRoZSBwb3B1bGF0aW9uLiBJZiB3ZSB3YW50IHRvIG1ha2UgdGhlCnByb3BvcnRpb24gb2YgY2FzZXMgaW4gZWFjaCBjZWxsIGluIG91ciBzYW1wbGUgbWF0Y2ggdGhhdCBvZiB0aGUKcG9wdWxhdGlvbiB3ZSBjYW4gZGl2aWRlIG9uZSBvdmVyIHRoZSBvdGhlciBhbmQgdXNlIHRoYXQgYXMgYQpjb3JyZWN0aW9uIGZhY3Rvci4gV2l0aCBvdXIgZGF0YSBkZWNsYXJlZCBhcyBhIGRlc2lnbiBvYmplY3Qgd2UgY2FuCnVzZSB0aGUgYHBvc3RTdHJhdGlmeWAgZnVuY3Rpb24uIE5vdGljZSB0aGF0IHdlIGRlY2xhcmUgdGhlIGBzdHJhdGFgCnVzaW5nIGEgZm9ybXVsYSBpbnRlcmZhY2UgYW5kIHdlIHBhc3MgYXMgYHBvcHVsYXRpb25gIGEgYGRhdGEuZnJhbWVgCndpdGggdGhlIGV4cGVjdGVkIGNvdW50cyBpbiB0aGUgcG9wdWxhdGlvbi4KCmBgYHtyfQpzdnlwcyA8LSBwb3N0U3RyYXRpZnkoc3Z5c3JzLAogICAgICAgICAgICAgICAgICAgICAgc3RyYXRhPX4gZ2VuZGVyICogZmFnZSwKICAgICAgICAgICAgICAgICAgICAgIHBvcHVsYXRpb249Z2VuZGVyX2FnZSkKYGBgCgpXZSBjYW4gbm93IHJldHJpZXZlIHRoZSB3ZWlnaHRzIGZyb20gdGhlIG5ldyBvYmplY3Q6CgpgYGB7cn0KaGVhZCh3ZWlnaHRzKHN2eXBzKSkKYGBgCgpBbmQgY29tcGFyZSB0aGUgY2FsY3VsYXRpb25zIHRoYXQgd2Ugd291bGQgb2J0YWluIGZyb20gdGhlCnBvc3RzdHJhdGlmaWVkIHNhbXBsZSBhbmQgdGhlIHJhdyBzYW1wbGUuIAoKYGBge3J9CnN2eW1lYW4ofiBnZW5kZXIsIHN2eXBzKQpzdnltZWFuKH4gZ2VuZGVyLCBzdnlzcnMpCmBgYAoKTW9yZSBpbXBvcnRhbnRseSwgd2UgY2FuIHNlZSB0aGF0IG5vdCBvbmx5IHRoZSBtYXJnaW5hbHMgbWF0Y2gsIHRoZQpjcm9zcy1icmVha3MgYWxzbyBtYXRjaCEKCmBgYHtyfQpzdnltZWFuKH4gaW50ZXJhY3Rpb24oZ2VuZGVyLCBmYWdlKSwgc3Z5cHMpCnN2eW1lYW4ofiBpbnRlcmFjdGlvbihnZW5kZXIsIGZhZ2UpLCBzdnlzcnMpCnByb3AudGFibGUodGFibGUoZnJhbWUkZ2VuZGVyLCBmcmFtZSRmYWdlKSkKYGBgCgpXZWxsLCBhdCBsZWFzdCBmb3IgdGhlIHZhcmlhYmxlcyB0aGF0IHdlIHBvc3RzdHJhdGlmaWVkIG9uOgoKYGBge3J9CnN2eW1lYW4ofiBmZWR1Yywgc3Z5cHMpCnByb3AudGFibGUodGFibGUoZnJhbWUkZmVkdWMpKQpgYGAKCiMjIFJha2luZwoKUG9zdHN0cmF0aWZpY2F0aW9uIHByZXNlbnRzIG9uZSBtYWluIGxpbWl0YXRpb24uIE1haW5seSwgdGhlCmFzc3VtcHRpb24gdGhhdCB3ZSBrbm93IHRoZSBjcm9zcy1icmVha3MgZm9yIHRoZSBzYW1lIHZhcmlhYmxlcyBpbiB0aGUKcG9wdWxhdGlvbi4gU29tZXRpbWVzLCB3ZSBvbmx5IGhhdmUgcGFydGlhbCBpbmZvcm1hdGlvbi4gTWF5YmUgd2Uga25vdwp0aGUgbWFyZ2luYWwgZGlzdHJpYnV0aW9uIG9mIG9uZSB2YXJpYWJsZSAoc2F5LCB0aGUgcHJvcG9ydGlvbiBvZiBtZW4KYW5kIHdvbWVuKSBhbmQgdGhlIG1hcmdpbmFsIGRpc3RyaWJ1dGlvbiBvZiBhbm90aGVyIHZhcmlhYmxlIChzYXksIHRoZQpwcm9wb3J0aW9uIG9mIHBlb3BsZSBieSBhZ2UgZ3JvdXApIGJ1dCBub3QgdGhlIGpvaW50IGRpc3RyaWJ1dGlvbiAoaG93Cm1hbnkgbWVuIGFuZCB3b21lbiBiZWxvbmcgdG8gZWFjaCBhZ2UgZ3JvdXApLiBUaGlzIHR5cGUgb2Ygc2l0dWF0aW9uCm9mdGVuIGFwcGVhcnMgd2hlbiB3ZSBoYXZlIHNldmVyYWwgdmFyaWFibGVzIHRoYXQgd2Ugd2FudCB0bwpiZW5jaG1hcmsuIEZvciB0aG9zZSBjYXNlcywgd2UgY2FuIHVzZSBhIGRpZmZlcmVudCBzdHJhdGVneS4gCgpJbWFnaW5lIHRoYXQgaW4gdGhlIHByZXZpb3VzIGV4YW1wbGUgd2UgaGF2ZSBhY2Nlc3MgdG8gdGhlIGpvaW50CmRpc3RyaWJ1dGlvbiBvZiBhZ2UgYW5kIGdlbmRlciwgYnV0IHdlIG9ubHkgaGF2ZSB0aGUgbWFyZ2luYWwKZGlzdHJpYnV0aW9uIG9mIGVkdWNhdGlvbi4gCgpgYGB7cn0KZWR1YyA8LSBkYXRhLmZyYW1lKHByb3AudGFibGUodGFibGUoZnJhbWUkZmVkdWMpKSkKbmFtZXMoZWR1YylbMV0gPC0gImZlZHVjIgplZHVjJEZyZXEgPC0gZWR1YyRGcmVxICogbnJvdyhzcnMpCmBgYAoKVGhlIGZ1bmN0aW9uIGByYWtlYCBpcyB2ZXJ5IHNpbWlsYXIgdG8gYHBvc3RTdHJhdGlmeWA6IHdlIHBhc3MgdGhlCnNhbXBsZSBtYXJnaW5zIGFuZCB0aGUgcG9wdWxhdGlvbiBtYXJnaW5zIGFuZCBpdCByZXR1cm5zIGJhY2sgYSBkZXNpZ24Kb2JqZWN0IHRoYXQgaW5jb3Jwb3JhdGVzIHdlaWdodHMuIAoKYGBge3J9CnN2eXJha2UgPC0gcmFrZShzdnlzcnMsCiAgICAgICAgICAgICAgICBzYW1wbGUubWFyZ2lucz1saXN0KH4gZ2VuZGVyICogZmFnZSwgfiBmZWR1YyksCiAgICAgICAgICAgICAgICBwb3B1bGF0aW9uLm1hcmdpbnM9bGlzdChnZW5kZXJfYWdlLCBlZHVjKSkKYGBgCgpXZSBjYW4gbG9vayBhZ2FpbiBhdCB0aGUgd2VpZ2h0cwoKYGBge3J9CmhlYWQod3cgPC0gd2VpZ2h0cyhzdnlyYWtlKSkKYGBgCgpidXQgc29tZXRoaW5nIHRvIG5vdGljZSBpcyB0aGF0LCBiZWNhdXNlIHRoZSB1bmJhbGFuY2UgaW4gZWR1Y2F0aW9uCndhcyByZWxhdGl2ZWx5IGxhcmdlLCB3ZSBoYXZlIG5vdyBhIGZhaXJseSBhc2tldyBkaXN0cmlidXRpb24gb2YKd2VpZ2h0czoKCmBgYHtyfQpxdWFudGlsZSh3dykKYGBgCgpXaGF0IGRvZXMgdGhhdCBtZWFuIGZvciB1cz8gVG8gYXZvaWQgdGhhdCBzb21lIGluZGl2aWR1YWwgdW5pdHMgaGF2ZQp0b28gbXVjaCBpbmZsdWVuY2Ugb24gdGhlIGVzdGltYXRpb24gd2UgY2FuIHRyaW0gdGhlIHdlaWdodHM6CgpgYGB7cn0Kc3Z5cmFrZSA8LSB0cmltV2VpZ2h0cyhzdnlyYWtlLCB1cHBlcj01LCBsb3dlcj0wKQpgYGAKCldlIGNhbiBub3cgY2hlY2sgdGhlIG5ldyBlc3RpbWF0ZXMKCmBgYHtyfSAKc3Z5bWVhbih+IGdlbmRlciwgc3Z5cmFrZSkKc3Z5bWVhbih+IGdlbmRlciwgc3Z5cHMpCnByb3AudGFibGUodGFibGUoZnJhbWUkZ2VuZGVyKSkKYGBgCgojIyBDYWxpYnJhdGlvbgoKV2hhdCB0byBkbyB3aXRoIGNvbnRpbnVvdXMgdmFyaWFibGVzPyBPbmUgb3B0aW9uIGlzIHRvIHVzZSBhIEdSRUcKZXN0aW1hdG9yIHRoYXQgZ2VuZXJhbGl6ZXMgYm90aCBwb3N0c3RyYXRpZmljYXRpb24gYW5kIHJha2luZyBhbmQgdXNlcwphbiBhcHByb2FjaCBzaW1pbGFyIHRvIGEgbGluZWFyIG1vZGVsLiBDYWxpYnJhdGlvbiBpcyBhIHZlcnkgZmxleGlibGUKYXBwcm9hY2ggYnV0IHRoZSBiYXNpYyBpZGVhIGlzIHNpbWlsYXIgdG8gd2hhdCB3ZSBoYXZlIHNlZW4uIAoKYGBge3J9CnBvcF90b3RhbHMgPC0gYyhgKEludGVyY2VwdClgPW5yb3coZnJhbWUpLAogICAgICAgICAgICAgICAgYGxvZyhhZ2UpYD1zdW0obG9nKGZyYW1lJGFnZSkpLAogICAgICAgICAgICAgICAgYGdlbmRlcm1hbGVgPXN1bShmcmFtZSRnZW5kZXIgPT0gIm1hbGUiKSkKCnN2eWNhbCA8LSBjYWxpYnJhdGUoc3Z5c3JzLAogICAgICAgICAgICAgICAgICAgIGZvcm11bGE9fiBsb2coYWdlKSArIGdlbmRlciwKICAgICAgICAgICAgICAgICAgICBwb3B1bGF0aW9uPXBvcF90b3RhbHMpCmBgYAoKV2UgY2FuIG5vdyBjb21wYXJlIHNvbWUgb2YgdGhlIGVzdGltYXRlczoKCmBgYHtyfQpzdnltZWFuKH4gbG9nKGFnZSkgKyBnZW5kZXIsIHN2eWNhbCkKc3Z5bWVhbih+IGxvZyhhZ2UpICsgZ2VuZGVyLCBzdnlwcykKc3Z5bWVhbih+IGxvZyhhZ2UpICsgZ2VuZGVyLCBzdnlzcnMpCmBgYAoKIyBNZXRob2RzIGZyb20gdGhlIGNhdXNhbCBpbmZlcmVuY2UgbGl0ZXJhdHVyZQoKVGhlIG1ldGhvZHMgdGhhdCB3ZSBkaXNjdXNzZWQgYWJvdmUgdGFrZSB0aGUgdmlldyB0aGF0IHRoZSBzYW1wbGUgd2FzCmV4dHJhY3RlZCBmcm9tIGEgcG9wdWxhdGlvbiBhbmQgdGhhdCBtYXliZSB0aGVyZSBhcmUgc29tZSByZW1haW5pbmcKdW5iYWxhbmNlcyB0aGF0IG5lZWQgdG8gYmUgYWRkcmVzc2VkLiBUaGVzZSB1bmJhbGFuY2VzIGNhbiBiZSBmaXhlZCBieQpiZW5jaG1hcmtpbmcgdGhlIHNhbXBsZSBhZ2FpbnN0IGtub3duIHBvcHVsYXRpb24gc3RhdGlzdGljcyBhbmQgc28gdGhlCm9ubHkgcXVlc3Rpb24gaXMgYWJvdXQgdGhlIHR5cGUgb2YgaW5mb3JtYXRpb24gdGhhdCBpcyBhdmFpbGFibGUgdG8KdGhlIGFuYWx5c3QuIE1vcmUgcmVjZW50bHksIHRoZSBsaXRlcmF0dXJlIGhhcyB0YWtlbiBhIGRpZmZlcmVudAphcHByb2FjaCwgYm9ycm93aW5nIGZyb20gdGhlIGNhdXNhbCBpbmZlcmVuY2UgbGl0ZXJhdHVyZS4gVGhlcmUgYXJlCnR3byBtYWluIG1ldGhvZHMgaW4gdGhpcyBsaXRlcmF0dXJlLiBPbmUgdHJpZXMgdG8gYWRkcmVzcyB0aGUgcHJvYmxlbQpvZiBzZWxlY3Rpb24gaW50byB0aGUgc2FtcGxlIGJ5IGVzdGltYXRpbmcgdGhlIGluY2x1c2lvbgpwcm9iYWJpbGl0aWVzLCBpLmUuLCBieSBjcmVhdGluZyBwcm9wZW5zaXR5IHNjb3JlcyB0aGF0IGNhbiB0aGVuIGJlCnVzZWQgYXMgd2VpZ2h0cy4gVGhlIG90aGVyIGFwcHJvYWNoLCB0aGUgInN1cGVycG9wdWxhdGlvbiIgYXBwcm9hY2ggaXMKZmFyIGxlc3MgY29tbW9uLiAKCiMjIFBzZXVkby1pbmNsdXNpb24gcHJvYmFiaWxpdGllcyAKClRoZSBtZXRob2Qgb2YgcHNldWRvLWluY2x1c2lvbiBwcm9iYWJpbGl0aWVzIGlzIHNpbXBsZS4gX0FsbF8gd2UgbmVlZAp0byBkbyBpcyBlc3RpbWF0ZSwgZm9yIGVhY2ggaW5kaXZpZHVhbCwgdGhlIHByb2JhYmlsaXR5IHdpdGggd2hpY2ggaXQKd2FzIHNlbGVjdGVkIGludG8gdGhlIHNhbXBsZS4gT2YgY291cnNlLCB0aGlzIGlzIG1vcmUgZWFzaWx5IHNhaWQgdGhhbgpkb25lLiBJbiBvdXIgY2FzZSwgd2UgZG8gaGF2ZSBhIHJlYXNvbmFibGUgcHNldWRvLWZyYW1lIGZvciB0aGUgc2FtcGxlCnNvIHRoZSBmaXJzdCB0aGluZyB3ZSB3aWxsIGRvIGlzIGFzc2lnbiBhIHRyZWF0bWVudCBhcm0gdG8gZnJhbWUgYW5kCnNhbXBsZS4gSGVyZSwgd2Ugd2lsbCB0YWtlIHRoZSBzYW1wbGUgYXMgdGhlIHRyZWF0bWVudCBncm91cC4gCgpgYGB7cn0Kd3MkeSA8LSAxCmZyYW1lJHkgPC0gMAojIyBUbyByZWR1Y2UgY29tcHV0YXRpb24gdGltZQpOIDwtIDI1MDAwMApmcmFtZSA8LSBmcmFtZVsxOk4sIF0KY29tYmluZWQgPC0gcGx5cjo6OnJiaW5kLmZpbGwod3MsIGZyYW1lKQpgYGAKClRoZSBuZXh0IHN0ZXAgaXMgdG8gZXN0aW1hdGUgdGhlIG1vZGVsIHRoYXQgYXNzaWducyBjYXNlcyBmcm9tIHRoZQpmcmFtZSB0byB0aGUgc2FtcGxlLiBUaGUgcHJvY2VzcyBoZXJlIGlzIGlkZW50aWNhbCB0byB0aGF0IG9mCnByb3BlbnNpdHkgc2NvcmUgbWF0Y2hpbmcsIGZvciBpbnN0YW5jZSBhbmQgY29uc2lzdHMgb24gaWRlbnRpZnlpbmcgYQptb2RlbCB0aGF0IHByb2R1Y2VzIGEgcmVhc29uYWJsZSBiYWxhbmNlIGJldHdlZW4gY292YXJpYXRlcyBpbiB0aGUKc2FtcGxlIHJlbGF0aXZlIHRvIHRoZSBmcmFtZSAoV2h5PykuIEJhY2sgaW4gdGhlIGRheSwgb25lIHdvdWxkIHRyeQptYW55IGRpZmZlcmVudCBzcGVjaWZpY2F0aW9ucyBvZiBhIGNob2ljZSBtb2RlbCBidXQgaXQgaXMgbW9yZSBjb21tb24Kbm93IHRvIHJlbHkgb24gbWFjaGluZSBsZWFybmluZyBtb2RlbHMuIEZvciBpbnN0YW5jZSwgaXQgaXMgY29tbW9uIHRvCnVzZSB0cmVlLWJhc2VkIG1vZGVscyBiZWNhdXNlIHRoZXkgYWxzbyBoYXZlIHRoZSBhZHZhbnRhZ2Ugb2YgY3JlYXRpbmcKd2VpZ2h0aW5nIGNlbGxzIGlmIHdlIG5lZWQgdGhlbS4gCgpgYGB7cn0KbGlicmFyeShwYXJ0eWtpdCkKbW9kIDwtIGN0cmVlKHkgfiBnZW5kZXIgKyBhZ2UgKyBmZWR1YyArIGZvY2N1cCwKICAgICAgICAgICAgIGRhdGE9Y29tYmluZWQsCiAgICAgICAgICAgICBjb250cm9sID0gY3RyZWVfY29udHJvbChtaW5jcml0ZXJpb249MC4wMDUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtaW5zcGxpdD0wLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWluYnVja2V0PTApKQpgYGAKCklzIHRoaXMgYSBnb29kIG1vZGVsPyBXaGF0IHdvdWxkIGJlIGEgZ29vZCB3YXkgb2YgdGVzdGluZyB3aGV0aGVyIHdlCnNob3VsZCBrZWVwIHNlYXJjaGluZz8KCkxldCdzIGFzc3VtZSBmb3Igbm93IHRoYXQgdGhlIG1vZGVsIGlzIHdoYXQgd2Ugd2FudC4gVGhlIHJlbWFpbmluZwpzdGVwcyBjb25zaXN0IG9uIGVzdGltYXRpbmcgdGhlIHByZWRpY3RlZCBwcm9iYWJpbGl0aWVzIGZvciBlYWNoIGNhc2UKaW4gdGhlIHNhbXBsZSBhbmQgdHJlYXQgdGhlbSBhcyB3ZWlnaHRzLiAKCmBgYHtyfQpwaGF0IDwtIHByZWRpY3QobW9kLCBuZXdkYXRhPXdzKQp3ZWlnaHRzIDwtIDEvcGhhdAp3ZWlnaHRzIDwtIHdlaWdodHMvbWVhbih3ZWlnaHRzKSAjIyBUb28gbGFyZ2UKYGBgCgpXZSBjYW4gbm93IHVzZSB0aG9zZSB3ZWlnaHRzIGFuZCBjaGVjayB3aGV0aGVyIHRoZSBkaXN0cmlidXRpb24gb2YgYQprbm93biB2YXJpYWJsZSBoYXMgaW1wcm92ZWQgcmVsYXRpdmUgdG8gb3VyIGJlbmNobWFyay4gCgpgYGB7cn0KcHJvcC50YWJsZSh4dGFicyh3ZWlnaHRzIH4gZmFnZSwgZGF0YT13cykpCnByb3AudGFibGUoeHRhYnMoICAgICAgICB+IGZhZ2UsIGRhdGE9d3MpKQpwcm9wLnRhYmxlKHh0YWJzKCAgICAgICAgfiBmYWdlLCBkYXRhPWZyYW1lKSkKYGBgCgojIyBDYWxpYnJhdGlvbiB1c2luZyBtYXRjaGluZwoKYGBge3IgaW5jbHVkZT1GQUxTRX0KbGlicmFyeShIbWlzYykKY2MgPC0gYXJlZ0ltcHV0ZSh+IGdlbmRlciArIGZhZ2UgKyBmZWR1YyArIGZvY2N1cCwKICAgICAgICAgICAgICAgICBkYXRhPWNvbWJpbmVkLAogICAgICAgICAgICAgICAgIG4uaW1wdXRlPTEsCiAgICAgICAgICAgICAgICAgdHlwZT0icG1tIikKCmNvbWJpbmVkJGZlZHVjW2lzLm5hKGNvbWJpbmVkJGZlZHVjKV0gPC0gZmFjdG9yKGNjJGltcHV0ZWQkZmVkdWMsIGxhYmVscz1sZXZlbHMoY29tYmluZWQkZmVkdWMpKQpjb21iaW5lZCRmb2NjdXBbaXMubmEoY29tYmluZWQkZm9jY3VwKV0gPC0gZmFjdG9yKGNjJGltcHV0ZWQkZm9jY3VwLCBsYWJlbHM9bGV2ZWxzKGNvbWJpbmVkJGZvY2N1cCkpCmBgYAoKSWYgdGhlIGdvYWwgaXMgdG8gY3JlYXRlIHdlaWdodHMgc3VjaCB0aGF0IHNvbWUgY292YXJpYXRlcyBhcmUKYmFsYW5jZWQgYmV0d2VlbiB0cmVhdG1lbnQgYW5kIGNvbnRyb2wsIHdlIGNhbiB0YWtlIHRoZSBpbnZlcnNlCmFwcHJvYWNoLS0tcmF0aGVyIHRoYW4gc3RhcnRpbmcgd2l0aCBhIG1vZGVsIHRvIGZpbmQgdGhlIHdlaWdodHMsIHdlCmNhbiBqdXN0IHRoaW5rIG9mIGl0IGFzIGFuIG9wdGltaXphdGlvbiBwcm9ibGVtIGFuZCBmaW5kIHRob3NlIHdlaWdodHMKZGlyZWN0bHkuIElmIHdlIGNvbWUgYXQgaXQgZnJvbSB0aGF0IHBvaW50IG9mIHZpZXcsIHRoZSBwcm9ibGVtIGlzCnZlcnkgc2ltaWxhciB0byB0aGF0IG9mIGNvdmFyaWF0ZSBtYXRjaGluZy4gVGhlcmUgYXJlIG1hbnkgZGlmZmVyZW50Cm1ldGhvZHMgdG8gcGVyZm9ybSBtYXRjaGluZyBhbmQgdGhlcmUgaXMgbm8gY2xlYXIgcmVhc29uIHRvIHByZWZlciBvbmUKb3ZlciB0aGUgb3RoZXIuIAoKT25lIHBvc3NpYmlsaXR5IGlzIHRvIHVzZSBhbiBlbnRyb3B5LWJhc2VkIGFwcHJvYWNoLiAKCmBgYHtyfQpsaWJyYXJ5KFdlaWdodEl0KQoKIyMgQVRDIGlzIGltcG9ydGFudApvdXQgPC0gd2VpZ2h0aXQoeSB+IGdlbmRlciArIGZhZ2UgKyBmZWR1YyArIGZvY2N1cCwgZGF0YT1jb21iaW5lZCwKICAgICAgICAgICAgICAgIG1ldGhvZD0iZWJhbCIsCiAgICAgICAgICAgICAgICBlc3RpbWFuZD0iQVRDIikKc3VtbWFyeShvdXQpCmBgYAoKQXQgdGhpcyBwb2ludCB3ZSBwcm9iYWJseSB3YW50IHRvIHBlcmZvcm0gdGhlIHNhbWUgc2FuaXR5IGNoZWNrcyBhcyBpbgp0aGUgcHNldWRvLWluY2x1c2lvbiBhcHByb2FjaCwgdG8gbWFrZSBzdXJlIHRoYXQgdGhlIG1vZGVsIGJhbGFuY2VzCmNvcnJlY3RseSBvbiB0aGUgY292YXJpYXRlcyB0aGF0IHdlIGFyZSBpbnRlcmVzdGVkIGluLiAKCldoZW5ldmVyIHdlIGFyZSBzYXRpc2ZpZWQgd2l0aCB0aGUgYXBwcm9hY2gsIHdlIGNhbiB0aGVuIGZvbGxvdyB0aGUKc2FtZSBzdHJhdGVneSBhcyBiZWZvcmU6CgpgYGB7cn0Kd3cgPC0gb3V0JHdlaWdodHNbY29tYmluZWQkeSA9PSAxXQp3dyA8LSB3dy9tZWFuKHd3KQoKcHJvcC50YWJsZSh4dGFicyh3dyB+IGZhZ2UsIGRhdGE9d3MpKQpwcm9wLnRhYmxlKHh0YWJzKCAgICAgICB+IGZhZ2UsIGRhdGE9ZnJhbWUpKQpwcm9wLnRhYmxlKHh0YWJzKCAgICAgICB+IGZhZ2UsIGRhdGE9d3MpKQpgYGAKCkhvd2V2ZXIsIGl0IGlzIGltcG9ydGFudCB0byBrZWVwIGluIG1pbmQgdGhhdCBtYXRjaGluZyBpcyBzdGlsbCBhIHNvcnQKb2YgbW9kZWwgYW5kIHRoYXQsIHRoZXJlZm9yZSwgaXQgd2lsbCBvbmx5IGZpeCB0aGUgaXNzdWVzIHRoYXQgd2UgdGVsbAppdCB0byBmaXguCgpgYGB7cn0KIyMgQnV0IGNhcmVmdWwhCnByb3AudGFibGUoeHRhYnMod3cgfiBmYWdlICsgZmVkdWMsIGRhdGE9d3MpKQpwcm9wLnRhYmxlKHh0YWJzKCAgIH4gZmFnZSArIGZlZHVjLCBkYXRhPWZyYW1lKSkgCmBgYAo=</div>
+            Reference
+Prediction   bildu ciudadanos erc  iu other pdecat pnv podemos  pp psoe
+  bildu         30          0   0   0     0      0   0       0   0    0
+  ciudadanos     0        224   0   0     3      0   0       1   5    2
+  erc            0          0  60   0     3      3   0       0   0    1
+  iu             0          0   0  26     1      0   0       5   0    0
+  other          0          9   0   5   111      1   1       0   3    8
+  pdecat         0          0   1   0     2     16   0       0   0    0
+  pnv            0          0   0   0     1      0  25       1   0    1
+  podemos        2          0   1   8     2      0   0     107   0    9
+  pp             0          8   0   0     8      0   0       0 307    2
+  psoe           0          1   6   6    11      1   1       9   1  576
+  vox            0          3   0   0     3      0   0       1   3    1
+            Reference
+Prediction   vox
+  bildu        0
+  ciudadanos   4
+  erc          0
+  iu           0
+  other        3
+  pdecat       0
+  pnv          0
+  podemos      0
+  pp           9
+  psoe         1
+  vox        115
+
+Overall Statistics
+                                        
+               Accuracy : 0.908         
+                 95% CI : (0.894, 0.921)
+    No Information Rate : 0.341         
+    P-Value [Acc &gt; NIR] : &lt;2e-16        
+                                        
+                  Kappa : 0.887         
+                                        
+ Mcnemar&#39;s Test P-Value : NA            
+
+Statistics by Class:
+
+                     Class: bildu Class: ciudadanos Class: erc Class: iu
+Sensitivity                0.9375             0.914     0.8824    0.5778
+Specificity                1.0000             0.990     0.9959    0.9965
+Pos Pred Value             1.0000             0.937     0.8955    0.8125
+Neg Pred Value             0.9988             0.986     0.9953    0.9890
+Prevalence                 0.0182             0.139     0.0387    0.0256
+Detection Rate             0.0171             0.127     0.0341    0.0148
+Detection Prevalence       0.0171             0.136     0.0381    0.0182
+Balanced Accuracy          0.9688             0.952     0.9391    0.7871
+                     Class: other Class: pdecat Class: pnv Class: podemos
+Sensitivity                0.7655        0.7619     0.9259         0.8629
+Specificity                0.9814        0.9983     0.9983         0.9865
+Pos Pred Value             0.7872        0.8421     0.8929         0.8295
+Neg Pred Value             0.9790        0.9971     0.9988         0.9896
+Prevalence                 0.0825        0.0119     0.0154         0.0705
+Detection Rate             0.0631        0.0091     0.0142         0.0609
+Detection Prevalence       0.0802        0.0108     0.0159         0.0734
+Balanced Accuracy          0.8735        0.8801     0.9621         0.9247
+                     Class: pp Class: psoe Class: vox
+Sensitivity              0.962       0.960     0.8712
+Specificity              0.981       0.968     0.9932
+Pos Pred Value           0.919       0.940     0.9127
+Neg Pred Value           0.992       0.979     0.9896
+Prevalence               0.181       0.341     0.0751
+Detection Rate           0.175       0.328     0.0654
+Detection Prevalence     0.190       0.349     0.0717
+Balanced Accuracy        0.972       0.964     0.9322</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+
+<div id="rmd-source-code">LS0tIAp0aXRsZTogIlByZWRpY3Rpb24iCmRhdGU6ICJgciBmb3JtYXQoU3lzLnRpbWUoKSwgJyVCICVkLCAlWScpYCIKLS0tCgpgYGB7ciBzZXR1cCwgaW5jbHVkZT1GQUxTRSwgY2FjaGU9RkFMU0V9CkRBVEFfRElSIDwtICIuLy4uL2R0YSIKYGBgCgpBIGNvbW1vbiBwb3N0LXByb2Nlc3NpbmcgdGFzayBpbiBzdXJ2ZXkgYW5hbHlzaXMgaXMgdGhlICJpbXB1dGF0aW9uIgpvZiBvcGluaW9ucyBvciBiZWhhdmlvcnMgdG8gcmVzcG9uZGVudHMgd2hvIGhhdmUgbm90IHByb3ZpZGVkIHRoYXQKaW5mb3JtYXRpb24uIEhlcmUgSSB3YW50IHRvIGRpZmZlcmVudGlhdGUgYmV0d2VlbiAiaW1wdXRhdGlvbiIgd2hpY2ggSQp3aWxsIHJlc3RyaWN0IHRvIGFuIGF1eGlsaWFyeSB0YXNrIGZvciB0aGUgZXN0aW1hdGlvbiBvZiBwYXJhbWV0ZXJzIG9mCmludGVyZXN0IGFuZCAicHJlZGljdGlvbiIgd2hpY2ggSSB3aWxsIHVzZSBmb3IgYWxsIHRhc2tzIHRoYXQgZmlsbApmaWxsLWluIGdhcHMgb2YgZGlyZWN0IGludGVyZXN0LiBUaGUgZGlmZmVyZW50aWF0aW9uIGlzIHNsaWdodGx5CmFyYml0cmFyeSBidXQgaXQgaXMgdXNlZnVsIGZvciBvdXIgcHVycG9zZXMuIAoKTGV0J3Mgc3RhcnQgd2l0aCBwcmVkaWN0aW9uLiBJbiB0aGlzIGNhc2UsIHdlIGFyZSBnb2luZyB0byB0YWtlIGEKc3R1ZHkgZnJvbSB0aGUgQ0lTIGFuZCB3ZSBhcmUgZ29pbmcgdG8gZG8gc29tZXRoaW5nIGZhaXJseQpzdHJhaWdodGZvcndhcmQuIFdlIHdpbGwgdXNlIGFsbCB0aGUgaW5mb3JtYXRpb24gd2UgY2FuIGZyb20gdGhlCnF1ZXN0aW9ubmFpcmUgaW4gb3JkZXIgdG8gYXNzaWduIGEgdm90ZSBjaG9pY2UgdG8gYWxsIHRoZSByZXNwb25kZW50cwppbiBvdXIgZGF0YS4gRm9yIGluc3RhbmNlLCB3ZSBjYW4gdGFrZSBzdHVkeSAzMjQyIGZyb20gdGhlIENJUyAodGhlCnByZS1lbGVjdG9yYWwgc3R1ZHkgZm9yIHRoZSBBcHJpbCAyMDE5IGVsZWN0aW9ucykgYW5kIHdlIGNhbiBmaWxsLWluCnF1ZXN0aW9uIGBQMTBgIGFib3V0IHZvdGUgaW50ZW50aW9uLiBJbiB0aGlzIGNhc2UsIHdlIGFyZSBnb2luZyB0bwphc3NpZ24gYSBwYXJ0eSBjaG9pY2UgdG8gX2FsbF8gcmVzcG9uZGVudHMsIGkuZS4sIHdlIGFyZSBnb2luZyB0byB3b3JrCnVuZGVyIHRoZSBhc3N1bXB0aW9uIG9mIGZ1bGwgdHVybm91dC4gSW4gYWRkaXRpb24sIHdlIGFyZSBub3QgZ29pbmcgdG8KZWRpdCB0aGUgaW50ZW5kZWQgYmVoYXZpb3Igb2YgYW55b25lLiAKCldlIGhhdmUgdHdvIHBvc3NpYmxlIHN0cmF0ZWdpZXMgYWhlYWQgb2YgdXMuIE9uZSBpcyB0byBmb2xsb3cgYQp0aGVvcmV0aWNhbCBtb2RlbCBvZiB2b3RpbmcgYmVoYXZpb3IgdGhhdCBjYW4gYmUgdXNlZCB0byBtYWtlCnJlYXNvbmFibGUsIHRoZW9yZXRpY2FsbHktZ3JvdW5kZWQgcHJlZGljdGlvbnMuIFRoZSBvdGhlciBpcyB0aGUgb25lCndlIHdpbGwgdXNlIGhlcmU6IHdlIHdpbGwgdXNlIGEgZmxleGlibGUsIGRhdGEtZHJpdmVuIGFwcHJvYWNoIHRvIG1ha2UKcHJlZGljdGlvbnMuIEluIHRoaXMgY2FzZSwgdGhlIHdlIGhhdmUgdG8gYmUgY2FyZWZ1bCB0byBub3Qgb3ZlcmZpdAp0aGUgZGF0YS4KCk91ciBtYWluIG1vZGVsIHdpbGwgYmUgYSBYR0Jvb3N0LCB3aGljaCBpcyB2ZXJ5IGNvbW1vbiBpbiB0aGUgbWFjaGluZQpsZWFybmluZyBsaXRlcmF0dXJlLiBXZSBjb3VsZCB1c2UgdGhlIGBjYXJldGAgcGFja2FnZSB0byB0ZXN0CmRpZmZlcmVudCBhcHByb2FjaGVzIChuZXZlciBhIGJhZCBpZGVhISksIGJ1dCBpbiB0aGlzIGNhc2Ugd2Ugd2lsbCBnbwpzdHJhaWdodCB0byB0aGUgYHhnYm9vc3RgIHBhY2thZ2UuCgpgYGB7cn0KbGlicmFyeShjYXJldCkKbGlicmFyeSh4Z2Jvb3N0KQpgYGAKCkZpcnN0IG9mIGFsbCwgd2UgbmVlZCB0byBsb2FkIGFuZCBjbGVhbiB1cCB0aGUgZGF0YSBhIGxpdHRsZSBiaXQuIAoKYGBge3J9CkNMRUFOX0RBVEEgPC0gZmlsZS5wYXRoKERBVEFfRElSLCAiY2lzLWNsZWFuLWRhdGEuUkRTIikKZHRhIDwtIHJlYWRSRFMoQ0xFQU5fREFUQSkKYGBgCgpBcyB3ZSBzYWlkIGFib3ZlLCB3ZSB3aWxsIHN0YXJ0IGJ5IHJlYWxsb2NhdGluZyB0aG9zZSB3aG8gYXJlCnVuZGVjaWRlZCBhbmQgYWxzbyB0aG9zZSB3aG8gaGF2ZSBkZWNpZGVkIHRvIG5vdCB2b3RlLiBUaGVzZSBhcmUgb3VyCl91bmtub3duXyBvYnNlcnZhdGlvbnMuCgpgYGB7cn0KZHRhJHZvdGVpbnRlbnRpb25bZHRhJHZvdGVpbnRlbnRpb24gPT0gInVuZGVjaWRlZCIgfAogICAgICAgICAgICAgICAgICBkdGEkdm90ZWludGVudGlvbiA9PSAid29udCJdIDwtIE5BCmR0YSR2b3RlaW50ZW50aW9uIDwtIGFzLmZhY3Rvcihhcy5jaGFyYWN0ZXIoZHRhJHZvdGVpbnRlbnRpb24pKQoKdW5rbm93biA8LSBkdGFbaXMubmEoZHRhJHZvdGVpbnRlbnRpb24pLCBdCmtub3duIDwtIGR0YVshaXMubmEoZHRhJHZvdGVpbnRlbnRpb24pLCBdCmBgYAoKT3VyIGdvYWwgbm93IGlzIHRvIG1ha2UgaW5mZXJlbmNlcyBhYm91dCB0aGUgYHVua25vd25gIHNhbXBsZSB1c2luZwp3aGF0ZXZlciB3ZSBjYW4gbGVhcm4gYWJvdXQgdGhlIGBrbm93bmAgb25lLiBUaGUga2V5IGNvbmNlcHQgaGVyZSBpcwp0aGF0IG9mIF9iaWFzLXZhcmlhbmNlXyB0cmFkZS1vZmYuIFdlIHdpbGwgc3RhcnQgYnkgc3BsaXR0aW5nIG91cgpga25vd25gIGRhdGFzZXQgaW50byBhIHRyYWluaW5nIGFuZCBhIHRlc3Qgc2V0LiBJbiB0aGlzIGNhc2UsIHdlIHdpbGwKc2V0IGFzaWRlIDIwJSBvZiB0aGUgb2JzZXJ2YXRpb25zIGFzIHRlc3QuIAoKYGBge3J9CnRyYWluaW5nIDwtIHNhbXBsZSgxOm5yb3coa25vd24pLCBucm93KGtub3duKSouOCkKdGVzdGluZyA8LSBzZXRkaWZmKDE6bnJvdyhrbm93biksIHRyYWluaW5nKQp0cmFpbmluZyA8LSBrbm93blt0cmFpbmluZywgXQp0ZXN0aW5nIDwtIGtub3duW3Rlc3RpbmcsIF0KYGBgCgpgYGB7ciBpbmNsdWRlPUZBTFNFfQpkdW1taWVzIDwtIGR1bW15VmFycyh+IC4gLSB2b3RlaW50ZW50aW9uLCAKICAgICAgICAgICAgICAgICAgICAgZHRhLAogICAgICAgICAgICAgICAgICAgICBtaXNzaW5nPW5hLnBhc3MpCm5uIDwtIG5hbWVzKGFzLmRhdGEuZnJhbWUocHJlZGljdChkdW1taWVzLCBkdGEpKSkgIyMgQ29ycmVjdCBvcmRlcgpsZXYgPC0gbGV2ZWxzKGR0YSR2b3RlaW50ZW50aW9uKQoKIyMgRHVtbXkgZXhwYW5zaW9uIG9mIHRyYWluaW5nIGRhdGFzZXQKZHYgPC0gcHJlZGljdChkdW1taWVzLAogICAgICAgICAgICAgIHRyYWluaW5nKQpkdiA8LSBkYXRhLmZyYW1lKGR2KQpkdiA8LSBkdlssIG5uW25uICVpbiUgbmFtZXMoZHYpXV0KZHYkaWQgPC0gTlVMTApgYGAKCk5vdyB0aGUgaWRlYSBpcyB0aGUgZm9sbG93aW5nLiBXZSBhcmUgZ29pbmcgdG8gdGFrZSBvdXIgdHJhaW5pbmcgc2V0CmFuZCB3ZSBhcmUgZ29pbmcgdG8gZml0IG1vZGVscyBvZiBkaWZmZXJlbnQgY29tcGxleGl0eSB0byBpdC4gSW4gdGhlCmNhc2Ugb2YgWEdCb29zdCB0aGVyZSBhcmUgc2V2ZXJhbCBoeXBlcnBhcmFtZXRlcnMgdGhhdCB3ZSBjYW4gdHVuZSBpbgpvcmRlciB0byBzZWxlY3QgdGhlIG9uZSB3aXRoIHRoZSBiZXN0IHBlcmZvcm1hbmNlLiBUaGUgc3RyYXRlZ3kgd2UKd2lsbCB1c2UgaGVyZSBpcyB0aGUgc2ltcGxlc3Qgb25lIGF2YWlsYWJsZTogd2Ugd2lsbCBzaW1wbHkgdGVzdApkaWZmZXJlbnQgY29tYmluYXRpb25zIG9mIGh5cGVycGFyYW1ldGVycyBpbiBhIHJlZ3VsYXIgZ3JpZCBhbmQgd2UKd2lsbCBzZWUgaG93IGVhY2ggb2YgdGhvc2UgY29tYmluYXRpb25zIHdvcmsuIEZvciB0aGUgc2FrZSBvZgppbGx1c3RyYXRpb24sIEkgYW0gZ29pbmcgdG8gYmUgdXNpbmcgaGVyZSBhIHZlcnkgc21hbGwgZ3JpZDoKCmBgYHtyfQpwYXJhbV9ncmlkIDwtIGV4cGFuZC5ncmlkKG1heC5kZXB0aD1jKDEsIDIsIDMpLAogICAgICAgICAgICAgICAgICAgICAgICAgIGV0YT1jKC4xKSkgCmBgYCAKCkluIGRvaW5nIHNvLCB0aGVyZSBpcyB0aGUgcmlzayB0aGF0IG91ciBtb2RlbHMgd2lsbCBsZWFybiBfdG9vIG11Y2hfCmFib3V0IHRoZSB0cmFpbmluZyBkYXRhIChXaHk/KS4gVGh1cywgd2Ugd2lsbCB3YW50IHRvIF9maXRfIHRoZSBtb2RlbAphbmQgdG8gX2V2YWx1YXRlXyB0aGUgbW9kZWwgdXNpbmcgZGlmZmVyZW50IGRhdGFzZXRzLiBUaGF0J3Mgd2hlcmUgdGhlCmB4Z2IuY3ZgIGZ1bmN0aW9uIHdpbGwgaGVscCB1cy4gSW4gdGhpcyBjYXNlLCB3ZSB3aWxsIGJlIHVzaW5nIDUtZm9sZApjcm9zcy12YWxpZGF0aW9uIG92ZXIgdGhlIHRyYWluaW5nIHNldCAoSG93IG1hbnkgY2FzZXMgYXJlIHdlIHVzaW5nIGluCmVhY2ggc3RlcD8pLgoKYGBge3J9CmJlc3QgPC0gMWU2CmJlc3RfaW5kZXggPC0gTkEKYmVzdF9wYXJhbXMgPC0gTkEKCmZvciAoaSBpbiAxOm5yb3cocGFyYW1fZ3JpZCkpIHsKICAgIG1zZyA8LSBzcHJpbnRmKCJDb21wdXRhdGlvbiB3aXRoICglcykiLAogICAgICAgICAgICAgICAgICAgcGFzdGUocGFyYW1fZ3JpZFtpLCBdLCBjb2xsYXBzZT0iLCIpKQogICAgY2F0KG1zZywgIlxuIikKICAgIG1vZF8gPC0geGdiLmN2KGRhdGE9YXMubWF0cml4KGR2KSwKICAgICAgICAgICAgICAgICAgbGFiZWw9YXMubWF0cml4KGFzLm51bWVyaWModHJhaW5pbmckdm90ZWludGVudGlvbikgLSAxKSwKICAgICAgICAgICAgICAgICAgbmZvbGQ9NSwKICAgICAgICAgICAgICAgICAgcGFyYW1zPXBhcmFtX2dyaWRbaSwgXSwKICAgICAgICAgICAgICAgICAgbnRocmVhZD00LAogICAgICAgICAgICAgICAgICBucm91bmRzPTUwMCwKICAgICAgICAgICAgICAgICAgZWFybHlfc3RvcHBpbmdfcm91bmRzPTUsCiAgICAgICAgICAgICAgICAgIG9iamVjdGl2ZT0ibXVsdGk6c29mdG1heCIsCiAgICAgICAgICAgICAgICAgIG51bV9jbGFzcz0xMikKCiAgICBtZXJyb3JfbWVhbl9pbmRleF8gPC0gbW9kXyRiZXN0X2l0ZXJhdGlvbgogICAgbWluX21lcnJvcl8gPC0gbW9kXyRldmFsdWF0aW9uX2xvZ1ttZXJyb3JfbWVhbl9pbmRleF9dJHRlc3RfbWVycm9yX21lYW4KCiAgICBpZiAobWluX21lcnJvcl8gPCBiZXN0KSB7CiAgICAgICAgYmVzdCA8LSBtaW5fbWVycm9yXwogICAgICAgIGJlc3RfaW5kZXggPC0gbWVycm9yX21lYW5faW5kZXhfCiAgICAgICAgYmVzdF9wYXJhbSA8LSBwYXJhbV9ncmlkW2ksIF0KICAgIH0KfQpgYGAKCk5vdyB0aGF0IHdlIGhhdmUgb3VyIGJlc3QgcGVyZm9ybWluZyBjb21iaW5hdGlvbiBvZiBoeXBlcnBhcmFtZXRlcnMsCndlIGNhbiBub3cgYXBwbHkgaXQgdG8gdGhlIGZ1bGwgdHJhaW5pbmcgc2V0LgoKYGBge3J9CmJhc2UgPC0geGdib29zdChkYXRhPWFzLm1hdHJpeChkdiksCiAgICAgICAgICAgICAgICBsYWJlbD1hcy5tYXRyaXgoYXMubnVtZXJpYyh0cmFpbmluZyR2b3RlaW50ZW50aW9uKSAtIDEpLAogICAgICAgICAgICAgICAgbnRocmVhZD00LAogICAgICAgICAgICAgICAgcGFyYW1zPWJlc3RfcGFyYW0sCiAgICAgICAgICAgICAgICBucm91bmRzPWJlc3RfaW5kZXgsCiAgICAgICAgICAgICAgICBvYmplY3RpdmU9Im11bHRpOnNvZnRtYXgiLAogICAgICAgICAgICAgICAgbnVtX2NsYXNzPTEyLAogICAgICAgICAgICAgICAgdmVyYm9zZT1GQUxTRSkKYGBgCgpGcm9tIHRoaXMgbW9kZWwgd2UgY291bGQgdHJ5IHRvIHNheSBzb21ldGhpbmcgYWJvdXQgcGVyZm9ybWFuY2UgYW5kCmhvdyB3ZWxsIGl0IHdvcmtzLiBIb3dldmVyLCB0aGF0J3Mgbm90IGEgZ29vZCBpZGVhLiBJbnN0ZWFkIHdlIGFyZQpnb2luZyB0byBldmFsdWF0ZSB0aGUgcGVyZm9ybWFuY2Ugb2YgdGhlIG1vZGVsIHVzaW5nIHRoZSBkYXRhIHRoYXQgd2UKc2V0IGFzaWRlLgoKYGBge3IgaW5jbHVkZT1GQUxTRX0KZHYgPC0gcHJlZGljdChkdW1taWVzLAogICAgICAgICAgICAgIHRlc3RpbmcpCmR2IDwtIGRhdGEuZnJhbWUoZHYpCmR2IDwtIGR2WywgYmFzZSRmZWF0dXJlX25hbWVzXQpgYGAKClRoZSBlYXNpZXN0IHdheSB0byBtYWtlIHRoaXMgZXZhbHVhdGlvbiBpcyB0aHJvdWdoIHRoZSBjb25mdXNpb24KbWF0cml4OiBhIGNvbXBhcmlzb24gYmV0d2VlbiB0aGUgcHJlZGljdGlvbnMgd2UgbWFkZSBhbmQgdGhlIGtub3duCnJlc3BvbnNlcy4gV2UgY2FuIGNoYXJhY3Rlcml6ZSB0aGUgY29uZnVzaW9uIG1hdHJpeCBpbiBkaWZmZXJlbnQgd2F5cywKYW5kIGBjYXJldDo6Y29uZnVzaW9uTWF0cml4YCBvZmZlcnMgbWFueSBvZiB0aGUgY29tbW9uIHN0YXRpc3RpY3MuCgpgYGB7cn0KY20gPC0gY29uZnVzaW9uTWF0cml4KGRhdGE9ZmFjdG9yKHByZWRpY3QoYmFzZSwgYXMubWF0cml4KGR2KSksIGxhYmVscz1sZXYpLAogICAgICAgICAgICAgICAgICAgICAgcmVmZXJlbmNlPXRlc3Rpbmckdm90ZWludGVudGlvbikKcHJpbnQoY20pCmBgYAo=</div>
 
 
 
@@ -2061,7 +2240,7 @@ $(document).ready(function () {
 <!-- code folding -->
 <script>
 $(document).ready(function () {
-  window.initializeSourceEmbed("weighting.Rmd");
+  window.initializeSourceEmbed("prediction.Rmd");
   window.initializeCodeFolding("show" === "show");
 });
 </script>
