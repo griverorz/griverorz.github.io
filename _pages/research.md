@@ -10,16 +10,15 @@ description: Publications, working papers, and research in progress
 * Adaptive designs in context: Combining geographical information and paradata
   (with Roger Tourangeau, Brad Edwards, and Tammy Cook)
 
-* Preventing rather than Punishing: An Early Warning Model of Malfeasance in
-	Public Procurement (with Jorge Gallego and Juan Mart&iacute;nez).
-
-* The Political Preferences of the Wealthy in the U.S. and the Netherlands
-  (with Marko Klasnja, Liz Suhay, and Paul Smeets).
-
 * Using Natural Language Processing and Machine Learning to Process
   Open Text Field Comments in a Panel Study (with Catherine
   Billington, Kristin Chen, Andrew Jannett, and John Riddles)
 
+* Validation of EHR-based Prediction Models for Distinguishing Diabetes
+  Type Among Adults (with Campione, J., Nooney, J., Kirkman, M. S.,
+  Pfaff, M., Mardon, R., Benoit, S.R., McKeever-Bullard,K., Yang,
+  D.-H., Rolka, D. and Saydah, S. )
+  
 #### Books
 
 * (2020): [Retooling Politics: How Digital Media are Shaping Politics](https://www.cambridge.org/us/academic/subjects/computer-science/computing-and-society/retooling-politics-how-digital-media-are-shaping-democracy) (with Andreas
@@ -32,7 +31,21 @@ description: Publications, working papers, and research in progress
 
 #### Peer-reviewed articles
 
-* (exp. 2019): Ideology of Affluence: Explanations for Inequality and
+* (2020): Preventing rather than Punishing: An Early Warning Model of
+	Malfeasance in Public Procurement. Accepted at _International
+	Journal of Forecasting_. (with Jorge Gallego and Juan
+	Mart&iacute;nez).
+
+* (2020): Identifying OptimalSurvey-Based Algorithms to Distinguish
+  Diabetes Type among Adults with Diabetes. Accepted at _Journal of
+  Clinical and Translational Endocrinology_. (with Nooney, J.,
+  Kirkman, M. S., Bullard, K. M., White, Z., Meadows, K., Campione,
+  J., Mardon,R., Benoit, S. R., Pfaff, E., Rolka, D. and Saydah, S).
+
+* Preventing rather than Punishing: An Early Warning Model of Malfeasance in
+	Public Procurement (with Jorge Gallego and Juan Mart&iacute;nez).
+
+* (2020): Ideology of Affluence: Explanations for Inequality and
 	Political Attitudes among Rich Americans. Accepted at _Journal of
 	Politics_. (with Liz Suhay and Marko Klasnja).
 
@@ -79,6 +92,10 @@ description: Publications, working papers, and research in progress
 
 #### Other publications
 
+* (2020): [Good Coding Practices to Ensure Reproducibility.]({{
+  site.url }}/assets/pdf/good_practices.pdf) Westat White Paper (with
+  Jiating Chen).
+  
 * (2012): &iquest;Un tweet, un voto? Desigualdad en el debate pol&iacute;tico en
   Twitter. In Cotarelo, R. and Crespo, I. (comps): La comunicaci&oacute;n
   pol&iacute;tica y las nuevas tecnolog&iacute;as, Catarata, Madrid (with Pablo

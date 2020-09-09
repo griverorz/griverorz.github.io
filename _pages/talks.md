@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 permalink: /talks/
 title: talks
 description: Materials from academic and public talks
@@ -12,7 +12,7 @@ description: Materials from academic and public talks
 * [Big Data for Social Research](http://griverorz.net/big-data/)
   * Universidad Cat&oacute;lica de Montevideo (2019)
   * Universidad del Rosario, Bogot&aacute; (2017)
-* Reproducibility in Quantitative Research. Westat (2019)
+* [Reproducibility in Quantitative Research.]({{ site.url }}/assets/pdf/good_practices-pst.pdf) Westat (2019)
 * [Reproducible Research Using RMarkdown](https://github.com/griverorz/westraining-rmarkdown). Westat (2016, 2017)
 * [Advanced R](https://github.com/griverorz/westraining-R/tree/master/advanced-R). Westat (2015, 2016)
 * [Introduction to Statistical Programming in R](https://github.com/griverorz/westraining-R/tree/master/advanced-R). Westat (2016)

@@ -9,7 +9,7 @@ footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
 url:  # the base hostname & protocol for your site
-baseurl: # the subpath of your site, e.g. /blog/
+baseurl: 
 last_updated: October, 9, 2019 # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
@@ -32,7 +32,7 @@ google_analytics: UA-48809017-2 # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 blog_name: Random Thoughts
-blog_description: 
+blog_description: Some notes
 
 # Pagination
 paginate: 4
@@ -113,6 +113,34 @@ scholar:
 # -----------------------------------------------------------------------------
 # Other settings
 # -----------------------------------------------------------------------------
-jquery_version: "1.12.4"
-katex_version: "0.9.0"
-anchorjs_version: "3.2.2"
+
+academicons:
+  version: "1.8.6"
+  integrity: "sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw="
+bootstrap:
+  version: "4.4.1"
+  integrity:
+    css: "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    js: "sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+fontawesome:
+  version: "5.13.0"
+  integrity: "sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+jquery:
+  version: "3.4.1"
+  integrity: "sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+katex:
+  version: "0.11.1"
+  integrity:
+    css: "sha256-V8SV2MO1FUb63Bwht5Wx9x6PVHNa02gv8BgH/uH3ung="
+    js: "sha256-F/Xda58SPdcUCr+xhSGz9MA2zQBPb0ASEYKohl8UCHc="
+mansory:
+  version: "4.2.2"
+  integrity: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
+mdb:
+  version: "4.17.0"
+  integrity:
+    css: "sha256-/SwJ2GDcEt5382i8zqDwl36VJGECxEoIcBIuoLmLR4g="
+    js: "sha256-UGNYR+uy841zU5TiO2yXD96UktHt9TM4/WXvsDLr4l0="
+popper:
+  version: "2.4.0"
+  integrity: "sha256-OH05DFHUWzr725HmuHo3pnuvUUn+TJuj8/Qz9xytFEw="

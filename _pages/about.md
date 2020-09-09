@@ -8,7 +8,7 @@ profile:
   align: right
   image: pic.jpg
 
-news: false
+news: true
 social: true
 ---
 
