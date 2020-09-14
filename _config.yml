@@ -11,7 +11,7 @@ footer_text: >
 
 url:  # the base hostname & protocol for your site
 baseurl: 
-last_updated: October, 9, 2019 # leave blank if you don't want to display last updated
+last_updated: 
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -23,6 +23,9 @@ scholar_userid: DrJpGZEAAAAJ
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
+publons_id: # your ID on Publons
+research_gate_profile: # your profile on ResearchGate
+blogger_url: # your blogger URL
 
 contact_note: >
   The best method to reach me is via email.
@@ -32,30 +35,21 @@ google_analytics: UA-48809017-2 # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name:
-blog_description: Some notes
+blog_name: 
+blog_description: a simple whitespace theme for academics
+permalink: /blog/:year/:title/
 
 # Pagination
-paginate: 4
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
-
-text:
-  pagination:
-    newer: 'Newer'
-    older: 'Older'
+pagination:
+  enabled: true
 
 # Comments
 disqus_shortname: griverorz # put your disqus shortname
 
-# Optional features
-show_social_icons:  false
-enable_anchorjs:    false
-enable_katex:       true
-
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
+
 collections:
   news:
     defaults:
@@ -72,7 +66,7 @@ news_limit: 5
 # Jekyll settings
 # -----------------------------------------------------------------------------
 
-# Build settings
+# Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
 
@@ -82,21 +76,23 @@ exclude: [vendor]
 
 # Plug-ins
 plugins:
-    - jekyll-email-protect
-    - jekyll-paginate
-    - jekyll/scholar
-    - jemoji
+  - jekyll-email-protect
+  - jekyll-paginate-v2
+  - jekyll/scholar
+  - jemoji
+  # - bootstrap
+  # - material-sass
 
-# Jekyll-Scholar
+# -----------------------------------------------------------------------------
+# Jekyll Scholar
+# -----------------------------------------------------------------------------
+
 scholar:
 
   last_name: Gonzalo Rivero
 
   style: apa
   locale: en
-
-  sort_by: year
-  order: descending
 
   source: /_bibliography/
   bibliography: papers.bib
@@ -112,7 +108,18 @@ scholar:
   query: "@*"
 
 # -----------------------------------------------------------------------------
-# Other settings
+# Optional Features
+# -----------------------------------------------------------------------------
+
+enable_google_analytics:  false
+enable_katex:             true
+enable_mansory:           true
+enable_progressbar:       true
+enable_tooltips:          false
+show_social_icons:        false
+
+# -----------------------------------------------------------------------------
+# Library versions
 # -----------------------------------------------------------------------------
 
 academicons:

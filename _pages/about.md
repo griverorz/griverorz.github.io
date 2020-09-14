@@ -1,5 +1,6 @@
 ---
 layout: about
+title: about
 permalink: /
 title: <strong>Gonzalo</strong> Rivero
 description: Research Scientist @ <a href="https://www.westat.com">Westat</a>
@@ -8,8 +9,9 @@ profile:
   align: right
   image: pic.jpg
 
-news: true
-social: true
+news: true  # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true  # includes social icons at the bottom of the page
 ---
 
 I am a data scientist and social researcher specialized in the design,
