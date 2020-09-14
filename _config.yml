@@ -1,6 +1,7 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
+title: Gonzalo Rivero
 name: Gonzalo Rivero
 email: me@griverorz.net
 description: > # this means to ignore newlines until "url:"
@@ -31,7 +32,7 @@ google_analytics: UA-48809017-2 # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: Random Thoughts
+blog_name:
 blog_description: Some notes
 
 # Pagination

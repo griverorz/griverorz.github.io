@@ -3,6 +3,7 @@ layout: default
 permalink: /talks/
 title: talks
 description: Materials from academic and public talks
+nav: true
 ---
 
 #### Short courses and workshops

@@ -3,9 +3,10 @@ layout: page
 permalink: /research/
 title: research
 description: Publications, working papers, and research in progress
+nav: true
 ---
 
-#### Work in progress
+#### _Work in progress_
 
 * Adaptive designs in context: Combining geographical information and paradata
   (with Roger Tourangeau, Brad Edwards, and Tammy Cook)
@@ -19,22 +20,23 @@ description: Publications, working papers, and research in progress
   Pfaff, M., Mardon, R., Benoit, S.R., McKeever-Bullard,K., Yang,
   D.-H., Rolka, D. and Saydah, S. )
   
-#### Books
+#### _Books_
 
-* (2020): [Retooling Politics: How Digital Media are Shaping Politics](https://www.cambridge.org/us/academic/subjects/computer-science/computing-and-society/retooling-politics-how-digital-media-are-shaping-democracy) (with Andreas
-  Jungherr and Daniel Gayo-Avello). Cambridge University Press, New
-  York. 
+* (2020): [Retooling Politics: How Digital Media are Shaping
+  Politics](https://www.cambridge.org/us/academic/subjects/computer-science/computing-and-society/retooling-politics-how-digital-media-are-shaping-democracy)
+  (with Andreas Jungherr and Daniel Gayo-Avello). Cambridge University
+  Press, New York.
 
 * (2011): [An&aacute;lisis de datos incompletos en Ciencias
-   Sociales.](http://libreria.cis.es/libros/analisis-de-datos-incompletos-en-ciencias-sociales/9788474765632/)
-   Centro de Investigaciones Sociol&oacute;gicas, Madrid.
+  Sociales.](http://libreria.cis.es/libros/analisis-de-datos-incompletos-en-ciencias-sociales/9788474765632/)
+  Centro de Investigaciones Sociol&oacute;gicas, Madrid.
 
-#### Peer-reviewed articles
+#### _Peer-reviewed articles_
 
 * (2020): Preventing rather than Punishing: An Early Warning Model of
-	Malfeasance in Public Procurement. Accepted at _International
-	Journal of Forecasting_. (with Jorge Gallego and Juan
-	Mart&iacute;nez).
+  Malfeasance in Public Procurement. Accepted at _International
+  Journal of Forecasting_. (with Jorge Gallego and Juan
+  Mart&iacute;nez).
 
 * (2020): Identifying OptimalSurvey-Based Algorithms to Distinguish
   Diabetes Type among Adults with Diabetes. Accepted at _Journal of
@@ -42,20 +44,22 @@ description: Publications, working papers, and research in progress
   Kirkman, M. S., Bullard, K. M., White, Z., Meadows, K., Campione,
   J., Mardon,R., Benoit, S. R., Pfaff, E., Rolka, D. and Saydah, S).
 
-* Preventing rather than Punishing: An Early Warning Model of Malfeasance in
-	Public Procurement (with Jorge Gallego and Juan Mart&iacute;nez).
+* (2020): Preventing rather than Punishing: An Early Warning Model of
+  Malfeasance in Public Procurement (with Jorge Gallego and Juan
+  Mart&iacute;nez).
 
 * (2020): Ideology of Affluence: Explanations for Inequality and
-	Political Attitudes among Rich Americans. Accepted at _Journal of
-	Politics_. (with Liz Suhay and Marko Klasnja).
+  Political Attitudes among Rich Americans. Accepted at _Journal of
+  Politics_. (with Liz Suhay and Marko Klasnja).
 
 * (2019): [Preaching to the Choir. Ideology and Following Behavior in
   Social Media.](https://rsa.tandfonline.com/doi/abs/10.1080/21582041.2017.1325924) _Contemporary Social Science,_ 14 (1): 54-70.
 
 * (2018): [Web Surveys by Smartphones and Tablets: Effects on Data
-	Quality.](http://journals.sagepub.com/doi/abs/10.1177/0894439317719438?journalCode=ssc)
-	_Social Science Computer Review,_ 36 (5): 542-556. (with Roger Tourangeau, Aaron Maitland, Hanyu Sun,
-	Douglas Williams, and Ting Yan).
+  Quality.](http://journals.sagepub.com/doi/abs/10.1177/0894439317719438?journalCode=ssc)
+  _Social Science Computer Review,_ 36 (5): 542-556. (with Roger
+  Tourangeau, Aaron Maitland, Hanyu Sun, Douglas Williams, and Ting
+  Yan).
 
 * (2017): [Web Surveys by Smartphones and Tablets: Effects on Survey Responses.](https://academic.oup.com/poq/article-abstract/81/4/896/4718546) _Public
 	Opinion Quarterly,_ 81 (4): 896-929 (with Roger Tourangeau, Aaron
@@ -75,7 +79,7 @@ description: Publications, working papers, and research in progress
 * (2014): [Understanding the Political Representativeness of Twitter Users.](https://journals.sagepub.com/doi/abs/10.1177/0894439314558836?journalCode=ssce) _Social
   Science Computer Review,_ 33 (6): 712-729 (with Pablo Barber&aacute;).
 
-#### Conference papers
+#### _Conference papers_
 
 * (2018): Responsive Design in Practice. _Computer Assisted Survey Information
   Collection_ in Denver, CO (with Roger Tourangeau, Brad Edwards, and Tammy
@@ -90,7 +94,7 @@ description: Publications, working papers, and research in progress
   Paradata. _International Total Survey Error Worksop_ in Sidney,
   Australia (with Brad Edwards and Hanyu Sun).
 
-#### Other publications
+#### _Other publications_
 
 * (2020): [Good Coding Practices to Ensure Reproducibility.]({{
   site.url }}/assets/pdf/good_practices.pdf) Westat White Paper (with
