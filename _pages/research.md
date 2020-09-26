@@ -11,9 +11,10 @@ nav: true
 * Adaptive designs in context: Combining geographical information and paradata
   (with Roger Tourangeau, Brad Edwards, and Tammy Cook)
 
-* Using Natural Language Processing and Machine Learning to Process
-  Open Text Field Comments in a Panel Study (with Catherine
-  Billington, Kristin Chen, Andrew Jannett, and John Riddles)
+* A machine learning model to process interviewer comments in CAPI
+  instruments: A case study using the Medical Expenditure Panel Survey
+  (with Catherine Billington, Kristin Chen, Andrew Jannett, and John
+  Riddles)
 
 * Validation of EHR-based Prediction Models for Distinguishing Diabetes
   Type Among Adults (with Campione, J., Nooney, J., Kirkman, M. S.,
@@ -38,15 +39,11 @@ nav: true
   Journal of Forecasting_. (with Jorge Gallego and Juan
   Mart&iacute;nez).
 
-* (2020): Identifying OptimalSurvey-Based Algorithms to Distinguish
+* (2020): Identifying Optimal Survey-Based Algorithms to Distinguish
   Diabetes Type among Adults with Diabetes. Accepted at _Journal of
   Clinical and Translational Endocrinology_. (with Nooney, J.,
   Kirkman, M. S., Bullard, K. M., White, Z., Meadows, K., Campione,
   J., Mardon,R., Benoit, S. R., Pfaff, E., Rolka, D. and Saydah, S).
-
-* (2020): Preventing rather than Punishing: An Early Warning Model of
-  Malfeasance in Public Procurement (with Jorge Gallego and Juan
-  Mart&iacute;nez).
 
 * (2020): Ideology of Affluence: Explanations for Inequality and
   Political Attitudes among Rich Americans. Accepted at _Journal of
@@ -97,7 +94,7 @@ nav: true
 #### _Other publications_
 
 * (2020): [Good Coding Practices to Ensure Reproducibility.]({{
-  site.url }}/assets/pdf/good_practices.pdf) Westat White Paper (with
+  site.url }}/assets/pdf/good_practices.pdf) Westat Issue Brief (with
   Jiating Chen).
   
 * (2012): &iquest;Un tweet, un voto? Desigualdad en el debate pol&iacute;tico en
