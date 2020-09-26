@@ -8,9 +8,12 @@ nav: true
 
 #### _Work in progress_
 
-* Using Predictive Models as Explanations: An Application to Public
-  Opinion Research. 
+* Explainable Machine Learning for Public Opinion Research.
 
+* Ideological Shifts in a Stable Dictatorship: A Study of General
+  Franco's Addresses Using Deep Learning. (with \'Alvaro La
+  Parra-P\'erez)
+    
 #### _Working papers_
 
 * Adaptive Designs in Context: Combining Geographical Information and Paradata
