@@ -8,23 +8,27 @@ nav: true
 
 #### _Work in progress_
 
-* Adaptive designs in context: Combining geographical information and paradata
-  (with Roger Tourangeau, Brad Edwards, and Tammy Cook)
+* Using Predictive Models as Explanations: An Application to Public
+  Opinion Research. 
 
-* A machine learning model to process interviewer comments in CAPI
-  instruments: A case study using the Medical Expenditure Panel Survey
-  (with Catherine Billington, Kristin Chen, Andrew Jannett, and John
-  Riddles)
+#### _Working papers_
+
+* Adaptive Designs in Context: Combining Geographical Information and Paradata
+  (with Roger Tourangeau, Brad Edwards, and Tammy Cook). Under review.
+
+* A Machine Learning Model to Process Interviewer Comments in CAPI
+  Instruments: A Case Study Using the Medical Expenditure Panel Survey
+  (with Catherine Billington, Andrew Jannett, and Jiating Chen). 
 
 * Validation of EHR-based Prediction Models for Distinguishing Diabetes
   Type Among Adults (with Campione, J., Nooney, J., Kirkman, M. S.,
   Pfaff, M., Mardon, R., Benoit, S.R., McKeever-Bullard,K., Yang,
-  D.-H., Rolka, D. and Saydah, S. )
+  D.-H., Rolka, D. and Saydah, S.). Under review.
   
 #### _Books_
 
 * (2020): [Retooling Politics: How Digital Media are Shaping
-  Politics](https://www.cambridge.org/us/academic/subjects/computer-science/computing-and-society/retooling-politics-how-digital-media-are-shaping-democracy)
+  Politics](https://www.amazon.com/Retooling-Politics-Digital-Shaping-Democracy/dp/1108419402)
   (with Andreas Jungherr and Daniel Gayo-Avello). Cambridge University
   Press, New York.
 
@@ -111,5 +115,6 @@ nav: true
   la democracia en Espa&ntilde;a, 2011, Fundaci&oacute;n Alternativas, Madrid
   (with Victor Lapuente and Pablo Fern&aacute;ndez).
       
-* (2011): Las consecuencias electorales de los esc&aacute;ndalos de corrupci&oacute;n
-  municipal. Estudio de Progreso, 59/2011 (with Pablo Fern&aacute;ndez).
+* (2011): Las consecuencias electorales de los esc&aacute;ndalos de
+  corrupci&oacute;n municipal. Estudio de Progreso, 59/2011 (with
+  Pablo Fern&aacute;ndez).
