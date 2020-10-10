@@ -11,8 +11,8 @@ nav: true
 * Explainable Machine Learning for Public Opinion Research.
 
 * Ideological Shifts in a Stable Dictatorship: A Study of General
-  Franco's Addresses Using Deep Learning. (with \'Alvaro La
-  Parra-P\'erez)
+  Franco's Addresses Using Deep Learning. (with &Aacute;lvaro La
+  Parra-P&eacute;rez)
     
 #### _Working papers_
 
