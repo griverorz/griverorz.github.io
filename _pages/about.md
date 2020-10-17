@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 title: <strong>Gonzalo</strong> Rivero
-description: Research Scientist @ <a href="https://www.westat.com">Westat</a>
+description: Data Science Manager @ <a href="https://www.westat.com">Westat</a>
 
 profile:
   align: right
