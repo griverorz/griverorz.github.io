@@ -20,8 +20,8 @@ nav: true
   (with Roger Tourangeau, Brad Edwards, and Tammy Cook). Under review.
 
 * A Machine Learning Model to Process Interviewer Comments in CAPI
-  Instruments: A Case Study Using the Medical Expenditure Panel Survey
-  (with Catherine Billington, Andrew Jannett, and Jiating Chen). 
+  Instruments: A Case Study (with Catherine Billington, Andrew
+  Jannett, and Jiating Chen).
 
 * Validation of EHR-based Prediction Models for Distinguishing Diabetes
   Type Among Adults (with Campione, J., Nooney, J., Kirkman, M. S.,
