@@ -41,20 +41,24 @@ nav: true
 
 #### _Peer-reviewed articles_
 
-* (2020): Preventing rather than Punishing: An Early Warning Model of
-  Malfeasance in Public Procurement. Accepted at _International
-  Journal of Forecasting_. (with Jorge Gallego and Juan
+* (2021): [Preventing rather than Punishing: An Early Warning Model of
+  Malfeasance in Public Procurement.](https://www.sciencedirect.com/science/article/pii/S0169207020300935?via%3Dihub#) _International Journal of
+  Forecasting_, 37 (1): 360-377. (with Jorge Gallego and Juan
   Mart&iacute;nez).
 
-* (2020): Identifying Optimal Survey-Based Algorithms to Distinguish
-  Diabetes Type among Adults with Diabetes. Accepted at _Journal of
-  Clinical and Translational Endocrinology_. (with Nooney, J.,
-  Kirkman, M. S., Bullard, K. M., White, Z., Meadows, K., Campione,
-  J., Mardon,R., Benoit, S. R., Pfaff, E., Rolka, D. and Saydah, S).
+* (2020): [Identifying Optimal Survey-Based Algorithms to Distinguish
+  Diabetes Type among Adults with
+  Diabetes.](https://www.sciencedirect.com/science/article/pii/S2214623720300843)
+  _Journal of Clinical and Translational Endocrinology_, 21 (with
+  Nooney, J., Kirkman, M. S., Bullard, K. M., White, Z., Meadows, K.,
+  Campione, J., Mardon,R., Benoit, S. R., Pfaff, E., Rolka, D. and
+  Saydah, S).
 
-* (2020): Ideology of Affluence: Explanations for Inequality and
-  Political Attitudes among Rich Americans. Accepted at _Journal of
-  Politics_. (with Liz Suhay and Marko Klasnja).
+* (2020): [Ideology of Affluence: Explanations for Inequality and
+  Political Attitudes among Rich
+  Americans.](https://www.journals.uchicago.edu/doi/pdf/10.1086/709672)
+  Forthcoming at _Journal of Politics_. (with Liz Suhay and Marko
+  Klasnja).
 
 * (2019): [Preaching to the Choir. Ideology and Following Behavior in
   Social Media.](https://rsa.tandfonline.com/doi/abs/10.1080/21582041.2017.1325924) _Contemporary Social Science,_ 14 (1): 54-70.
