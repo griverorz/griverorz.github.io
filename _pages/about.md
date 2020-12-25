@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 title: <strong>Gonzalo</strong> Rivero
-description: Data Science Manager @ <a href="https://www.westat.com">Westat</a>
+description: Senior Data Science Manager @ <a href="https://www.westat.com">Westat</a>
 
 profile:
   align: right
@@ -21,7 +21,7 @@ statistical models to build rapid feedback applications and quality
 control systems and to enrich traditional survey data with new digital
 sources.
 
-I currently serve as Data Science Manager in the [Statistics and
+I currently serve as Senior Data Science Manager (Principal Statistician) in the [Statistics and
 Evaluation Sciences Unit](
 https://www.westat.com/capability/statistical-sciences) of
 [Westat](https://www.westat.com). Before that, I was a statistician at
