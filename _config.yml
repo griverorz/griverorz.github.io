@@ -26,6 +26,7 @@ quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
+keybase_username: # your keybase user name
 
 contact_note: >
   The best method to reach me is via email.
@@ -77,8 +78,10 @@ exclude: [vendor]
 # Plug-ins
 plugins:
   - jekyll-email-protect
+  - jekyll-github-metadata
   - jekyll-paginate-v2
   - jekyll/scholar
+  - jekyll-twitter-plugin
   - jemoji
   # - bootstrap
   # - material-sass
@@ -112,10 +115,10 @@ scholar:
 # -----------------------------------------------------------------------------
 
 enable_google_analytics:  false
-enable_katex:             true
 enable_mansory:           true
-enable_progressbar:       true
+enable_math:              true
 enable_tooltips:          false
+enable_darkmode:          true
 show_social_icons:        false
 
 # -----------------------------------------------------------------------------
@@ -134,13 +137,10 @@ fontawesome:
   version: "5.13.0"
   integrity: "sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
 jquery:
-  version: "3.4.1"
-  integrity: "sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-katex:
-  version: "0.11.1"
-  integrity:
-    css: "sha256-V8SV2MO1FUb63Bwht5Wx9x6PVHNa02gv8BgH/uH3ung="
-    js: "sha256-F/Xda58SPdcUCr+xhSGz9MA2zQBPb0ASEYKohl8UCHc="
+  version: "3.5.1"
+  integrity: "sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+mathjax:
+  version: "3.1.2"
 mansory:
   version: "4.2.2"
   integrity: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
