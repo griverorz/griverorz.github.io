@@ -2,7 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 title: Gonzalo Rivero
-name: Gonzalo Rivero
+first_name: Gonzalo
+middle_name: 
+last_name: Rivero
 email: me@griverorz.net
 description: > # this means to ignore newlines until "url:"
   Homepage for Gonzalo Rivero.
