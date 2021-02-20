@@ -22,9 +22,9 @@ control systems and to enrich traditional survey data with new digital
 sources.
 
 I currently serve as Associate Director of Research (Data Labs) at Pew
-Pew Research Center. Previously, I managed the data science team
-(Principal Statistician) of the [Statistics and Evaluation Sciences
-Unit]( https://www.westat.com/capability/statistical-sciences) at
+Pew Research Center. Previously, I managed the data science team of
+the [Statistics and Evaluation Sciences Unit](
+https://www.westat.com/capability/statistical-sciences) at
 [Westat](https://www.westat.com) and worked as statistician at the
 [Scientific Research Group of
 YouGov](https://today.yougov.com/solutions/sectors/political-academic-policy/).
