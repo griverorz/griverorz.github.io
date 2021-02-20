@@ -3,8 +3,7 @@ layout: about
 title: about
 permalink: /
 title: <strong>Gonzalo</strong> Rivero
-description: Associate Director of Research @ <a
-href="https://www.pewresearch.org">Pew Research Center</a>
+description: Associate Director of Research @ <a href="https://www.pewresearch.org">Pew Research Center</a>
 
 profile:
   align: right
@@ -22,8 +21,8 @@ control systems and to enrich traditional survey data with new digital
 sources.
 
 I currently serve as Associate Director of Research (Data Labs) at Pew
-Pew Research Center. Previously, I managed the data science team of
-the [Statistics and Evaluation Sciences Unit](
+Research Center. Previously, I managed the data science team of the
+[Statistics and Evaluation Sciences Unit](
 https://www.westat.com/capability/statistical-sciences) at
 [Westat](https://www.westat.com) and worked as statistician at the
 [Scientific Research Group of
