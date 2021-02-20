@@ -3,7 +3,8 @@ layout: about
 title: about
 permalink: /
 title: <strong>Gonzalo</strong> Rivero
-description: Senior Data Science Manager @ <a href="https://www.westat.com">Westat</a>
+description: Associate Director of Research @ <a
+href="https://www.pewresearch.org">Pew Research Center</a>
 
 profile:
   align: right
@@ -20,11 +21,12 @@ statistical models to build rapid feedback applications and quality
 control systems and to enrich traditional survey data with new digital
 sources.
 
-I currently serve as Senior Data Science Manager (Principal Statistician) in the [Statistics and
-Evaluation Sciences Unit](
-https://www.westat.com/capability/statistical-sciences) of
-[Westat](https://www.westat.com). Before that, I was a statistician at
-the [Scientific Research Group of
+I currently serve as Associate Director of Research (Data Labs) at Pew
+Pew Research Center. Previously, I managed the data science team
+(Principal Statistician) of the [Statistics and Evaluation Sciences
+Unit]( https://www.westat.com/capability/statistical-sciences) at
+[Westat](https://www.westat.com) and worked as statistician at the
+[Scientific Research Group of
 YouGov](https://today.yougov.com/solutions/sectors/political-academic-policy/).
 
 ### [Resume &rarr;]({{ site.url }}/assets/pdf/resume-grivero.pdf)
