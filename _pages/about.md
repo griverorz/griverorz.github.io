@@ -28,7 +28,7 @@ I currently serve as associate director of [Data
 Labs,](https://www.pewresearch.org/methods/about-data-labs/) the
 computational social research team at [Pew Research
 Center,](https://www.pewresearch.org) where I co-manage the research
-and operations of a team that was founded to complement the overall
+and operations of the team. Our goal is to complement the overall
 mission of the organization to "enrich the public dialogue and support
 sound decision-making" using new methods and data sources.
 
