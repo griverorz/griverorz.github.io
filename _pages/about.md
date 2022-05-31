@@ -65,7 +65,7 @@ constatation, political organizations, and democracy at large.
 I received my MA and Ph.D. in Politics from [New York
 University](http://politics.as.nyu.edu/page/home). Before that, I
 graduated in [Social Sciences](http://www.march.es/ceacs/) (MA) and
-[History](http://www.uvigo.es) (BA and MA). More information can be
+[History](http://www.uvigo.es) (BA and MA). Originally from Galicia
+(Spain), I am currently based in Washington, D.C. More information can be
 found in my <a href="{{ site.url
-}}/assets/pdf/resume-grivero.pdf">CV</a>. Originally from Galicia
-(Spain), I am currently based in Washington, D.C.
+}}/assets/pdf/resume-grivero.pdf">CV</a>. 
