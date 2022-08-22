@@ -3,6 +3,14 @@ layout: about
 title: About
 permalink: /
 subtitle: Social scientist & software engineer 
+
+profile:
+  align: right
+  image: 2.jpg
+  address: >
+    <p>Suite 800</p>
+    <p>1615 L St. NW</p>
+    <p>Washington, DC, 20036</p>
      
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
