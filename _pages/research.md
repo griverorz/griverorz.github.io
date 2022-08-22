@@ -6,24 +6,20 @@ description: Publications, working papers, and research in progress
 nav: true
 ---
 
-#### _Work in progress_
+I started my research career working on the consequences of
+factionalism in coercive institutions for regime instability. More
+recently, I have become interested in the impact of digital tools on
+political representation and on the application of machine learning
+methods in public policy.
 
-* Explainable Machine Learning for Public Opinion Research.
-
-* Ideological Shifts in a Stable Dictatorship: A Study of General
-  Franco's Addresses Using Deep Learning. (with &Aacute;lvaro La
-  Parra-P&eacute;rez)
-    
-#### _Working papers_
-
-* Adaptive Designs in Context: Combining Geographical Information and Paradata
-  (with Roger Tourangeau, Brad Edwards, and Tammy Cook). Under review.
-
-* Validation of EHR-based Prediction Models for Distinguishing Diabetes
-  Type Among Adults (with Campione, J., Nooney, J., Kirkman, M. S.,
-  Pfaff, M., Mardon, R., Benoit, S.R., McKeever-Bullard,K., Yang,
-  D.-H., Rolka, D. and Saydah, S.). Under review.
-  
+In 2020, I published my second book [Retooling Politics: How Digital
+Media Are Shaping
+Democracy](https://www.cambridge.org/us/academic/subjects/computer-science/computing-and-society/retooling-politics-how-digital-media-are-shaping-democracy),
+with Andreas Jungherr and Daniel Gayo-Avello. In the book, we use a
+needs-based framework to study the flow and reach of political
+information, the role of data in politics, and the impact of digital
+tools on contestation, political organizations, and democracy at
+large.
 #### _Books_
 
 * (2020): [Retooling Politics: How Digital Media are Shaping
