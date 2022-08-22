@@ -4,14 +4,6 @@ title: About
 permalink: /
 subtitle: Associate Director of Research @ <a href="https://www.pewresearch.org">Pew Research Center</a>
 
-profile:
-  align: right
-  image: pic.jpg
-  address: >
-    <p>Office 721</p>
-    <p>1615 L Street NW</p>
-    <p>Washington, DC, 20036</p>
-
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
