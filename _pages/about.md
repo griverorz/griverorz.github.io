@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a research scientist specialized in the collection and analysis
 of digital data for social research and public policy. I often write
-about the impact of digital politics on political representation and
+about the impact of digital tools on political representation and
 about research methodology.
 
 I currently serve as the associate director of [Data
