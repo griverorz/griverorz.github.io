@@ -68,6 +68,15 @@ classic.  </p> <footer><em>W. Lance Bennett, University of Washington</em></foot
 
 <div class="row"> 
 
+<div class="col-sm-6 mt-3 mt-md-0">
+<blockquote> <p>The effects of digital media on politics and democracy are
+far-reaching, diverse, quickly evolving, and difficult to grasp.
+Retooling Politics is an essential resource for anyone trying to make
+sense of the connection between digital media and politics - and to
+understand what we actually know about it.  </p> <footer><em>Fabrizio Gilardi,
+University of Zurich</em></footer> </blockquote>
+</div>
+
 <div class="col-sm-6 mt-3 mt-md-0"> <blockquote> <p> Retooling
 Politics offers a fresh and nuanced ‘needs-based’ framework for
 analyzing the effects of digital media on political life. This is a
@@ -76,16 +85,7 @@ analysis of what has actually changed in politics, from how
 organizations pursue their ends to the voices that count in public
 life. </p> <footer><em>Daniel Kreiss, UNC Center for Information,
 Technology, and Public Life
-</em></footer> </blockquote>  
-</div>
-
-<div class="col-sm-6 mt-3 mt-md-0">
-<blockquote> <p>The effects of digital media on politics and democracy are
-far-reaching, diverse, quickly evolving, and difficult to grasp.
-Retooling Politics is an essential resource for anyone trying to make
-sense of the connection between digital media and politics - and to
-understand what we actually know about it.  </p> <footer><em>Fabrizio Gilardi,
-University of Zurich</em></footer> </blockquote>
+</em></footer> </blockquote>
 </div>
 
 </div>
@@ -101,7 +101,7 @@ institutional process of politics. Thus, this book will help combat
 the catchy but simplistic narratives advanced by digital cheerleaders
 and doom-mongers and contribute to more realistic and evidence-based
 alternatives. </p> <footer><em> Rasmus Nielsen, University of Oxford
-</em></footer> </blockquote>  
+</em></footer> </blockquote>
 </div>
 
 <div class="col-sm-6 mt-3 mt-md-0"> <blockquote> <p> This book gives a
