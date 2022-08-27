@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Social scientist & software engineer 
+subtitle: Social science & research engineering
 
 profile:
   align: right
