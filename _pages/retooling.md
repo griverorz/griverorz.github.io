@@ -9,12 +9,13 @@ nav_order: 2
 
 In 2020, I published my second book [Retooling Politics: How Digital
 Media Are Shaping
-Democracy](https://www.cambridge.org/us/academic/subjects/computer-science/computing-and-society/retooling-politics-how-digital-media-are-shaping-democracy),
-with Andreas Jungherr and Daniel Gayo-Avello. In the book, we use a
-needs-based framework to study the flow and reach of political
-information, the role of data in politics, and the impact of digital
-tools on contestation, political organizations, and democracy at
-large.
+Democracy](https://www.cambridge.org/us/academic/subjects/computer-science/computing-and-society/retooling-politics-how-digital-media-are-shaping-democracy)
+(Cambridge University Press), with [Andreas
+Jungherr](https://andreasjungherr.net) and [Daniel
+Gayo-Avello.](https://danigayo.info) In the book, we use a needs-based
+framework to study the flow and reach of political information, the
+role of data in politics, and the impact of digital tools on
+contestation, political organizations, and democracy at large.
 
 <div class="row">
 <div class="col-sm-8 mt-3 mt-md-0">
