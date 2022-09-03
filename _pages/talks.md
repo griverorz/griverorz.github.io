@@ -12,9 +12,9 @@ research. In addition to presentations and keynotes in professional
 conferences, I am also regularly quoted as expert in domestic and
 international media outlets.
 
-Over the years, I have taught short courses and seminars on methods
-and infrastructure in massive data analysis and on different areas of
-survey statistics for social scientists. 
+Over the years, I have also taught short courses and seminars on
+methods and infrastructure in massive data analysis and on different
+areas of survey statistics for social scientists.
 
 * [Survey Statistics for Public Opinion Research](http://griverorz.net/survey-methods/)
   * Last taught January, 2020
