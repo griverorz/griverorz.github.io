@@ -48,4 +48,5 @@ I have advised statistical institutes, academic organizations, and
 agencies on survey data collection, on statistical methodology, and on
 open science.
 
-A full list of publications is available on my [CV.]({{ site.url }}/assets/pdf/resume-grivero.pdf)
+A full list of publications and research activities is available on my
+[CV.]({{ site.url }}/assets/pdf/resume-grivero.pdf)
