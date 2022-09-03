@@ -19,6 +19,7 @@ large.
 <div class="row">
 <div class="col-sm-8 mt-3 mt-md-0">
 
+<blockquote>
 Donald Trump, the Arab Spring, Brexit: digital media have provided
 political actors and citizens with new tools to engage in politics.
 These tools are now routinely used by activists, candidates,
@@ -30,6 +31,7 @@ politics or is their impact just a matter of degree? This clear-eyed
 guide steps back from hyperbolic hopes and fears to offer a balanced
 account of what aspects of politics are being shaped by digital media
 and what remains unchanged.
+</blockquote>
 
 </div>
 <div class="col-sm-4 mt-3 mt-md-0">
