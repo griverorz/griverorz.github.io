@@ -34,9 +34,9 @@ dialogue."
 
 Before joining the Center, I worked as senior data science manager at
 [Westat,](https://www.westat.com) a research services company, where I
-built machine learning systems improve the efficiency of high-quality,
-social data collection. I started my career as statistician in the
-[Scientific Research Group of
+built machine learning systems to make social data collection more
+efficient. I started my career as statistician in the [Scientific
+Research Group of
 YouGov](https://today.yougov.com/solutions/sectors/political-academic-policy/),
 an online opt-in survey panel, in Palo Alto, California. I received my
 MA and Ph.D. in Politics from [New York
