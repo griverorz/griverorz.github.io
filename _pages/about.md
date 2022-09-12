@@ -30,7 +30,7 @@ data sources "to generate a foundation of facts that enrich the public
 dialogue."
 
 <br/>
-### [Résumé &rarr;]({{ site.url }}/assets/pdf/resume-grivero.pdf)
+### [Vitae &rarr;]({{ site.url }}/assets/pdf/resume-grivero.pdf)
 
 Before joining the Center, I worked as senior data science manager at
 [Westat,](https://www.westat.com) a research services company, where I
