@@ -6,7 +6,7 @@ subtitle: Social Science & Research Engineering
 
 profile:
   align: right
-  image: 2.jpg
+  image: pic.jpg
   address: >
     <p>Suite 800</p>
     <p>1615 L St. NW</p>
