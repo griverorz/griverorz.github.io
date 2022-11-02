@@ -9,6 +9,10 @@ nav: true
 I am passionate about research and have maintained an active portfolio
 even while working in industry.
 
+<div class="profile float-right">
+<img src="/assets/img/2.jpg" width=200px height="auto" class="img-fluid z-depth-1 rounded">
+</div>
+
 Much of my work has dealt with the empirical foundations of political
 representation: how [individual
 attitudes](https://www.journals.uchicago.edu/doi/pdf/10.1086/709672)
@@ -26,6 +30,7 @@ in [online
 contexts.](https://www.pewresearch.org/politics/2022/06/16/politics-on-twitter-one-third-of-tweets-from-u-s-adults-are-political/)
 My current projects explore the relation between geographic
 representation and networked participation.
+
 
 On the methodological side, I am interested in the [application of
 machine learning
