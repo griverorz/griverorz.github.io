@@ -22,7 +22,7 @@ of digital data for social research and public policy. I often write
 about the impact of digital tools on political representation and
 about research methodology.
 
-I currently serve as the director of the Data Lab of the [Washington Metropolitan Area Transit Authority](https://www.wmata.com), a team tasked with "keeping Metro on the leading edge of the transit industry through applied research." My team manages an agency-wide research portfolio, oversees data strategy, and builds tools to help Metro meet its strategic goals.
+I currently serve as director of the Data Lab of the [Washington Metropolitan Area Transit Authority](https://www.wmata.com), a team tasked with "keeping Metro on the leading edge of the transit industry through applied research." My team manages an agency-wide research portfolio, oversees data strategy and governance, and builds tools to help Metro meet its strategic goals.
 
 <br/>
 ### [Vitae &rarr;]({{ site.url }}/assets/pdf/resume-grivero.pdf)
