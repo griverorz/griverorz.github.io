@@ -1,12 +1,1 @@
-
-window.initializeSourceEmbed = function(filename) {
-  $("#rmd-download-source").click(function() {
-    var src = $("#rmd-source-code").html();
-    var a = document.createElement('a');
-    a.href = "data:text/x-r-markdown;base64," + src;
-    a.download = filename;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-  });
-};
+window.initializeSourceEmbed=function(d){$("#rmd-download-source").click(function(){var e=$("#rmd-source-code").html(),o=document.createElement("a");o.href="data:text/x-r-markdown;base64,"+e,o.download=d,document.body.appendChild(o),o.click(),document.body.removeChild(o)})};
