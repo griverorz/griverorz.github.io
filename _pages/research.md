@@ -6,14 +6,11 @@ description: Research profile & main publications
 nav: true
 ---
 
-I am passionate about research and have maintained an active portfolio
-even while working in industry.
-
 <div class="profile float-right">
 <img src="/assets/img/2.jpg" width=200px height="auto" class="img-fluid z-depth-1 rounded">
 </div>
 
-Much of my work has dealt with the empirical foundations of political
+Much of my work deals with the empirical foundations of political
 representation: how [individual
 attitudes](https://www.journals.uchicago.edu/doi/pdf/10.1086/709672)
 translate into [political
@@ -44,11 +41,11 @@ for the measurement of political attitudes and behaviors
 and
 [offline.](https://www.sciencedirect.com/science/article/pii/S0261379415001092)
 A theorist at heart, I maintain an active interest in [formal
-theory](https://www.sciencedirect.com/science/article/pii/S0176268015000592).
+modeling](https://www.sciencedirect.com/science/article/pii/S0176268015000592).
 
 During my career, I have advised statistical institutes, academic
-organizations, and agencies on survey data collection, on statistical
-methodology, and on open science.
+organizations, and government agencies on survey data collection, on
+statistical methodology, and on open science.
 
 A full list of publications and research activities is available on my
 [CV.]({{ site.url }}/assets/pdf/resume-grivero.pdf)

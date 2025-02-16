@@ -15,32 +15,28 @@ Jungherr](https://andreasjungherr.net) and [Daniel
 Gayo-Avello.](https://danigayo.info) In the book, we use a needs-based
 framework to study the flow and reach of political information, the
 role of data in politics, and the impact of digital tools on
-contestation, political organizations, and democracy at large.
+contestation, political organizations, and democracy at large. 
 
 <div class="row">
-<div class="col-sm-8 mt-3 mt-md-0">
 
-<blockquote>
-Donald Trump, the Arab Spring, Brexit: digital media have provided
-political actors and citizens with new tools to engage in politics.
-These tools are now routinely used by activists, candidates,
-non-governmental organizations, and parties to inform, mobilize, and
-persuade people. But what are the effects of this retooling of
-politics? Do digital media empower the powerless or are they breaking
-democracy? Have these new tools and practices fundamentally changed
-politics or is their impact just a matter of degree? This clear-eyed
-guide steps back from hyperbolic hopes and fears to offer a balanced
-account of what aspects of politics are being shaped by digital media
-and what remains unchanged.
-</blockquote>
-
+<div class="col-sm-6 mt-3 mt-md-0">
+{% include figure.html path="assets/img/Retooling-politics-CUP.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
 </div>
-<div class="col-sm-4 mt-3 mt-md-0">
-{% include figure.html path="assets/img/retooling.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
+<div class="col-sm-6 mt-3 mt-md-0">
+What are the effects of this retooling of politics? Do digital media
+empower the powerless or are they breaking democracy? Have these new
+tools and practices fundamentally changed politics or is their impact
+just a matter of degree? In this clear-eyed guide, we step back from
+hyperbolic hopes and fears and try to offer a balanced account of what
+aspects of politics are being shaped by digital media and what remains
+unchanged.
 </div>
 </div>
 
-### Praise for the book
+<div></div>
+
+#### Praise for the book
 
 <div class="row"> 
 
@@ -116,7 +112,3 @@ democracy. </p> <footer><em>Bruce Bimber, University of California,
 Santa Barbara</em></footer> </blockquote> </div>
 
 </div>
-
-
-
-
