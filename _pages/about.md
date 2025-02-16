@@ -2,32 +2,28 @@
 layout: about
 title: About
 permalink: /
-subtitle: Social Science & Research Engineering
 
 profile:
   align: right
   image: pic.jpg
   image_circular:
   more_info: >
-    <p>Suite 534</p>
     <p>300 7th St SW</p>
     <p>Washington, DC, 20024</p>
      
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 3 # leave blank to include all the news in the `_news` folder
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
 I am a research scientist specialized in the collection and analysis
-of digital data for social research and public policy. I often write
-about the impact of digital tools on political representation and
-about research methodology.
+of digital data for social research and public policy. 
 
-I currently serve as director of the Data Lab of the [Washington Metropolitan Area Transit Authority](https://www.wmata.com), a team tasked with "keeping Metro on the leading edge of the transit industry through applied research." My team manages an agency-wide research portfolio, oversees data strategy and governance, and builds tools to help Metro meet its strategic goals.
+I currently serve as director of the Data Lab of the [Washington Metropolitan Area Transit Authority](https://www.wmata.com), a team tasked with building "innovative, data-driven solutions that bridge research and practice." We help Metro operate more efficiently, adapt to change and serve the community better every day. 
 
 <br/>
 ### [Vitae &rarr;]({{ site.url }}/assets/pdf/resume-grivero.pdf)
@@ -45,4 +41,3 @@ Originally from Galicia (Spain), I am currently based in Washington,
 D.C.
 
 <br/>
-
