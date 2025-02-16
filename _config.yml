@@ -130,7 +130,7 @@ collections:
   news:
     defaults:
       layout: post
-    output: false
+    output: true
     permalink: /:collection/:title/
   projects:
     output: true
