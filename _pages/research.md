@@ -17,7 +17,7 @@ My research trajectory spans three key areas:
 2. **Machine learning applications in social research,** developing [methods](https://journals.sagepub.com/doi/abs/10.1177/1525822X221107053) for data collection and analysis.
 3. **Statistical innovation,** creating new [methodological frameworks](https://rsa.tandfonline.com/doi/abs/10.1080/21582041.2017.1325924) for measuring social attitudes in both digital and traditional contexts.
 
-As a trusted advisor to statistical institutes, government agencies, and academic organizations, I guide the implementation of data innovation strategies and research-to-practice initiatives. My expertise bridges rigorous academic research with practical applications and integrating new data sources, tools, and methods into social research.
+My expertise bridges rigorous academic research with practical applications, integrating new data sources, tools, and methods into social research and public policy.
 
 A full list of publications and research activities is available on my
 [CV.]({{ site.url }}/assets/pdf/resume-grivero.pdf)

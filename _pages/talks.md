@@ -1,8 +1,7 @@
 ---
 layout: page
 permalink: /speaking/
-title: Speaking
-description: Talks & workshop materials
+title: Speaking and Consulting
 nav: true
 ---
 
@@ -12,6 +11,6 @@ nav: true
 
 I contribute expertise in data science, research methodology, and technology innovation through academic and professional conferences and media engagements.
 
-As an educator and trainer, I lead specialized courses in **research methods and data infrastructure**. My teaching portfolio includes short and long courses survey statistics and public opinion research, big data applications in social research, and data infrastructure for public sector and mission-driven research organizations. 
+As an educator and trainer, I am passionate about advancing **technical leadership and research best practices.** I lead specialized courses in research methods and data infrastructure for public sector and mission-driven research organizations. These training programs span the entire research pipeline -- from data collection and reproducibility to research writing and communication -- helping teams build robust, sustainable workflows.
 
-I am passionate about advancing technical leadership and research best practices. I have developed training programs spanning the entire research pipeline: from data collection and reproducibility to research writing and communication, helping researchers and data professionals build **robust, sustainable and effective workflows**.
+I also offer **guidance to organizations across sectors** -- from statistical institutes and government agencies to private companies -- helping them develop data innovation strategies, mdernize research practices, and strengthen research-to-practice initiatives. 
