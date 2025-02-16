@@ -1,1 +1,0 @@
-window.initializeSourceEmbed=function(d){$("#rmd-download-source").click((function(){var e=$("#rmd-source-code").html(),o=document.createElement("a");o.href="data:text/x-r-markdown;base64,"+e,o.download=d,document.body.appendChild(o),o.click(),document.body.removeChild(o)}))};
