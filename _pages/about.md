@@ -12,7 +12,7 @@ profile:
     <p>Washington, DC, 20024</p>
      
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 3 # leave blank to include all the news in the `_news` folder
 
