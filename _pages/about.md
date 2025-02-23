@@ -20,9 +20,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a research scientist and research leader specialized in digital data collection and analysis for the social sciences and public services. I help organizations build data teams that integrate emerging tools, methods, sources.
+I am a research scientist and research leader specialized in the collection and analysis of digital data for social sciences and public services. I help organizations build modern data teams and functions that integrate emerging tools and methods.
 
-I currently serve as director of the Data Lab of the [Washington Metropolitan Area Transit Authority](https://www.wmata.com), a team tasked with building "innovative, data-driven solutions that bridge research and practice." We help Metro operate more efficiently, adapt to change and serve the community better every day. 
+I currently serve as the founding director of the Data Lab of the [Washington Metropolitan Area Transit Authority](https://www.wmata.com), a team tasked with building "innovative, data-driven solutions that bridge research and practice." We help Metro operate more efficiently, adapt to change and serve the community better every day. 
 
 <br/>
 ### [Vitae &rarr;]({{ site.url }}/assets/pdf/resume-grivero.pdf)
