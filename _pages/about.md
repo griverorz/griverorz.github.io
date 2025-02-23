@@ -25,7 +25,7 @@ I am a research scientist and leader specialized in the collection and analysis 
 I currently serve as the founding director of the Data Lab of the [Washington Metropolitan Area Transit Authority](https://www.wmata.com), a team tasked with building "innovative, data-driven solutions that bridge research and practice." We help Metro operate more efficiently, adapt to change and serve the community better every day. 
 
 <br/>
-### [Vitae &rarr;]({{ site.url }}/assets/pdf/resume-grivero.pdf)
+### [My curriculum &rarr;]({{ site.url }}/assets/pdf/resume-grivero.pdf)
 
 Before joining WMATA, I was the associate director of [Data
 Labs,](https://www.pewresearch.org/methods/about-data-labs/) the
