@@ -127,11 +127,12 @@ disqus_shortname: griverorz # put your disqus shortname
 # -----------------------------------------------------------------------------
 
 collections:
+  books:
+    output: true
   news:
     defaults:
       layout: post
     output: true
-    permalink: /:collection/:title/
   projects:
     output: true
     permalink: /projects/:path/
@@ -184,7 +185,7 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-archives
+  - jekyll-archives-v2
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
@@ -218,7 +219,7 @@ sass:
 
 jekyll-minifier:
   compress_javascript: false # set to false since we are using terser as the js minifier
-  # exclude: ["robots.txt", "assets/js/search/*.js"]
+  exclude: ["robots.txt", "assets/js/search/*.js"]
 
 # -----------------------------------------------------------------------------
 # Terser
@@ -233,15 +234,14 @@ terser:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-  layouts:
-    year: archive-year
-    tag: archive-tag
-    category: archive-category
-  permalinks:
-    year: "/blog/:year/"
-    tag: "/blog/tag/:name/"
-    category: "/blog/category/:name/"
+  posts:
+    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    permalinks:
+      year: "/blog/:year/"
+      tags: "/blog/:type/:name/"
+      categories: "/blog/:type/:name/"
+  books:
+    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
@@ -535,6 +535,12 @@ third_party_libraries:
     url:
       js: "https://cdn.jsdelivr.net/npm/photoswipe@{{version}}/dist/photoswipe-lightbox.esm.min.js"
     version: "5.4.4"
+  plotly:
+    integrity:
+      js: "sha256-oy6Be7Eh6eiQFs5M7oXuPxxm9qbJXEtTpfSI93dW16Q="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/plotly.js@{{version}}/dist/plotly.min.js"
+    version: "3.0.1"
   polyfill:
     url:
       js: "https://cdnjs.cloudflare.com/polyfill/v{{version}}/polyfill.min.js?features=es6"
