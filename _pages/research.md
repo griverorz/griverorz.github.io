@@ -3,7 +3,7 @@ layout: page
 permalink: /research/
 title: Research
 order: 3
-nav: true
+nav: false
 ---
 
 I lead research in the areas of applied data science and social science.

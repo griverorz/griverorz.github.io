@@ -3,7 +3,7 @@ layout: page
 permalink: /speaking/
 title: Speaking and Consulting
 order: 2
-nav: true
+nav: false
 ---
 
 I share my expertise in data science, research methodology, and innovation at academic and professional conferences and through media engagements.
