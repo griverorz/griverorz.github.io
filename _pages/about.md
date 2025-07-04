@@ -20,8 +20,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a social scientist especialized in building and leading **research and data
-science teams** in mission-driven organizations. I help companies, nonprofits, and
+I am a social scientist specialized in building and leading **research and data science teams** in mission-driven organizations. I help companies, nonprofits, and
 public-sector entities establish modern research-to-practice teams that
 integrate **emerging tools, technologies, and methods.**
 
