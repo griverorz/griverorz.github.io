@@ -22,7 +22,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a social scientist specialized in building **research and data science teams** in mission-driven organizations. I help organizations establish research-to-practice teams that integrate **emerging tools, technologies, and methods.** My work centers on responsible AI/ML implementation and building innovation frameworks that create lasting impact.
 
-I currently serve as the **founding director of Data Lab** at the [Washington Metropolitan Area Transit Authority](https://www.wmata.com), a team tasked with building "innovative, data-driven solutions that bridge research and practice." We help Metro operate more efficiently, adapt to change and serve the community better every day.
+I currently serve as the **founding director of Data Science and Research** at the [Washington Metropolitan Area Transit Authority](https://www.wmata.com), a team tasked with building "innovative, data-driven solutions that bridge research and practice." We help Metro operate more efficiently, adapt to change and serve the community better every day.
 
 <br/>
 ### [My curriculum &rarr;]({{ site.url }}/assets/pdf/resume-grivero.pdf)
