@@ -22,7 +22,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a social scientist specialized in building and leading **research and data science teams** in mission-driven organizations. I help companies, nonprofits, and public sector entities establish modern research-to-practice teams that integrate **emerging tools, technologies, and methods.**
 
-I current serve as *Sr. Director for Academic Affairs* at the [Center for Government Excellence (GovEx)](https://govex.jhu.edu) at Johns Hopkins University, an organization that helps cities use data to make informed, effective decisions and improve people's quality of life.
+I current serve as **Senior Director for Academic Affairs** at the [Bloomberg Center for Government Excellence (GovEx)](https://govex.jhu.edu) at Johns Hopkins University, an organization that helps cities use data to make informed, effective decisions and improve people's quality of life.
 
 <br/>
 ### [My curriculum &rarr;]({{ site.url }}/assets/pdf/resume-grivero.pdf)
