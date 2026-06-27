@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: right
-  image: pic.jpg
+  image: pic-govex.jpg
   image_circular:
   more_info: >
     <p>300 7th St SW</p>
