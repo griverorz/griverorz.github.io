@@ -1,18 +1,50 @@
 ---
 layout: page
-permalink: /research/
 title: Research
+permalink: /research/
 nav: false
 nav_order: 3
 ---
 
-I lead research in the areas of applied data science and social science.
+My research sits at the intersection of digital media and political behavior —
+how online platforms reshape institutions, representation, and collective
+action — paired with the statistical and machine-learning methods needed to
+measure them rigorously. Earlier work looked at corruption, electoral
+behavior, and coercive institutions; more recently I've focused on how
+digital tools change political participation and how research organizations
+can respond in kind. Throughout, the throughline has been translating that
+research into practice — building the data and research functions that let
+mission-driven organizations act on it.
 
-A political scientist by training, my trajectory has covered the impact of [online tools](https://www.amazon.com/Retooling-Politics-Digital-Shaping-Democracy/dp/1108419402) on institutional and contentious politics, the [political economy of representation](https://www.sciencedirect.com/science/article/abs/pii/S0176268015000592), and the causes and consequences of [corruption](https://www.cambridge.org/core/journals/political-science-research-and-methods/article/rooting-out-corruption-or-rooting-for-corruption-the-heterogeneous-electoral-consequences-of-scandals/902FCB9C6DF2CCB1DB73E57AC07AD5D4). 
+---
 
-My expertise bridges academic research with practical applications, integrating new [data sources,](https://www.journals.uchicago.edu/doi/pdf/10.1086/709672) [tools,](https://journals.sagepub.com/doi/abs/10.1177/1525822X221107053) and [methods](https://rsa.tandfonline.com/doi/abs/10.1080/21582041.2017.1325924) into social research and public policy.
+## Books
 
-A full list of publications and research activities is available on my
-[CV.]({{ site.url }}/assets/pdf/resume-grivero.pdf)
+<div class="row align-items-start mb-3">
+  <div class="col-4 col-sm-3">
+    {% include figure.liquid loading="eager" path="assets/img/retooling.jpg" class="img-fluid rounded z-depth-1" max-width="180px" alt="Cover of Retooling Politics: How Digital Media Are Shaping Democracy" %}
+  </div>
+  <div class="col-8 col-sm-9">
+    <p class="mb-1"><strong>Retooling Politics: How Digital Media Are Shaping Democracy</strong></p>
+    <p class="text-muted mb-0"><em>Cambridge University Press, 2020</em><br>with Andreas Jungherr and Daniel Gayo-Avello</p>
+  </div>
+</div>
 
+With examples ranging from the Arab Spring and Brexit to Cambridge Analytica
+and Donald Trump's campaigns, the book traces how digital media have changed
+the tools available to political actors — and, with them, the practice of
+democratic politics itself.
 
+{% pullquote source="W. Lance Bennett" %}
+The best book I have read on politics in the digital age.
+{% endpullquote %}
+
+---
+
+## Articles
+
+I've also written for outlets like the Bank of Spain's working paper series
+and Catalonia's Centre d'Estudis d'Opinió on polarization, trust, and
+electoral estimation, and been quoted in the press —including El País and El
+Universal— on politics and social media. Full history on [Google
+Scholar &rarr;](https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }})
