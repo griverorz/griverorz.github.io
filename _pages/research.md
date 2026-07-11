@@ -35,9 +35,11 @@ and Donald Trump's campaigns, the book traces how digital media have changed
 the tools available to political actors — and, with them, the practice of
 democratic politics itself.
 
-{% pullquote source="W. Lance Bennett" %}
-The best book I have read on politics in the digital age.
-{% endpullquote %}
+<ul class="book-praise">
+  <li>"The best book I have read on politics in the digital age." —W. Lance Bennett</li>
+  <li>"Cuts through hyperbole." —Daniel Kreiss</li>
+  <li>"Simply exquisite." —Homero Gil de Zúñiga</li>
+</ul>
 
 <div class="row align-items-start mb-3 mt-4">
   <div class="col-8 col-sm-9">
