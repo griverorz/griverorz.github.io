@@ -1,13 +1,28 @@
 ---
 layout: page
 permalink: /speaking/
-title: Speaking and Consulting
-order: 2
-nav: false
+title: Work with me
+nav: true
+nav_order: 2
 ---
 
-I share my expertise in data science, research methodology, and innovation at academic and professional conferences and through media engagements.
+<div class="row justify-content-center mb-4">
+  <div class="col-md-8">
+    {% include figure.liquid loading="eager" path="assets/img/6.jpg" class="img-fluid rounded z-depth-1" alt="Working with a team" %}
+  </div>
+</div>
 
-I also lead specialized courses in **research methods and data infrastructure** for public sector and mission-driven research organizations. These training programs span the entire research pipeline ---from data collection to writing and communication--- helping teams build robust, sustainable workflows.
+I help organizations build modern research and data science functions ---and get more out of the ones they already have. I can help you:
 
-As a consultant, I have guided diverse organizations, such as statistical institutes, government agencies and private companies, to help them develop data innovation strategies, modern research practices, and research-to-practice initiatives.
+- **Build and lead a research or data team**, from hiring and structure to setting a technical direction.
+- **Design a data and research strategy** that turns evidence into decisions.
+- **Train your team** in research methods and data infrastructure, across the full pipeline from data collection to communication.
+- **Speak or teach** at your conference, workshop, or internal event.
+
+I have done this work with statistical institutes, government agencies, nonprofits, and private companies.
+
+<br/>
+
+### [Get in touch &rarr;](mailto:{{ site.email }})
+
+Tell me a little about what you are working on and I will get back to you.

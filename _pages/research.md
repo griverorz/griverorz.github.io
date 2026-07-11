@@ -2,8 +2,8 @@
 layout: page
 permalink: /research/
 title: Research
-order: 3
 nav: false
+nav_order: 3
 ---
 
 I lead research in the areas of applied data science and social science.

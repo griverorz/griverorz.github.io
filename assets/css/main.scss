@@ -23,3 +23,75 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+// Prominent pull-quote (via the pullquote.liquid include)
+.pullquote {
+  position: relative;
+  margin: 0 0 0.7rem;
+  padding: 1.5rem 1.6rem 1.2rem 3.4rem;
+  background-color: var(--global-card-bg-color);
+  border-left: 5px solid var(--global-theme-color);
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  font-size: 1.2rem;
+  line-height: 1.55;
+  font-style: italic;
+  color: var(--global-text-color);
+
+  &::before {
+    content: "\201C";
+    position: absolute;
+    left: 0.7rem;
+    top: 0.45rem;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 3.4rem;
+    line-height: 1;
+    color: var(--global-theme-color);
+    opacity: 0.4;
+  }
+
+  p {
+    margin: 0 0 0.5rem;
+  }
+
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.pullquote-source {
+  margin: 0 0 1rem;
+  text-align: right;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--global-text-color-light);
+
+  a {
+    color: var(--global-theme-color);
+
+    &:hover {
+      color: var(--global-hover-color);
+    }
+  }
+}
+
+// Blog ("Writing") page title — smaller and less prominent than the theme default
+.header-bar {
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+
+  h1 {
+    font-size: 2.2rem;
+    color: var(--global-text-color);
+  }
+}
+
+// Home tagline (the .desc line under the name in the about header)
+.post-header .desc {
+  margin-top: -0.55rem;
+  margin-bottom: 1.75rem;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.35;
+  color: var(--global-text-color-light);
+}
