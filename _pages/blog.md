@@ -3,7 +3,7 @@ layout: default
 permalink: /blog/
 title: Some random notes
 nav_title: Writing
-nav: true
+nav: false
 nav_order: 4
 pagination:
   enabled: true
