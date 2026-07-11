@@ -7,10 +7,7 @@ profile:
   align: right
   image: pic.jpg
   image_circular:
-  more_info: >
-    <p>300 7th St SW</p>
-    <p>Washington, DC, 20024</p>
-     
+
 announcements:
   enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
@@ -30,7 +27,7 @@ I build and lead **research and data science teams** for mission-driven organiza
 I currently serve as **Senior Director for Academic Affairs** and a member of the executive team at the [Bloomberg Center for Government Excellence (GovEx)](https://govex.jhu.edu) at Johns Hopkins University, which helps cities use data to make informed, effective decisions and improve people's quality of life.
 
 <br/>
-### [My curriculum &rarr;]({{ site.url }}/assets/pdf/resume-grivero.pdf)
+### [My curriculum (PDF) &rarr;]({{ site.url }}/assets/pdf/resume-grivero.pdf)
 
 Before joining GovEx, I was the founding director of the Data Science and Research team at [WMATA](https://www.wmata.com), and the associate director of Data Labs, the computational social research team of [Pew Research Center](https://www.pewresearch.org). I previously worked in the Statistics and Data Science division of [Westat](https://www.westat.com), and in the Scientific Research Group of [YouGov](https://yougov.com/en-us). I received an MA and Ph.D. in Politics from [New York University](http://politics.as.nyu.edu/page/home) and an MA in Social Sciences from the [Center for Advanced Studies in Social Sciences](https://ijlinz.es/sobre-ijl/historia/) of the Juan March Institute.
 
