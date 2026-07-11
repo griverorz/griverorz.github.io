@@ -86,21 +86,6 @@ $max-content-width: {{ site.max_width }};
   }
 }
 
-// Short book-jacket praise quotes (list of blurbs, smaller than body text)
-.book-praise {
-  list-style: none;
-  margin: 0 0 1rem;
-  padding: 0;
-  font-size: 0.85rem;
-  font-style: italic;
-  line-height: 1.5;
-  color: var(--global-text-color-light);
-
-  li {
-    margin-bottom: 0.25rem;
-  }
-}
-
 // Home tagline (the .desc line under the name in the about header)
 .post-header .desc {
   margin-top: -0.55rem;
