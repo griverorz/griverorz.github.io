@@ -39,8 +39,15 @@ democratic politics itself.
 The best book I have read on politics in the digital age.
 {% endpullquote %}
 
-<p class="mb-1 mt-4"><strong>Análisis de datos incompletos en Ciencias Sociales</strong></p>
-<p class="text-muted mb-2"><em>Centro de Investigaciones Sociológicas (CIS), 2011</em><br>Cuadernos Metodológicos, No. 46</p>
+<div class="row align-items-start mb-3 mt-4">
+  <div class="col-8 col-sm-9">
+    <p class="mb-1"><strong>Análisis de datos incompletos en Ciencias Sociales</strong></p>
+    <p class="text-muted mb-0"><em>Centro de Investigaciones Sociológicas (CIS), 2011</em><br>Cuadernos Metodológicos, No. 46</p>
+  </div>
+  <div class="col-4 col-sm-3">
+    {% include figure.liquid loading="eager" path="assets/img/cis-datos-incompletos.jpg" class="img-fluid rounded z-depth-1" max-width="180px" alt="Cover of Análisis de datos incompletos en Ciencias Sociales" %}
+  </div>
+</div>
 
 A methodological guide, in Spanish, on handling incomplete survey responses
 in political science and sociology. It reviews the simple methods most
