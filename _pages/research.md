@@ -40,23 +40,23 @@ the tools available to political actors — and, with them, the practice of
 democratic politics itself.
 
 <blockquote class="book-blurb blurb-left">
-  <p>"Retooling Politics is simply the best book I have read on politics in the digital age."</p>
+  <p>"Retooling Politics is simply the best book I have read on politics in the digital age. The authors show how political actors use legacy media, digital platforms, and data driven strategies to change how public information is produced, distributed, received, evaluated and used. This book updates the entire field with a timely focus on contemporary problems of democracy. It is destined to become a classic."</p>
   <footer>W. Lance Bennett, University of Washington</footer>
 </blockquote>
 
 <blockquote class="book-blurb blurb-right">
-  <p>"This book gives a nuanced analysis of digital media in politics, focusing on political actors' needs, flows and costs of information."</p>
-  <footer>Bruce Bimber, University of California, Santa Barbara</footer>
+  <p>"Thus, this book will help combat the catchy but simplistic narratives advanced by digital cheerleaders and doom-mongers and contribute to more realistic and evidence-based alternatives."</p>
+  <footer>Rasmus Nielsen, University of Oxford</footer>
 </blockquote>
 
 <blockquote class="book-blurb blurb-left">
-  <p>"In this provocative, fresh account of the power of digital media in politics, the authors bundle insights from various fields to provide an accessible account."</p>
-  <footer>Kenneth Benoit, London School of Economics and Political Science</footer>
+  <p>"Jungherr, Rivero and Gayo-Avello's Retooling Politics is simply exquisite. By all means this book represents one of the finest accounts I have come across to explain why and how digital media is the largest and most profound transformative power in today's democracy. With a comprehensive, meticulous, and sharp use of the most current and influential literature in the social sciences, the authors build a brilliant and multi-disciplinary argument that will guide readers to better grasp how digital media has transformed our political realm."</p>
+  <footer>Homero Gil de Zúñiga, University of Vienna</footer>
 </blockquote>
 
 <blockquote class="book-blurb blurb-right">
-  <p>"Jungherr, Rivero and Gayo-Avello's Retooling Politics is simply exquisite."</p>
-  <footer>Homero Gil de Zúñiga, University of Vienna</footer>
+  <p>"Retooling Politics is an essential resource for anyone trying to make sense of the connection between digital media and politics —and to understand what we actually know about it."</p>
+  <footer>Fabrizio Gilardi, University of Zurich</footer>
 </blockquote>
 
 <div class="row align-items-start mb-3 mt-4">
