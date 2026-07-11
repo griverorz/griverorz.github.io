@@ -29,7 +29,7 @@ I currently serve as **Senior Director for Academic Affairs** and a member of th
 <br/>
 ### [My curriculum (PDF) &rarr;]({{ site.url }}/assets/pdf/resume-grivero.pdf)
 
-Before joining GovEx, I was the founding director of the Data Science and Research team at [WMATA](https://www.wmata.com), and the associate director of Data Labs, the computational social research team of [Pew Research Center](https://www.pewresearch.org). I previously worked in the Statistics and Data Science division of [Westat](https://www.westat.com), and in the Scientific Research Group of [YouGov](https://yougov.com/en-us). I received an MA and Ph.D. in Politics from [New York University](http://politics.as.nyu.edu/page/home) and an MA in Social Sciences from the [Center for Advanced Studies in Social Sciences](https://ijlinz.es/sobre-ijl/historia/) of the Juan March Institute.
+Before joining GovEx, I was the founding director of the Data Science and Research team at [WMATA](https://www.wmata.com), and the associate director of Data Labs, the computational social research team of [Pew Research Center](https://www.pewresearch.org). Earlier in my career, I worked in data science and statistical research at [Westat](https://www.westat.com) and [YouGov](https://yougov.com/en-us). I received an MA and Ph.D. in Politics from [New York University](http://politics.as.nyu.edu/page/home) and an MA in Social Sciences from the [Center for Advanced Studies in Social Sciences](https://ijlinz.es/sobre-ijl/historia/) of the Juan March Institute in Madrid.
 
 Originally from Galicia (Spain), I am currently based in Washington, D.C.
 
