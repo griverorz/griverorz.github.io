@@ -39,6 +39,14 @@ democratic politics itself.
 The best book I have read on politics in the digital age.
 {% endpullquote %}
 
+<p class="mb-1 mt-4"><strong>Análisis de datos incompletos en Ciencias Sociales</strong></p>
+<p class="text-muted mb-2"><em>Centro de Investigaciones Sociológicas (CIS), 2011</em><br>Cuadernos Metodológicos, No. 46</p>
+
+A methodological guide, in Spanish, on handling incomplete survey responses
+in political science and sociology. It reviews the simple methods most
+commonly used to handle missing data —and their limits— before introducing
+multiple imputation, worked through real data examples in Stata.
+
 ---
 
 ## Articles
