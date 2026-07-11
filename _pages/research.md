@@ -6,18 +6,23 @@ nav: true
 nav_order: 3
 ---
 
-My research portfolio has shifted as I've moved between academia and
-industry, but it has stayed fundamentally rooted in political research
-—electoral behavior, coercive institutions, and the relationship between
-digital media and politics— always with an emphasis on methods, from
-quantitative techniques to game theory. Much of that work has been
-descriptive and translational, aimed at putting those methods into
-practice, particularly around electoral estimation.
+My research focus has shifted as I've moved between academia and industry,
+but it has always been rooted in political research —electoral behavior,
+coercive institutions, and the relationship between digital media and
+politics— with an emphasis on methods, from quantitative techniques to game
+theory. My work has appeared in the Journal of Politics, Political Science
+Research and Methods, Public Opinion Quarterly, and the European Journal of
+Political Economy, among other journals, and I am the author of two books,
+published by Cambridge University Press and the Centro de Investigaciones
+Sociológicas. It has been covered by the New York Times, CNN, The New
+Yorker, Fox News, and The Washington Post.
 
-I've also written for outlets like the Bank of Spain's working paper series
-and Catalonia's Centre d'Estudis d'Opinió on polarization, trust, and
-electoral estimation, and been quoted in the press —including El País and El
-Universal— on politics and social media. Full history on [Google
+Much of my research has been descriptive and translational: I co-developed
+the electoral estimation method used by Catalonia's Centre d'Estudis
+d'Opinió, and have written for outlets like the Bank of Spain's working
+paper series on polarization and trust. I've also been quoted in the press
+—including El País and El Universal— on politics and social media. Full
+history on [Google
 Scholar &rarr;](https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }})
 
 ---
@@ -34,7 +39,7 @@ Scholar &rarr;](https://scholar.google.com/citations?user={{ site.data.socials.s
   </div>
 </div>
 
-Donald Trump, the Arab Spring, Brexit: digital media have provided political actors and citizens with new tools to engage in politics. These tools are now routinely used by activists, candidates, non-governmental organizations, and parties to inform, mobilize, and persuade people. But what are the effects of this retooling of politics? Do digital media empower the powerless or are they breaking democracy? Have these new tools and practices fundamentally changed politics or is their impact just a matter of degree? This clear-eyed guide steps back from hyperbolic hopes and fears to offer a balanced account of what aspects of politics are being shaped by digital media and what remains unchanged. 
+Donald Trump, the Arab Spring, Brexit: digital media have provided political actors and citizens with new tools to engage in politics. But what are the effects of this retooling of politics? Do digital media empower the powerless or are they breaking democracy? Have these new tools and practices fundamentally changed politics or is their impact just a matter of degree? This clear-eyed guide steps back from hyperbolic hopes and fears to offer a balanced account of what aspects of politics are being shaped by digital media and what remains unchanged. 
 
 <blockquote class="book-blurb blurb-left">
   <p>"Retooling Politics is simply the best book I have read on politics in the digital age. [...] This book updates the entire field with a timely focus on contemporary problems of democracy. It is destined to become a classic."</p>
@@ -55,6 +60,8 @@ Donald Trump, the Arab Spring, Brexit: digital media have provided political act
   <p>"Retooling Politics is an essential resource for anyone trying to make sense of the connection between digital media and politics -- and to understand what we actually know about it."</p>
   <footer>Fabrizio Gilardi, University of Zurich</footer>
 </blockquote>
+
+---
 
 <div class="row align-items-start mb-3 mt-4">
   <div class="col-8 col-sm-9">
