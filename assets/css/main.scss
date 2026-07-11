@@ -86,6 +86,41 @@ $max-content-width: {{ site.max_width }};
   }
 }
 
+// Alternating book-jacket blurbs (left/right, author credited below)
+.book-blurb {
+  max-width: 70%;
+  margin: 0 0 1rem;
+  padding: 0.4em 1em;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  background: none;
+
+  p {
+    margin: 0 0 0.35rem;
+    font-style: italic;
+  }
+
+  footer {
+    font-size: 0.8rem;
+    font-style: normal;
+    color: var(--global-text-color-light);
+  }
+
+  &.blurb-left {
+    margin-right: auto;
+    border-left: 2px solid var(--global-theme-color);
+    border-right: none;
+    text-align: left;
+  }
+
+  &.blurb-right {
+    margin-left: auto;
+    border-left: none;
+    border-right: 2px solid var(--global-theme-color);
+    text-align: right;
+  }
+}
+
 // Home tagline (the .desc line under the name in the about header)
 .post-header .desc {
   margin-top: -0.55rem;
