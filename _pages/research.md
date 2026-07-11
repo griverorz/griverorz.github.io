@@ -68,5 +68,5 @@ Donald Trump, the Arab Spring, Brexit: digital media have provided political act
 
 A methodological guide, in Spanish, on handling incomplete survey responses
 in political science and sociology. It reviews the simple methods most
-commonly used to handle missing data —and their limits— before introducing
-multiple imputation, worked through real data examples in Stata.
+commonly used to handle missing data before introducing
+multiple imputation, worked through real data examples in Stata and R.
