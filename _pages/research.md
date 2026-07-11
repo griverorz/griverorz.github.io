@@ -6,23 +6,12 @@ nav: true
 nav_order: 3
 ---
 
-My research focus has shifted as I've moved between academia and industry,
-but it has always been rooted in political research —electoral behavior,
-coercive institutions, and the relationship between digital media and
-politics— with an emphasis on methods, from quantitative techniques to game
-theory. My work has appeared in the Journal of Politics, Political Science
-Research and Methods, Public Opinion Quarterly, and the European Journal of
-Political Economy, among other journals, and I am the author of two books,
-published by Cambridge University Press and the Centro de Investigaciones
-Sociológicas. It has been covered by the New York Times, CNN, The New
-Yorker, Fox News, and The Washington Post.
+My research focus has shifted as I have moved across positions in industry,
+but it has always been rooted in political research with an emphasis on methods, from quantitative techniques to game theory. My work has appeared journals including the *Journal of Politics*, *Political Science Research and Methods*, *Public Opinion Quarterly*, or the *European Journal of Political Economy*. I am also the co-author of two books published by *Cambridge University Press* and the *Centro de Investigaciones Sociológicas*. My research has been mentioned by outlets such as the New York Times, CNN, The New Yorker, Fox News, or The Washington Post.
 
-Much of my research has been descriptive and translational: I co-developed
-the electoral estimation method used by Catalonia's Centre d'Estudis
-d'Opinió, and have written for outlets like the Bank of Spain's working
-paper series on polarization and trust. I've also been quoted in the press
-—including El País and El Universal— on politics and social media. Full
-history on [Google
+I have also tried to bridge into practice. That includes co-developing the electoral estimation model for the Catalan government's public opinion research office as a reproducible, open-source pipeline; policy writing for Barcelona's metropolitan planning office; and reorienting Pew Research Center's Decoded blog around research practices and infrastructure.
+
+Find my full research profile on [Google
 Scholar &rarr;](https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }})
 
 ---
