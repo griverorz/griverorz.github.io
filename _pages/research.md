@@ -9,7 +9,7 @@ nav_order: 3
 My research focus has shifted as I have moved across positions in industry,
 but it has always been rooted in political research (political behavior and comparative politics) with an emphasis on methods, from quantitative techniques to game theory. My work has appeared in journals including the _Journal of Politics_, _Public Opinion Quarterly_, _Political Science Research and Methods_, and the _European Journal of Political Economy_. I am also the co-author of two books published by _Cambridge University Press_ and the _Centro de Investigaciones Sociológicas_. My research has been mentioned by outlets such as the New York Times, CNN, The New Yorker, Fox News, or The Washington Post.
 
-I have worked to bridge research and practice. That includes co-developing the electoral estimation model for the public opinion agency of the Catalan government as a reproducible, open-source pipeline; writing a white paper on policy labs for Barcelona's metropolitan planning office; and reorienting Pew Research Center's _Decoded_ blog around research practices and infrastructure.
+I have also worked to bridge research and practice beyond peer-reviewed publication. Examples include co-developing the electoral estimation model for the public opinion agency of the Catalan government; writing about innovation labs for Barcelona's metropolitan planning office; and reorienting Pew Research Center's _Decoded_ blog towards research practices and infrastructure.
 
 Find my full research profile on [Google
 Scholar &rarr;](https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }})
