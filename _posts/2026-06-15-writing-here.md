@@ -9,6 +9,7 @@ thumbnail: assets/img/9.jpg
 giscus_comments: false
 related_posts: false
 ---
+
 <!-- This is a REGULAR blog post: longer form, with images.
      Set `thumbnail:` to show a preview in the Writing list.
      Use the figure include below to add images to the body.

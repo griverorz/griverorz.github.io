@@ -7,9 +7,9 @@ nav_order: 3
 ---
 
 My research focus has shifted as I have moved across positions in industry,
-but it has always been rooted in political research (political behavior and comparative politics) with an emphasis on methods, from quantitative techniques to game theory. My work has appeared in journals including the *Journal of Politics*, *Public Opinion Quarterly*, *Political Science Research and Methods*, and the *European Journal of Political Economy*. I am also the co-author of two books published by *Cambridge University Press* and the *Centro de Investigaciones Sociológicas*. My research has been mentioned by outlets such as the New York Times, CNN, The New Yorker, Fox News, or The Washington Post.
+but it has always been rooted in political research (political behavior and comparative politics) with an emphasis on methods, from quantitative techniques to game theory. My work has appeared in journals including the _Journal of Politics_, _Public Opinion Quarterly_, _Political Science Research and Methods_, and the _European Journal of Political Economy_. I am also the co-author of two books published by _Cambridge University Press_ and the _Centro de Investigaciones Sociológicas_. My research has been mentioned by outlets such as the New York Times, CNN, The New Yorker, Fox News, or The Washington Post.
 
-I have worked to bridge research and practice. That includes co-developing the electoral estimation model for the public opinion agency of the Catalan government as a reproducible, open-source pipeline; writing a white paper on policy labs for Barcelona's metropolitan planning office; and reorienting Pew Research Center's *Decoded* blog around research practices and infrastructure.
+I have worked to bridge research and practice. That includes co-developing the electoral estimation model for the public opinion agency of the Catalan government as a reproducible, open-source pipeline; writing a white paper on policy labs for Barcelona's metropolitan planning office; and reorienting Pew Research Center's _Decoded_ blog around research practices and infrastructure.
 
 Find my full research profile on [Google
 Scholar &rarr;](https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }})
@@ -28,7 +28,7 @@ Scholar &rarr;](https://scholar.google.com/citations?user={{ site.data.socials.s
   </div>
 </div>
 
-Donald Trump, the Arab Spring, Brexit: digital media have provided political actors and citizens with new tools to engage in politics. But what are the effects of this retooling of politics? Do digital media empower the powerless or are they breaking democracy? Have these new tools and practices fundamentally changed politics or is their impact just a matter of degree? This clear-eyed guide steps back from hyperbolic hopes and fears to offer a balanced account of what aspects of politics are being shaped by digital media and what remains unchanged. 
+Donald Trump, the Arab Spring, Brexit: digital media have provided political actors and citizens with new tools to engage in politics. But what are the effects of this retooling of politics? Do digital media empower the powerless or are they breaking democracy? Have these new tools and practices fundamentally changed politics or is their impact just a matter of degree? This clear-eyed guide steps back from hyperbolic hopes and fears to offer a balanced account of what aspects of politics are being shaped by digital media and what remains unchanged.
 
 <blockquote class="book-blurb blurb-right">
   <p>"Retooling Politics is simply the best book I have read on politics in the digital age. [...] This book updates the entire field with a timely focus on contemporary problems of democracy. It is destined to become a classic."</p>

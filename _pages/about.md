@@ -19,7 +19,7 @@ latest_posts:
   limit: 3
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 I build and lead **research and data science teams** for mission-driven organizations. I help companies, nonprofits, and public-sector entities stand up modern research-to-practice functions that integrate **emerging tools, technologies, and methods.**

@@ -8,6 +8,7 @@ categories: notes
 giscus_comments: false
 related_posts: false
 ---
+
 <!-- A "note": a normal post filed under the `notes` category. Use the
      pullquote block below for a prominent quote with a source link. The body
      between the tags is Markdown, so it can run several paragraphs.
