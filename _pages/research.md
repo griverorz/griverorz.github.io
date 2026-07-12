@@ -7,9 +7,9 @@ nav_order: 3
 ---
 
 My research focus has shifted as I have moved across positions in industry,
-but it has always been rooted in political research with an emphasis on methods, from quantitative techniques to game theory. My work has appeared journals including the *Journal of Politics*, *Political Science Research and Methods*, *Public Opinion Quarterly*, or the *European Journal of Political Economy*. I am also the co-author of two books published by *Cambridge University Press* and the *Centro de Investigaciones Sociológicas*. My research has been mentioned by outlets such as the New York Times, CNN, The New Yorker, Fox News, or The Washington Post.
+but it has always been rooted in political research (political behavior and comparative politics) with an emphasis on methods, from quantitative techniques to game theory. My work has appeared in journals including the *Journal of Politics*, *Political Science Research and Methods*, *Public Opinion Quarterly*, or the *European Journal of Political Economy*. I am also the co-author of two books published by *Cambridge University Press* and the *Centro de Investigaciones Sociológicas*. My research has been mentioned by outlets such as the New York Times, CNN, The New Yorker, Fox News, or The Washington Post.
 
-I have also tried to bridge into practice. That includes co-developing the electoral estimation model for the Catalan government's public opinion research office as a reproducible, open-source pipeline; policy writing for Barcelona's metropolitan planning office; and reorienting Pew Research Center's Decoded blog around research practices and infrastructure.
+I have worked to bridge research and practice. That includes co-developing the electoral estimation model for the public opinion agency of the Catalan government as a reproducible, open-source pipeline; writing a white paper on policy labs for Barcelona's metropolitan planning office; and reorienting Pew Research Center's *Decoded* blog around research practices and infrastructure.
 
 Find my full research profile on [Google
 Scholar &rarr;](https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }})
