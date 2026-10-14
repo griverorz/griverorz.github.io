@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-subtitle: Research, data, and evidence for social good
+subtitle: Research and evidence for social good
 permalink: /
 profile:
   align: right
