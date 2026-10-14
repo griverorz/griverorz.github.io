@@ -24,7 +24,7 @@ social: true # includes social icons at the bottom of the page
 
 I build and lead **research and data science teams** for mission-driven organizations. I help companies, nonprofits, and public-sector entities stand up modern research-to-practice functions that integrate **emerging tools, technologies, and methods.**
 
-I currently serve as **Senior Director for Academic Affairs** and a member of the executive team at the [Bloomberg Center for Government Excellence (GovEx)](https://govex.jhu.edu) at Johns Hopkins University, which helps cities use data to make informed, effective decisions and improve people's quality of life.
+I currently serve as **Senior Director of Research and AI Initiatives** and a member of the executive team at the [Bloomberg Center for Government Excellence (GovEx)](https://govex.jhu.edu) at Johns Hopkins University, which helps cities use data and AI to make informed, effective decisions to improve people's lives.
 
 <br/>
 ### [My curriculum (PDF) &rarr;]({{ site.url }}/assets/pdf/resume-grivero.pdf)
